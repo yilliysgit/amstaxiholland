@@ -1,8 +1,7 @@
 import React from 'react';
 import { TaxiService } from '@/types/services/services.type';
 import { services } from '@/data/services/services.data';
-import ServicesCardSlider from '../components/services/services/ServicesCardSlider';
-import CatHero from '../components/heros/CatHero';
+import ServicesCardSlider from '@/app/components/services/services/ServicesCardSlider';
 
 export default function DienstenPage() {
   return (

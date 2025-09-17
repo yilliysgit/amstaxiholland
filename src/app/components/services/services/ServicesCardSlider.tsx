@@ -20,7 +20,7 @@ type Props = {
 
 const CLONES = 2;
 
-export default function ServicesSlider({
+export default function ServicesCardSlider({
   services,
   title = "Onze Services",
   autoplay = true,
