@@ -8,7 +8,6 @@ export default function DienstenPage() {
     <>
     <h1>Hello</h1>
     <div className="min-h-screen bg-gray-50">
-      <ServicesCardSlider services={services} />
     </div>
   
     </>
