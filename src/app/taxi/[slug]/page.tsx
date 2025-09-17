@@ -5,15 +5,17 @@ import CityHero from "@/app/components/heros/CityHero";
 export const dynamic = "force-static";
 export const dynamicParams = false;
 
-export async function generateStaticParams() {
+export async function generateStaticParams(): Promise<Array<{ slug: string }>> {
   const s = getSlugs();
-  console.log("SSG slugs:", s); // ⬅ zie terminal
   return s.map((slug) => ({ slug }));
 }
 
-export default function Page({ params }: { params: { slug: string } }) {
-  console.log("params.slug:", params.slug); // ⬅ zie terminal
-  const city = getCity(params.slug);
+// ✅ params is een Promise in Next 15-typings
+export default async function Page(
+  { params }: { params: Promise<{ slug: string }> }
+) {
+  const { slug } = await params;
+  const city = getCity(slug);
   if (!city) notFound();
 
   return (
