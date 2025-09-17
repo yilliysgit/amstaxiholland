@@ -1,26 +1,553 @@
 @import "tailwindcss";
 
+@theme {
+  /* Premium Taxi Brand Colors - Clean Gray Scale */
+  --color-gray-25: #fcfcfd;
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f2f4f7;
+  --color-gray-200: #eaecf0;
+  --color-gray-300: #d0d5dd;
+  --color-gray-400: #98a2b3;
+  --color-gray-500: #667085;
+  --color-gray-600: #475467;
+  --color-gray-700: #344054;
+  --color-gray-800: #1d2939;
+  --color-gray-900: #101828;
+  --color-gray-950: #0c111d;
+
+  /* Subtle Navy Accents */
+  --color-navy-500: #475569;
+  --color-navy-600: #334155;
+  --color-navy-700: #1e293b;
+  --color-navy-800: #0f172a;
+  --color-navy-900: #020617;
+
+  /* Typography */
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Shadows - Very Subtle */
+  --shadow-xs: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(16, 24, 40, 0.1), 0 1px 2px 0 rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 4px 6px -2px rgba(16, 24, 40, 0.03), 0 2px 4px -2px rgba(16, 24, 40, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(16, 24, 40, 0.1), 0 4px 6px -4px rgba(16, 24, 40, 0.1);
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
+  --foreground: #101828;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* --- Mercedes Light Gradient (zacht zilver-wit) --- */
+  --gradient-mercedes-light: linear-gradient(
+    135deg,
+    #f9fafb 0%,   /* bijna wit */
+    #f2f4f7 25%,  /* lichtgrijs */
+    #e2e8f0 50%,  /* zilvergrijs */
+    #f8fafc 75%,  /* weer naar wit */
+    #f2f4f7 100%  /* afronden */
+  );
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* --- Premium Gradient (meer diepte, luxueuzer) --- */
+  --gradient-mercedes-premium: linear-gradient(
+    145deg,
+    #ffffff 0%,   /* puur wit highlight */
+    #f8fafc 20%,  /* zacht witgrijs */
+    #edf2f7 45%,  /* zilver */
+    #e2e8f0 70%,  /* iets donkerder accent */
+    #f8fafc 100%  /* terug licht */
+  );
+
+  /* --- Subtle Vertical Gradient (voor secties) --- */
+  --gradient-mercedes-subtle: linear-gradient(
+    180deg,
+    #f9fafb 0%,   /* boven licht wit */
+    #f2f4f7 50%,  /* midden zacht grijs */
+    #e2e8f0 100%  /* onder iets dieper */
+  );
+
+  /* --- TEXT GRADIENTS --- */
+  --gradient-text-primary: linear-gradient(
+    135deg,
+    #101828 0%,   /* dark gray start */
+    #475467 25%,  /* medium gray */
+    #667085 50%,  /* lighter gray middle */
+    #475467 75%,  /* back to medium */
+    #101828 100%  /* dark gray end */
+  );
+
+  --gradient-text-luxury: linear-gradient(
+    90deg,
+    #1d2939 0%,   /* very dark */
+    #344054 20%,  /* dark gray */
+    #475467 40%,  /* medium */
+    #667085 60%,  /* lighter */
+    #475467 80%,  /* back down */
+    #1d2939 100%  /* very dark */
+  );
+
+  --gradient-text-hero: linear-gradient(
+    145deg,
+    #0c111d 0%,   /* deepest dark */
+    #1d2939 15%,  /* primary dark */
+    #475467 35%,  /* medium lift */
+    #344054 55%,  /* back down */
+    #1d2939 75%,  /* primary again */
+    #101828 100%  /* final dark */
+  );
+
+  /* --- BUTTON GRADIENTS --- */
+  --gradient-button-primary: linear-gradient(
+    135deg,
+    #1d2939 0%,   /* primary dark */
+    #344054 25%,  /* lighter dark */
+    #475467 50%,  /* medium gray peak */
+    #344054 75%,  /* back down */
+    #1d2939 100%  /* primary dark */
+  );
+
+  --gradient-button-secondary: linear-gradient(
+    135deg,
+    #f9fafb 0%,   /* light start */
+    #ffffff 25%,  /* pure white */
+    #f2f4f7 50%,  /* soft gray */
+    #ffffff 75%,  /* white again */
+    #f8fafc 100%  /* light end */
+  );
+
+  --gradient-button-hover: linear-gradient(
+    135deg,
+    #344054 0%,   /* start darker */
+    #475467 25%,  /* medium */
+    #667085 50%,  /* lightest peak */
+    #475467 75%,  /* back down */
+    #344054 100%  /* darker end */
+  );
+
+  /* --- Animated Backgrounds --- */
+  --gradient-animated-premium: linear-gradient(-45deg, #ffffff, #f8fafc, #e2e8f0, #f2f4f7);
+  --gradient-animated-dark: linear-gradient(-45deg, #1e293b, #334155, #0f172a, #020617);
+  --gradient-animated-text: linear-gradient(-45deg, #1d2939, #475467, #344054, #667085);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Mercedes-Style Background Classes */
+.bg-gradient-mercedes-premium {
+  background: var(--gradient-mercedes-premium);
+  background-size: 400% 400%;
+  animation: gradientShift 45s ease infinite;
+}
+
+.bg-gradient-mercedes-animated {
+  background: var(--gradient-animated-premium);
+  background-size: 400% 400%;
+  animation: gradientFlow 60s ease infinite;
+}
+
+.bg-gradient-mercedes-dark {
+  background: var(--gradient-mercedes-dark);
+  background-size: 400% 400%;
+  animation: gradientShift 50s ease infinite;
+}
+
+/* TEXT GRADIENT CLASSES */
+.text-gradient-primary {
+  background: var(--gradient-text-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+}
+
+.text-gradient-luxury {
+  background: var(--gradient-text-luxury);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+}
+
+.text-gradient-hero {
+  background: var(--gradient-text-hero);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+}
+
+.text-gradient-animated {
+  background: var(--gradient-animated-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: textGradientFlow 8s ease infinite;
+}
+
+/* BUTTON GRADIENT CLASSES */
+.bg-gradient-button-primary {
+  background: var(--gradient-button-primary);
+  background-size: 200% 200%;
+  transition: all 0.3s ease;
+}
+
+.bg-gradient-button-primary:hover {
+  background: var(--gradient-button-hover);
+  background-size: 200% 200%;
+  animation: buttonGradientShift 0.6s ease;
+}
+
+.bg-gradient-button-secondary {
+  background: var(--gradient-button-secondary);
+  border: 1px solid rgba(203, 213, 224, 0.3);
+  background-size: 200% 200%;
+}
+
+.bg-gradient-button-secondary:hover {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #ffffff 100%);
+  border-color: rgba(203, 213, 224, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced Button Styles */
+.btn-gradient-primary {
+  background: var(--gradient-button-primary);
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(29, 41, 57, 0.2);
+  background-size: 200% 200%;
+}
+
+.btn-gradient-primary:hover {
+  background: var(--gradient-button-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(29, 41, 57, 0.3);
+  animation: buttonGradientShift 0.6s ease;
+}
+
+.btn-gradient-secondary {
+  background: var(--gradient-button-secondary);
+  color: #1d2939;
+  border: 1px solid rgba(203, 213, 224, 0.4);
+  padding: 12px 32px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background-size: 200% 200%;
+}
+
+.btn-gradient-secondary:hover {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #ffffff 100%);
+  border-color: rgba(203, 213, 224, 0.6);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Subtle Pattern Overlay */
+.pattern-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+  opacity: 0.4;
+  animation: patternFloat 80s linear infinite;
+}
+
+/* Enhanced Glassmorphism */
+.glass-effect {
+  backdrop-filter: blur(20px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+
+.glass-effect-dark {
+  backdrop-filter: blur(20px) saturate(180%);
+  background-color: rgba(29, 41, 57, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Premium Card Gradients */
+.bg-gradient-premium-card {
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 50%, #f1f5f9 100%);
+  backdrop-filter: blur(10px);
+}
+
+/* Utility Classes for Effects */
+.mercedes-shadow {
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.05),
+    0 2px 4px -1px rgba(0, 0, 0, 0.03),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.shadow-luxury {
+  box-shadow: 
+    0 10px 30px -5px rgba(29, 41, 57, 0.2),
+    0 4px 12px -2px rgba(29, 41, 57, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Utility Classes */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Swiper Customizations */
+.tour-slider .swiper-slide {
+  height: auto;
+}
+
+.swiper-slide {
+  transition: transform 0.3s ease;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #1d2939;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid rgba(234, 236, 240, 0.5);
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: white;
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(16, 24, 40, 0.1), 0 4px 6px -4px rgba(16, 24, 40, 0.1);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.swiper-pagination-bullet {
+  background: #d0d5dd;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background: #1d2939;
+  transform: scale(1.2);
+}
+
+/* ANIMATIONS */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  75% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+@keyframes textGradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes buttonGradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes patternFloat {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-10px) translateY(-5px);
+  }
+  50% {
+    transform: translateX(-5px) translateY(-10px);
+  }
+  75% {
+    transform: translateX(-15px) translateY(-2px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+/* Consistent spacing system */
+.section-spacing-sm {
+  padding: 3rem 0; /* py-12 */
+}
+
+.section-spacing-md {
+  padding: 4rem 0; /* py-16 */
+}
+
+.section-spacing-lg {
+  padding: 5rem 0; /* py-20 */
+}
+
+@media (min-width: 1024px) {
+  .section-spacing-sm {
+    padding: 4rem 0; /* lg:py-16 */
+  }
+  
+  .section-spacing-md {
+    padding: 5rem 0; /* lg:py-20 */
+  }
+  
+  .section-spacing-lg {
+    padding: 6rem 0; /* lg:py-24 */
+  }
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .text-gradient-hero,
+  .text-gradient-primary,
+  .text-gradient-luxury {
+    background-size: 100% 100%;
+  }
+  
+  .btn-gradient-primary,
+  .btn-gradient-secondary {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .bg-gradient-mercedes-premium,
+  .bg-gradient-mercedes-animated,
+  .text-gradient-animated,
+  .bg-gradient-button-primary:hover {
+    animation: none;
+  }
+}
+
+/* Focus States */
+.btn-gradient-primary:focus,
+.btn-gradient-secondary:focus {
+  outline: 2px solid #667085;
+  outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+  .bg-gradient-mercedes-premium,
+  .bg-gradient-mercedes-animated,
+  .text-gradient-hero,
+  .text-gradient-primary,
+  .text-gradient-luxury {
+    background: #1d2939 !important;
+    color: #1d2939 !important;
+    -webkit-text-fill-color: #1d2939 !important;
+  }
+}
+
+
+
+

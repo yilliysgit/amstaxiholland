@@ -1,0 +1,62 @@
+[
+  {
+    "van": "Amstelveen",
+    "naar": "Schiphol",
+    "max": 4,
+    "bedrag": 34
+  },
+  {
+    "van": "Amsterdam-Centrum",
+    "naar": "Schiphol",
+    "max": 4,
+    "bedrag": 39
+  },
+  {
+    "van": "Amsterdam-Noord",
+    "naar": "Schiphol",
+    "max": 4,
+    "bedrag": 45
+  },
+  {
+    "van": "Amsterdam-Oost",
+    "naar": "Schiphol",
+    "max": 4,
+    "bedrag": 39
+  },
+  {
+    "van": "Amsterdam-West",
+    "naar": "Schiphol",
+    "max": 4,
+    "bedrag": 35
+  },
+  {
+    "van": "Amsterdam-Zuid",
+    "naar": "Schiphol",
+    "max": 4,
+    "bedrag": 35
+  },
+  {
+    "van": "Amsterdam-Zuidoost",
+    "naar": "Schiphol",
+    "max": 4,
+    "bedrag": 45
+  },
+  {
+    "van": "Zeeburg",
+    "naar": "Schiphol",
+    "max": 4,
+    "bedrag": 45
+  },
+  {
+    "van": "Diemen",
+    "naar": "Schiphol",
+    "max": 4,
+    "bedrag": 39
+  },
+  {
+    "van": "Diemen-Noord",
+    "naar": "Schiphol",
+    "max": 4,
+    "bedrag": 45
+  }
+]

@@ -1,0 +1,86 @@
+import { AmsSchipholRatesItem } from "@/types/ui/AmsSchipholRates/AmsSchipholRates.type";
+
+export const AmsterdamLocations: AmsSchipholRatesItem[] = [
+  {
+    name: "Amstelveen",
+    price: { sedan: 33, van: 43 },
+    color: "#10B981",
+    badge: "#1 Goedkoopste",
+    travelTime: "25 min",
+    availability: "24/7",
+  },
+  {
+    name: "Amsterdam-Zuid",
+    price: { sedan: 35, van: 45 },
+    color: "#475569",
+    badge: "#2 Goedkoopste",
+    travelTime: "30 min",
+    availability: "24/7",
+  },
+  {
+    name: "Amsterdam-Centrum",
+    price: { sedan: 39, van: 49 },
+    color: "#64748B",
+    badge: null,
+    travelTime: "35 min",
+    availability: "24/7",
+  },
+  {
+    name: "Amsterdam-Zuidoost",
+    price: { sedan: 42, van: 52 },
+    color: "#FF0000",
+    badge: null,
+    travelTime: "45 min",
+    availability: "24/7",
+  },
+  {
+    name: "Amsterdam-Noord",
+    price: { sedan: 44, van: 54 },
+    color: "#1E293B",
+    badge: "Duurste",
+    travelTime: "50 min",
+    availability: "24/7",
+  },
+  {
+    name: "Zeeburg",
+    price: { sedan: 42, van: 52 },
+    color: "#334155",
+    badge: null,
+    travelTime: "40 min",
+    availability: "24/7",
+  },
+  {
+    name: "Amsterdam-Oost",
+    price: { sedan: 39, van: 49 },
+    color: "#64748B",
+    badge: null,
+    travelTime: "38 min",
+    availability: "24/7",
+  },
+  {
+    name: "Diemen",
+    price: { sedan: 42, van: 52 },
+    color: "#334155",
+    badge: null,
+    travelTime: "35 min",
+    availability: "Dagelijks",
+  },
+  {
+    name: "Amsterdam-West",
+    price: { sedan: 35, van: 45 },
+    color: "#475569",
+    badge: "#3 Goedkoopste",
+    travelTime: "32 min",
+    availability: "24/7",
+  },
+  {
+    name: "Diemen-Noord",
+    price: { sedan: 42, van: 52 },
+    color: "#334155",
+    badge: null,
+    travelTime: "38 min",
+    availability: "Beperkt",
+  },
+];
+
+

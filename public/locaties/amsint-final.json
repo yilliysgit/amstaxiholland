@@ -1,0 +1,86 @@
+[
+  {
+    "van": "Amsterdam",
+    "naar": "Antwerpen",
+    "max": 4,
+    "bedrag": 299
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Bonn",
+    "max": 4,
+    "bedrag": 449
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Bremen",
+    "max": 4,
+    "bedrag": 549
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Brugge",
+    "max": 4,
+    "bedrag": 389
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Brussel",
+    "max": 4,
+    "bedrag": 389
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Duisburg",
+    "max": 4,
+    "bedrag": 349
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Düsseldorf",
+    "max": 4,
+    "bedrag": 349
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Frankfurt",
+    "max": 4,
+    "bedrag": 949
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Hamburg",
+    "max": 4,
+    "bedrag": 629
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Keulen",
+    "max": 4,
+    "bedrag": 389
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Luik",
+    "max": 4,
+    "bedrag": 369
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Luxemburg",
+    "max": 4,
+    "bedrag": 889
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Paris",
+    "max": 4,
+    "bedrag": 1099
+  },
+  {
+    "van": "Amsterdam",
+    "naar": "Weeze airport",
+    "max": 4,
+    "bedrag": 389
+  }
+]
