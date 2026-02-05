@@ -17,7 +17,7 @@ import {
 import type {
   BookingStep1FormData,
   AddressFields,
-} from "@/types/forms/bookingsForm/bookingsFormStep1.type";
+} from "@/types/forms/bookingsForm/step1.type";
 
 type BaggageType = "none" | "handluggage" | "suitcases";
 
