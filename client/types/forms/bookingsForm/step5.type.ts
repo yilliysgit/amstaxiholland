@@ -3,7 +3,7 @@
 import type { BookingStep1FormData } from "./step1.type";
 import type { BookingStep2FormData } from "./step2.type";
 import type { BookingStep3FormData } from "./step3.type";
-import type { ContactInfo } from "./step4.type";
+import type { BookingStep4FormData } from "./step4.type";
 import type { StepNumber } from "./steps.type";
 
 /* -------------------- Props -------------------- */
@@ -13,7 +13,7 @@ export interface BookingStep5Props {
   step1: BookingStep1FormData;
   step2: BookingStep2FormData;
   step3: BookingStep3FormData;
-  step4: ContactInfo;
+step4: BookingStep4FormData;
   onPrev: () => void;
   onPayment: () => Promise<void> | void;
   onEdit?: (step: StepNumber) => void;
