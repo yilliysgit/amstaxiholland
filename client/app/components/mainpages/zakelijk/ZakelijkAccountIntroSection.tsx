@@ -4,7 +4,7 @@
 import { CheckCircle2, Clock, Shield, Users, ArrowRight } from 'lucide-react';
 import React from 'react';
 import { useTranslations, useLocale } from 'next-intl';  // 🆕 ADD useLocale
-import { Link } from '@/i18n/routing';
+// import { Link } from '@/i18n/routing';
 import { zakelijkGeneral } from '@/app/config/links/zakelijk/index';
 
 export default function ZakelijkAccountIntroSection() {
@@ -195,13 +195,14 @@ export default function ZakelijkAccountIntroSection() {
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
             {t('cta.description')}
           </p>
-          <Link
-            href={zakelijkGeneral.createAccount(locale)}  // ✅ FIXED - call function with locale
-            className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-[1.02] shadow-lg"
-          >
-            {t('cta.button')}
-            <ArrowRight className="w-5 h-5" aria-hidden />
-          </Link>
+          <a
+  href={zakelijkGeneral.createAccount(locale as 'nl' | 'en')}
+  className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-[1.02] shadow-lg"
+>
+  {t('cta.button')}
+  <ArrowRight className="w-5 h-5" aria-hidden />
+</a>
+
           <p className="text-xs text-gray-500 mt-4">
             {t('cta.terms')}
           </p>
