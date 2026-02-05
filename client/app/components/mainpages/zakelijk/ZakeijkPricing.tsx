@@ -87,20 +87,19 @@ export default function ZakelijkPricing() {
               </div>
 
               {/* CTA Button */}
-              <Link
-                href={zakelijkGeneral.createAccount(locale)} // FIXED
-                className={`
-                  w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold
-                  transition-all duration-300 hover:scale-[1.02] mb-6
-                  ${pkg.highlighted
-                    ? 'bg-gray-900 text-white hover:bg-gray-800 shadow-lg'
-                    : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
-                  }
-                `}
-              >
+             <a href={zakelijkGeneral.createAccount(locale as "nl" | "en") as string}
+  className={`
+    w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold
+    transition-all duration-300 hover:scale-[1.02] mb-6
+    ${pkg.highlighted
+      ? 'bg-gray-900 text-white hover:bg-gray-800 shadow-lg'
+      : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
+    }
+  `}
+>
                 {t(`packages.${pkg.key}.cta`)}
                 <ArrowRight className="w-5 h-5" aria-hidden />
-              </Link>
+              </a>
 
               {/* Features List */}
               <ul className="space-y-3">
@@ -134,12 +133,12 @@ export default function ZakelijkPricing() {
               {tCommon('contact.phone')}
             </a>
             {' '}{t('footer.or')}{' '}
-            <Link
-              href={zakelijkGeneral.quote(locale)} // FIXED
+            <a
+              href={zakelijkGeneral.createAccount(locale as "nl" | "en") as string} // FIXED
               className="font-semibold text-gray-900 hover:underline"
             >
               {t('footer.requestQuote')}
-            </Link>
+            </a>
           </p>
         </div>
 
