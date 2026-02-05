@@ -1,8 +1,7 @@
-// client/types/forms/bookingsForm/step3.type.ts
+// client/types/forms/bookingsForm/step4.type.ts
 
 /* -------------------- Extra Option -------------------- */
 
-// Zonder icon — die hoort bij de data/constants
 export interface ExtraOptionType {
   id: string;
   name: string;
@@ -10,28 +9,28 @@ export interface ExtraOptionType {
   price: number;
 }
 
-/* -------------------- Step3 Form Data -------------------- */
+/* -------------------- Step4 Form Data -------------------- */
 
-export interface BookingStep3FormData {
-  extraOptions: string[];        // ["child_seat", "wifi"]
+export interface BookingStep4FormData {
+  extraOptions: string[];
   specialRequests: string;
-  flightNumber?: string;         // "KL1234"
-  meetingPoint?: string;         // "Arrivals hal, uitgang 3"
-  contactPhone?: string;         // "06 12345678"
+  flightNumber?: string;
+  meetingPoint?: string;
+  contactPhone?: string;
 }
 
 /* -------------------- Errors -------------------- */
 
-export type Step3ErrorKeys =
+export type Step4ErrorKeys =
   | "extraOptions"
   | "flightNumber"
   | "contactPhone";
 
-export type Step3Errors = Partial<Record<Step3ErrorKeys, string>>;
+export type Step4Errors = Partial<Record<Step4ErrorKeys, string>>;
 
 /* -------------------- Constants -------------------- */
 
-export const defaultStep3: BookingStep3FormData = {
+export const defaultStep4: BookingStep4FormData = {
   extraOptions: [],
   specialRequests: "",
   flightNumber: undefined,
