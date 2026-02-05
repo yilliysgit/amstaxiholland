@@ -1,0 +1,336 @@
+{
+  "ZakelijkPage": {
+    "meta": {
+      "title": "Zakelijk Taxivervoer Amsterdam | Business Taxi Service 24/7",
+      "description": "Professioneel zakelijk taxivervoer in Amsterdam. Vaste tarieven, maandfacturering en SLA garanties. Ideaal voor bedrijven en executives. Boek nu uw zakelijke rit."
+    },
+    "hero": {
+      "badge": "Zakelijk vervoer",
+      "title": "Betrouwbaar vervoer",
+      "titleHighlight": "voor teams & klanten",
+      "description": "Vaste tarieven, maandfacturering en 24/7 service. Eén platform voor ritten, rapportages en SLA's op maat.",
+      "cta": {
+        "primary": "Zakelijk account aanvragen",
+        "secondary": "Neem contact op"
+      },
+      "features": {
+        "response": "Responstijd < 5 min",
+        "sla": "SLA & facturatie",
+        "ontime": "98% on-time rate"
+      },
+      "trustCard": {
+        "trustedBy": "Vertrouwd door",
+        "rating": "Gem. beoordeling",
+        "ridesPerMonth": "Ritten/maand"
+      },
+      "ctaBar": {
+        "available": "24/7 bereikbaar",
+        "invoicing": "Maandelijkse facturatie",
+        "realtime": "Realtime overzicht",
+        "fixedRates": "Vaste tarieven",
+        "cta": "Vraag offerte aan"
+      }
+    },
+    "accountIntro": {
+      "title": "Zakelijk account in 1 werkdag geregeld",
+      "description": "Eén platform voor ritten, rapportages en facturatie. SLA's op maat en 24/7 bereikbaarheid. Laat je gegevens achter; we zetten binnen 1 werkdag je account klaar.",
+      "details": "Ons zakelijke platform biedt volledige transparantie over al je ritten. Van real-time tracking tot gedetailleerde maandrapportages met kostenanalyse per afdeling, medewerker of project. Facturen worden automatisch verzonden en zijn direct te exporteren naar je boekhouding.",
+      "features": {
+        "setup": {
+          "title": "Snelle setup",
+          "description": "Account binnen 24 uur actief"
+        },
+        "sla": {
+          "title": "SLA garantie",
+          "description": "Vaste response tijden"
+        },
+        "invoicing": {
+          "title": "Maandfacturatie",
+          "description": "Overzichtelijk & BTW-proof"
+        },
+        "team": {
+          "title": "Team management",
+          "description": "Meerdere gebruikers mogelijk"
+        }
+      },
+      "process": {
+        "title": "Zo werkt het:",
+        "steps": {
+          "apply": {
+            "title": "Aanvraag indienen",
+            "description": "Vul het formulier in met je bedrijfsgegevens"
+          },
+          "activate": {
+            "title": "Account activatie",
+            "description": "Binnen 1 werkdag is je account live"
+          },
+          "book": {
+            "title": "Direct boeken",
+            "description": "Log in en plan je eerste rit"
+          }
+        }
+      },
+      "stats": {
+        "rating": "4.9/5",
+        "ratingLabel": "Gem. beoordeling",
+        "rides": "10k+",
+        "ridesLabel": "Ritten / maand",
+        "clients": "200+",
+        "clientsLabel": "Zakelijke klanten"
+      },
+      "included": {
+        "title": "Inclusief:",
+        "accountManager": "Dedicated account manager",
+        "reports": "Maandelijkse rapportages",
+        "priority": "Priority booking",
+        "drivers": "Vaste chauffeurs beschikbaar"
+      },
+      "cta": {
+        "title": "Vraag zakelijk account aan",
+        "description": "Laat je gegevens achter; we zetten binnen 1 werkdag je account klaar.",
+        "button": "Account aanvragen",
+        "terms": "Door te verzenden ga je akkoord met onze voorwaarden en privacyverklaring."
+      }
+    },
+    "diensten": {
+      "title": "Zakelijke Diensten",
+      "subtitle": "Van luchthaven transfers tot VIP vervoer. Elke dienst is afgestemd op zakelijke behoeften.",
+      "services": {
+        "airport": {
+          "title": "Airport Transfers",
+          "description": "Betrouwbaar vervoer van en naar Schiphol. Flight tracking en meet & greet service.",
+          "features": {
+            "tracking": "Flight tracking",
+            "meetGreet": "Meet & greet",
+            "fixedDrivers": "Vaste chauffeurs"
+          }
+        },
+        "meeting": {
+          "title": "Meeting Vervoer",
+          "description": "Professioneel vervoer voor zakelijke afspraken. Altijd op tijd, altijd discreet.",
+          "features": {
+            "priority": "Priority booking",
+            "wifi": "WiFi aan boord",
+            "quiet": "Stille rit"
+          }
+        },
+        "event": {
+          "title": "Event Transport",
+          "description": "Groepsvervoer voor events, beurzen en bedrijfsevenementen. Tot 8 personen.",
+          "features": {
+            "minivan": "Minivan luxury",
+            "discount": "Groepskorting",
+            "planning": "Event planning"
+          }
+        },
+        "ladies": {
+          "title": "Ladies Taxi",
+          "description": "Veilig vervoer voor vrouwelijke medewerkers. Vrouwelijke chauffeurs en extra veiligheid.",
+          "features": {
+            "femaleDrivers": "Vrouwelijke chauffeurs",
+            "safety": "Extra veiligheidscheck",
+            "available": "24/7 beschikbaar"
+          }
+        },
+        "vip": {
+          "title": "VIP & Executive",
+          "description": "Premium vervoer voor directie en belangrijke gasten. Tesla of Mercedes S-Klasse.",
+          "features": {
+            "luxury": "Luxury voertuigen",
+            "butler": "Butler service",
+            "discretion": "Absolute discretie"
+          }
+        },
+        "contract": {
+          "title": "Contract Ritten",
+          "description": "Vaste routes en tijden voor dagelijks gebruik. Maximale kostenefficiëntie.",
+          "features": {
+            "fixedDriver": "Vaste chauffeur",
+            "discount": "Voordeeltarief",
+            "monthly": "Maandcontract"
+          }
+        }
+      },
+      "cta": {
+        "notFound": "Niet gevonden wat je zoekt? We maken graag een op maat gemaakt voorstel.",
+        "button": "Bespreek je behoeften",
+        "learnMore": "Meer informatie"
+      }
+    },
+    "pricing": {
+      "title": "Transparante Pricing",
+      "subtitle": "Kies het pakket dat past bij jouw bedrijf. Geen verborgen kosten, altijd duidelijke tarieven.",
+      "packages": {
+        "flex": {
+          "name": "Flex",
+          "tagline": "Betaal per rit",
+          "price": "Vanaf €35",
+          "description": "Perfect voor incidenteel zakelijk vervoer zonder verplichtingen.",
+          "cta": "Direct boeken",
+          "popular": "MEEST GEKOZEN"
+        },
+        "business": {
+          "name": "Business",
+          "tagline": "Voor groeiende bedrijven",
+          "price": "Vanaf €32",
+          "priceNote": "per rit bij 10+ ritten/maand",
+          "description": "Ideaal voor bedrijven met regelmatige vervoersbehoeften.",
+          "cta": "Account aanvragen"
+        },
+        "corporate": {
+          "name": "Corporate",
+          "tagline": "Enterprise oplossing",
+          "price": "Op maat",
+          "description": "Volledig pakket voor organisaties met hoge vervoersbehoefte.",
+          "cta": "Bespreek mogelijkheden"
+        }
+      },
+      "features": {
+        "flex": [
+          "Geen maandelijkse kosten",
+          "Standaard facturatie",
+          "Business Class voertuigen",
+          "Online boekingsplatform",
+          "Email support",
+          "BTW-aftrek mogelijk"
+        ],
+        "business": [
+          "Alles van Flex, plus:",
+          "Vaste chauffeurs mogelijk",
+          "Priority booking (< 30 min)",
+          "Maandelijkse rapportages",
+          "Dedicated account manager",
+          "Team management dashboard",
+          "Vaste maandfacturatie",
+          "Tot 15% korting"
+        ],
+        "corporate": [
+          "Alles van Business, plus:",
+          "Custom SLA afspraken",
+          "API integratie mogelijk",
+          "Dedicated support 24/7",
+          "VIP voertuigen beschikbaar",
+          "Contract pricing",
+          "Kwartaalreviews",
+          "Multi-locatie support",
+          "Tot 25% volume korting"
+        ]
+      },
+      "footer": {
+        "included": "Alle pakketten inclusief: BTW, brandstofkosten, tolkosten en verzekering. Geen verborgen kosten of onverwachte toeslagen.",
+        "questions": "Vragen over welk pakket bij jou past? Bel",
+        "or": "of",
+        "requestQuote": "vraag een offerte aan"
+      }
+    },
+    "vloot": {
+      "title": "Premium Vloot",
+      "subtitle": "Exclusief vervoer dat Amsterdam's elite vertrouwt.",
+      "subtitleHighlight": "Altijd op tijd",
+      "subtitleEnd": "altijd in absolute luxe.",
+      "categories": {
+        "business": {
+          "name": "Business Class",
+          "subtitle": "Premium comfort voor zakelijke ritten",
+          "featuresTitle": "Business Class Premium Features",
+          "features": {
+            "mercedes": "Luxe Mercedes-Benz",
+            "wifi": "WiFi & USB-C",
+            "invoice": "Zakelijke factuur",
+            "quiet": "Stille rit",
+            "climate": "Klimaatregeling"
+          },
+          "bullets": [
+            "1–3 passagiers",
+            "2–3 koffers",
+            "Professionele chauffeur"
+          ],
+          "cta": "Boek Business"
+        },
+        "vip": {
+          "name": "VIP Class",
+          "subtitle": "Exclusieve ervaring met topservice",
+          "featuresTitle": "VIP Class Premium Features",
+          "features": {
+            "vehicle": "S-Klasse / Model S",
+            "privacy": "Privacy & discreet",
+            "champagne": "Champagne & refreshments",
+            "butler": "Butler-service",
+            "fastlane": "Fast-lane pickup"
+          },
+          "bullets": [
+            "1–3 passagiers",
+            "2–3 koffers",
+            "Absolute discretie"
+          ],
+          "cta": "Plan VIP"
+        },
+        "van": {
+          "name": "Minivan Luxury",
+          "subtitle": "Ruime oplossing voor groepen",
+          "featuresTitle": "Minivan Luxury Premium Features",
+          "features": {
+            "capacity": "V-Klasse (tot 8p)",
+            "roof": "Panorama dak",
+            "climate": "Zones-airco",
+            "luggage": "Veel bagage",
+            "charging": "USB-C laden"
+          },
+          "bullets": [
+            "Tot 8 passagiers",
+            "6–8 koffers",
+            "Ideaal voor events"
+          ],
+          "cta": "Vraag groepsrit aan"
+        },
+        "ladies": {
+          "name": "Ladies Taxi",
+          "subtitle": "Veilig vervoer voor vrouwen",
+          "featuresTitle": "Ladies Taxi Premium Features",
+          "features": {
+            "female": "Vrouwelijke chauffeur",
+            "safety": "Extra veiligheidscheck",
+            "tracking": "Live tracking",
+            "available": "24/7 beschikbaar",
+            "discreet": "Discreet & betrouwbaar"
+          },
+          "bullets": [
+            "1–3 passagiers",
+            "2–3 koffers",
+            "Preferente chauffeurs"
+          ],
+          "cta": "Plan Ladies Taxi"
+        }
+      },
+      "ariaLabel": "Voertuigcategorieën"
+    },
+    "faq": {
+      "questions": [
+        {
+          "q": "Hoe werkt de maandfacturering precies?",
+          "a": "Je ontvangt elke maand één overzichtelijke factuur met alle ritten. Deze bevat een gedetailleerd overzicht per rit, medewerker en kostenplaats. Alle facturen zijn BTW-proof en direct te exporteren naar je boekhouding."
+        },
+        {
+          "q": "Kunnen meerdere medewerkers gebruik maken van het zakelijk account?",
+          "a": "Ja, je kunt onbeperkt gebruikers toevoegen aan je account. Elke medewerker krijgt eigen login credentials en je bepaalt zelf welke rechten en budgetten per gebruiker gelden."
+        },
+        {
+          "q": "Wat gebeurt er bij een no-show of annulering?",
+          "a": "Annuleringen tot 2 uur voor de geplande rit zijn gratis. Bij annuleringen binnen 2 uur of no-shows brengen we 50% van het rittarief in rekening. Voor contractklanten hanteren we vaak soepelere voorwaarden."
+        },
+        {
+          "q": "Hoe snel kunnen jullie een zakelijk account activeren?",
+          "a": "Na ontvangst van je aanvraag is je account binnen 1 werkdag actief. Je ontvangt direct je login gegevens en kan meteen ritten boeken. Voor spoed kunnen we binnen 2 uur activeren."
+        },
+        {
+          "q": "Bieden jullie SLA garanties?",
+          "a": "Ja, voor Business en Corporate pakketten bieden we custom SLA's aan. Denk aan gegarandeerde responstijden, beschikbaarheid en on-time performance. Dit wordt allemaal vastgelegd in je contract."
+        },
+        {
+          "q": "Kunnen wij ook internationale ritten boeken?",
+          "a": "Absoluut. Wij rijden door heel Europa. Voor ritten buiten de Benelux adviseren we minimaal 48 uur van tevoren te boeken zodat we de beste chauffeur kunnen inplannen."
+        }
+      ]
+    }
+  }
+}

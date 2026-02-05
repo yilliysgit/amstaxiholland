@@ -1,0 +1,307 @@
+{
+  "ParticulierenPage": {
+    "meta": {
+      "title": "Exclusive Private Transport | Comfort & Personal Chauffeurs",
+      "description": "Private transport with certified chauffeurs. Ideal for airport transfers, day trips, evening rides and luxury private journeys. Available 24/7."
+    },
+
+    "hero": {
+      "badge": "Private transport",
+      "title": "Exclusive private transport",
+      "titleHighlight": "with comfort & style",
+      "subtitle": "We provide private transport with experienced drivers and luxury vehicles. Perfect for airport transfers, private trips and special occasions.",
+      "usp": {
+        "available": "Available 24/7",
+        "safeDrivers": "Certified drivers",
+        "professional": "Professional private chauffeurs"
+      },
+      "cta": {
+        "primary": "Plan your ride",
+        "secondary": "Learn more"
+      },
+      "stats": {
+        "rides": "10,000+ rides per month",
+        "rating": "4.9/5 customer rating"
+      }
+    },
+
+    "filosofie": {
+      "badge": "Our philosophy",
+      "title": "Private transport with the care of a personal chauffeur",
+      "description": "We believe every ride should be a pleasant experience — discreet, comfortable and fully tailored to your wishes. Always on time. Always refined. Always exclusive.",
+      "usps": {
+        "discreet": {
+          "title": "Discreet, professionally dressed drivers",
+          "description": "Selected for etiquette, driving style and confidentiality. Your privacy always comes first."
+        },
+        "vehicles": {
+          "title": "Luxury vehicles: Mercedes E, S & V-Class",
+          "description": "Representative cars with optimal legroom, quiet cabins and premium finishes."
+        },
+        "ontime": {
+          "title": "Punctual and reliable, 24/7",
+          "description": "We plan ahead and monitor in real time so you arrive on time without stress."
+        },
+        "service": {
+          "title": "Personalised service on request",
+          "description": "From drinks and music to route preferences: every ride is tailored to your wishes."
+        }
+      }
+    },
+
+    "vloot": {
+      "title": "Choose your comfort level",
+      "subtitle": "Every ride deserves comfort, style and luxury.",
+      "subtitleHighlight": "Always comfortable",
+      "subtitleEnd": "for every occasion.",
+      "ariaLabel": "Vehicle categories",
+      "categories": {
+        "business": {
+          "name": "Business Class",
+          "subtitle": "Premium transport for daily use",
+          "featuresTitle": "Business Class features",
+          "features": {
+            "climate": "Climate control",
+            "leather": "Leather interior",
+            "privacyGlass": "Privacy glass",
+            "charging": "USB & wireless charging"
+          },
+          "bullets": [
+            "1–3 passengers",
+            "2–3 suitcases",
+            "Professional driver"
+          ],
+          "cta": "Book Business"
+        },
+        "vip": {
+          "name": "VIP Class",
+          "subtitle": "Top level luxury & comfort",
+          "featuresTitle": "VIP features",
+          "features": {
+            "massage": "Massage seats",
+            "privacy": "Extra privacy",
+            "leather": "Premium leather"
+          },
+          "bullets": [
+            "1–3 passengers",
+            "2–3 suitcases",
+            "VIP treatment"
+          ],
+          "cta": "Book VIP"
+        },
+        "van": {
+          "name": "Luxury Van",
+          "subtitle": "Perfect for families & groups",
+          "featuresTitle": "Luxury Van features",
+          "features": {
+            "space": "Space for 6–7 passengers",
+            "luggage": "Large luggage capacity",
+            "comfort": "Comfortable seating"
+          },
+          "bullets": [
+            "6–7 passengers",
+            "Lots of luggage",
+            "Ideal for trips"
+          ],
+          "cta": "Book Luxury Van"
+        },
+        "ladies": {
+  "name": "Ladies Taxi",
+  "subtitle": "Veilig & comfortabel vervoer voor vrouwen",
+  "featuresTitle": "Ladies Taxi Premium Features",
+  "features": {
+    "femaleDriver": "Vrouwelijke chauffeur",
+    "extraSafety": "Extra veiligheid",
+    "discreet": "Discrete service",
+    "personal": "Persoonlijke aandacht"
+  },
+  "bullets": [
+    "1–3 passagiers",
+    "2 koffers",
+    "Premium service"
+  ],
+  "cta": "Reserveer Ladies Taxi"
+}
+      }
+    },
+
+      "services": {
+    "section": {
+      "badge": "Our services",
+      "title": "How can we help you?",
+      "description": "From important appointments to a relaxing night out — we offer private transport that fits your life and wishes."
+    },
+    "items": {
+      "airport": {
+        "title": "Private airport transfers",
+        "subtitle": "To and from Schiphol",
+        "description": "Your journey begins and ends in peace. We monitor your flight, adjust to delays and are ready when you arrive. No rush, no stress — only comfort.",
+        "highlights": [
+          "Flight tracking & flexible pickup time",
+          "Meet & greet in the arrivals hall",
+          "Assistance with luggage",
+          "Private transfer, no intermediate stops"
+        ],
+        "icon": "✈️",
+        "gradient": "from-blue-500 to-blue-600"
+      },
+      "dinner": {
+        "title": "Evening & dinner transport",
+        "subtitle": "Enjoy without worries",
+        "description": "An evening out should be carefree. We bring you to your restaurant, theatre or gala — and pick you up when you're ready.",
+        "highlights": [
+          "Flexible pickup time afterwards",
+          "Discrete waiting service",
+          "Perfect for special occasions",
+          "No parking or alcohol concerns"
+        ],
+        "icon": "🍷",
+        "gradient": "from-amber-500 to-orange-600"
+      },
+      "events": {
+        "title": "Event & concert transport",
+        "subtitle": "Arrive in style",
+        "description": "Whether it’s a concert, musical or sporting event — arrive relaxed and leave without crowds. We take care of everything around your transport.",
+        "highlights": [
+          "Drop-off at the entrance",
+          "Pickup afterwards without waiting time",
+          "Knowledge of venues and routes",
+          "Ideal for groups up to 7 people"
+        ],
+        "icon": "🎭",
+        "gradient": "from-purple-500 to-pink-600"
+      },
+      "daytrips": {
+        "title": "Luxury day trips & weekend transport",
+        "subtitle": "Explore at your own pace",
+        "description": "A day out or a weekend away? Let us handle the driving. We bring you to your destination and remain available for adjustments along the way.",
+        "highlights": [
+          "Flexible planning during the trip",
+          "Multiple stops possible",
+          "Driver remains available",
+          "Perfect for family outings"
+        ],
+        "icon": "🏞️",
+        "gradient": "from-green-500 to-teal-600"
+      },
+      "chauffeur": {
+        "title": "Chauffeur service",
+        "subtitle": "For your own vehicle",
+        "description": "Prefer to travel in your own car? Our experienced chauffeurs drive your vehicle so you can work, relax or enjoy the company.",
+        "highlights": [
+          "Qualified chauffeurs",
+          "Fully insured",
+          "Respectful handling of your vehicle",
+          "Also for special occasions"
+        ],
+        "icon": "👔",
+        "gradient": "from-gray-600 to-gray-800"
+      },
+      "business": {
+        "title": "Business transfers",
+        "subtitle": "Your mobile workspace",
+        "description": "Turn travel time into working time. With WiFi, charging options and a quiet environment, you stay productive between appointments.",
+        "highlights": [
+          "Complete privacy and discretion",
+          "WiFi and work facilities",
+          "Dedicated drivers available",
+          "Monthly contracts possible"
+        ],
+        "icon": "💼",
+        "gradient": "from-slate-600 to-slate-800"
+      },
+      "ladiesTaxi": {
+        "title": "Ladies Taxi",
+        "subtitle": "Safe transport for women",
+        "description": "Our Ladies Taxi service offers extra safety, discretion and comfort — with professional female drivers.",
+        "highlights": [
+          "Female driver",
+          "Additional safety measures",
+          "Discrete service",
+          "Personal attention"
+        ],
+        "icon": "💗",
+        "gradient": "from-rose-500 to-pink-600"
+      }
+    },
+    "cta": {
+      "button": "More information",
+      "missingTitle": "Don't see your service?",
+      "missingDescription": "Any type of transport you need, we can arrange. Contact us and tell us your wishes — we are happy to think along with you.",
+      "cta1": "Schedule a call",
+      "cta2": "Call us directly"
+    },
+    "trust": {
+      "available": "Available 24/7",
+      "confirmation": "Instant confirmation",
+      "custom": "Custom solutions possible"
+    }
+  },
+    "pricing": {
+      "title": "Private transport rates",
+      "subtitle": "Choose the comfort level that fits your journey.",
+      "packages": {
+        "flex": {
+          "name": "Comfort",
+          "tagline": "For everyday rides",
+          "price": "From €35",
+          "description": "Ideal for short trips.",
+          "cta": "Plan your ride"
+        },
+
+        "business": {
+          "name": "Premium",
+          "tagline": "Extra comfort & service",
+          "price": "From €45",
+          "priceNote": "Depending on distance and time",
+          "description": "More luxury and personal attention.",
+          "cta": "Request quote",
+          "popular": "MOST POPULAR"
+        },
+
+        "corporate": {
+          "name": "VIP",
+          "tagline": "Maximum luxury",
+          "price": "On request",
+          "description": "For special occasions and important guests.",
+          "cta": "Discuss options"
+        }
+      },
+
+      "features": {
+        "flex": [
+          "Comfortable vehicles",
+          "Perfect for short rides",
+          "Professional drivers",
+          "Easy booking",
+          "Transparent pricing"
+        ],
+
+        "business": [
+          "Everything from Comfort, plus:",
+          "More legroom",
+          "Quiet ride experience",
+          "Flexible pickup times",
+          "Personal service",
+          "Ideal for nights out"
+        ],
+
+        "corporate": [
+          "Everything from Premium, plus:",
+          "Top-class vehicles",
+          "Maximum privacy & comfort",
+          "Fully tailored rides",
+          "Perfect for events and weddings"
+        ]
+      },
+
+      "footer": {
+        "included": "All rides include VAT and standard waiting time.",
+        "questions": "Questions? Call",
+        "or": "or",
+        "requestQuote": "request a personalised quote",
+        "phone": "020 723 56 38"
+      }
+    }
+  }
+}

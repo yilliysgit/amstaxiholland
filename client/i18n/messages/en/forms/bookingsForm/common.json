@@ -1,0 +1,14 @@
+{
+  "required": "*",
+  "optional": "(optional)",
+  "currency": "€",
+  "yes": "Yes",
+  "no": "No",
+  "remove": "Remove",
+  "edit": "Edit",
+  "back": "Back",
+  "next": "Next",
+  "submit": "Submit",
+  "loading": "Loading...",
+  "error": "An error occurred"
+}

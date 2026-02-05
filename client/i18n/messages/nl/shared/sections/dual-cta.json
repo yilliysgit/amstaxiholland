@@ -1,0 +1,12 @@
+{
+  "cards": {
+    "book-taxi": {
+      "title": "Boek een Taxi",
+      "description": "Snel & Eenvoudig Boeken"
+    },
+    "become-driver": {
+      "title": "Word Chauffeur",
+      "description": "Sluit je aan bij ons team"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Choose Your Vehicle",
+  "subtitle": "Select the perfect vehicle for your trip",
+
+  "passengers": {
+    "title": "Number of passengers",
+    "label": {
+      "one": "{count} passenger",
+      "other": "{count} passengers"
+    },
+    "moreWarning": "Warning: you have selected more passengers than in step 1"
+  },
+
+  "luggage": {
+    "title": "Luggage type",
+    "subtitle": "Specify the luggage type for the best vehicle selection",
+    "handluggage": {
+      "label": "Hand luggage only",
+      "description": "Small bags, backpacks, and laptop bags that can be held on your lap"
+    },
+    "suitcases": {
+      "label": "Suitcases / large luggage",
+      "description": "Suitcases, duffel bags, and large backpacks that must fit in the trunk"
+    }
+  },
+
+  "vehicles": {
+    "title": "Available vehicles",
+    "capacity": {
+      "one": "Up to {count} passenger",
+      "other": "Up to {count} passengers"
+    },
+    "luggage": {
+      "one": "{count} large suitcase",
+      "other": "{count} large suitcases"
+    },
+    "noVehicles": {
+      "one": "No vehicles available for {count} passenger",
+      "other": "No vehicles available for {count} passengers"
+    },
+    "noVehiclesHint": "Reduce the number of passengers or contact us for custom solutions."
+  },
+
+  "pricing": {
+    "base": "base",
+    "perKm": "per km"
+  },
+
+  "summary": {
+    "title": "Booking summary",
+    "route": "Route",
+    "stops": "Stops",
+    "date": "Date",
+    "time": "Time",
+    "passengers": "Passengers",
+    "luggage": "Luggage",
+    "noLuggage": "No luggage",
+    "handluggage": "Hand luggage",
+    "suitcases": "Suitcases",
+    "return": "Return",
+    "returnDeparture": "Departure:",
+    "priceCalculation": "Price calculation",
+    "vehicle": "{name}",
+    "distance": "Distance ({km} km)",
+    "outboundTotal": "Outbound total",
+    "returnDiscount": "Return discount (10%)",
+    "returnPrice": "Return price",
+    "total": "Total"
+  },
+
+  "navigation": {
+    "back": "Back to trip details",
+    "next": "Proceed to confirmation"
+  }
+}

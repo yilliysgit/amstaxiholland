@@ -1,0 +1,14 @@
+{
+  "required": "*",
+  "optional": "(optioneel)",
+  "currency": "€",
+  "yes": "Ja",
+  "no": "Nee",
+  "remove": "Verwijder",
+  "edit": "Wijzigen",
+  "back": "Terug",
+  "next": "Volgende",
+  "submit": "Versturen",
+  "loading": "Laden...",
+  "error": "Er is een fout opgetreden"
+}

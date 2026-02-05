@@ -1,0 +1,493 @@
+{
+  "aviodrome-lelystad": {
+    "name": "Aviodrome Lelystad",
+    "description": "Ontdek de fascinerende wereld van de luchtvaart in dit unieke museum.",
+    "heroDescription": "Beleef een reis door de luchtvaartgeschiedenis. Van de eerste vliegpogingen tot moderne toestellen.",
+    "fullDescription": "Aviodrome Lelystad is het nationale luchtvaartmuseum van Nederland, met ruim 100 vliegtuigen, interactieve tentoonstellingen en verhalen uit de Nederlandse luchtvaartgeschiedenis.",
+    "highlights": [
+      "Ruim 100 historische vliegtuigen",
+      "Interactieve vliegsimulatoren",
+      "KLM erfgoed",
+      "Gezinsvriendelijke activiteiten"
+    ],
+    "whyVisit": "Wij zetten u direct bij de ingang af. Geen parkeer- of OV-gedoe.",
+    "services": {
+      "heading": "Ritten naar Aviodrome Lelystad",
+      "items": [
+        { "title": "Enkele reis", "description": "Van thuis, hotel of station naar Aviodrome Lelystad." },
+        { "title": "Retour", "description": "Heen en terug in één boeking." },
+        { "title": "Gezinnen & groepen", "description": "Ruime voertuigen en kinderzitjes beschikbaar." },
+        { "title": "Zakelijk & evenementen", "description": "Professioneel vervoer voor evenementen." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Wat kost een taxi van Amsterdam naar Aviodrome?",
+        "answer": "Een taxi van Amsterdam Centraal naar Aviodrome kost ongeveer €85 voor een sedan en €110 voor een minivan. U ontvangt altijd een vaste prijs vooraf."
+      },
+      {
+        "question": "Kan ik direct bij de ingang worden afgezet?",
+        "answer": "Ja, onze chauffeur zet u direct bij de hoofdingang van het Aviodrome af, zodat u meteen naar binnen kunt."
+      },
+      {
+        "question": "Is een retour naar het Aviodrome mogelijk?",
+        "answer": "Absoluut! U kunt bij de boeking aangeven wanneer u weer opgehaald wilt worden. Ideaal na een dagje luchtvaartmuseum."
+      },
+      {
+        "question": "Hoeveel tijd kost de rit naar Aviodrome?",
+        "answer": "Vanaf Amsterdam is de reistijd ongeveer 45-55 minuten, afhankelijk van het verkeer."
+      }
+    ]
+  },
+
+  "kaasmarkt": {
+    "name": "Alkmaarse Kaasmarkt",
+    "description": "Traditionele kaasmarktervaring in het hart van Nederland.",
+    "heroDescription": "Zie de beroemde kaasdragers in actie op het historische Waagplein.",
+    "fullDescription": "De Alkmaarse Kaasmarkt is een levend stuk Nederlandse geschiedenis, elke vrijdag van april tot september.",
+    "highlights": [
+      "Authentieke kaasdragers",
+      "Historisch Waagplein",
+      "Kaasproeverijen",
+      "Charmant stadscentrum"
+    ],
+    "whyVisit": "Wij zetten u direct op het plein af. Geen parkeren, geen lopen.",
+    "services": {
+      "heading": "Taxi naar de Kaasmarkt",
+      "items": [
+        { "title": "Enkele reis", "description": "Vroeg en stressvrij aankomen in Alkmaar." },
+        { "title": "Retour", "description": "Comfortabel terugkeren na uw bezoek." },
+        { "title": "Gezinnen & groepen", "description": "Ideaal voor families en vrienden." },
+        { "title": "Zakelijk & evenementen", "description": "Ook geschikt voor zakelijke groepen." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Wanneer is de Alkmaarse Kaasmarkt?",
+        "answer": "De kaasmarkt vindt plaats elke vrijdag van april tot september, van 10:00 tot 13:00 uur. Met een taxi bent u op tijd zonder stress."
+      },
+      {
+        "question": "Waar precies zet de taxi mij af?",
+        "answer": "Wij zetten u direct op het Waagplein af, precies waar de kaasmarkt plaatsvindt. Geen lang lopen nodig."
+      },
+      {
+        "question": "Wat kost een taxi naar de Kaasmarkt?",
+        "answer": "Vanaf Amsterdam ongeveer €65-75 voor een sedan. Vanaf Schiphol ongeveer €55-65. Vaste prijs, geen verrassingen."
+      },
+      {
+        "question": "Kan ik een retour boeken na de markt?",
+        "answer": "Ja, wij adviseren een retour rond 13:30-14:00 uur te boeken, zo heeft u tijd om zowel de markt als het centrum te bezoeken."
+      }
+    ]
+  },
+
+  "fashion-outlets": {
+    "name": "Fashion Outlets",
+    "description": "Premium winkelervaring bij de beste fashion outlets.",
+    "heroDescription": "Shop topmerken met flinke kortingen bij Batavia Stad.",
+    "fullDescription": "Meer dan 150 premium merken in een comfortabel outletdorp.",
+    "highlights": [
+      "150+ winkels",
+      "Tot 70% korting",
+      "Overdekte winkelstraten",
+      "Tax-free mogelijkheden"
+    ],
+    "whyVisit": "Wij halen u op met al uw tassen. Geen gesjouw, geen gedoe.",
+    "services": {
+      "heading": "Taxi naar Fashion Outlets",
+      "items": [
+        { "title": "Enkele reis", "description": "Direct vervoer naar Batavia Stad." },
+        { "title": "Retour", "description": "Comfortabel terugkeren met uw aankopen." },
+        { "title": "Gezinnen & groepen", "description": "Ruime voertuigen beschikbaar." },
+        { "title": "Zakelijk & evenementen", "description": "VIP shopping transport." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Is er genoeg ruimte voor al mijn tassen?",
+        "answer": "Ja! Onze minivans en sedans hebben ruime kofferruimtes. We kunnen zelfs een extra voertuig regelen als u met een grote groep gaat shoppen."
+      },
+      {
+        "question": "Wat kost een taxi naar Batavia Stad Fashion Outlet?",
+        "answer": "Vanaf Amsterdam ongeveer €75-85, vanaf Schiphol €45-55. Ideaal voor een shopdag zonder parkeerkosten."
+      },
+      {
+        "question": "Hoeveel tijd moet ik inplannen voor een shopdag?",
+        "answer": "De meeste bezoekers zijn 3-5 uur bezig. Boek uw retour flexibel zodat u op uw eigen tempo kunt shoppen."
+      },
+      {
+        "question": "Kan de chauffeur wachten terwijl ik shop?",
+        "answer": "Voor wachttijden langer dan 30 minuten adviseren wij een retourrit te boeken. Dat is economischer en flexibeler."
+      }
+    ]
+  },
+
+  "zaanse-schans": {
+    "name": "Zaanse Schans",
+    "description": "Historische molens en ambachten.",
+    "heroDescription": "Een iconisch Nederlands openluchtmuseum.",
+    "fullDescription": "Werkende molens, ambachten en historische huizen in een schilderachtige setting.",
+    "highlights": [
+      "Werkende molens",
+      "Kaas- en klompenworkshops",
+      "Perfecte fotospots",
+      "Traditionele ambachten"
+    ],
+    "whyVisit": "Verken op uw eigen tempo zonder treinschema's.",
+    "services": {
+      "heading": "Taxi naar Zaanse Schans",
+      "items": [
+        { "title": "Enkele reis", "description": "Aankomen zonder parkeerstress." },
+        { "title": "Retour", "description": "Flexibele ophaaltijd." },
+        { "title": "Gezinnen & groepen", "description": "Perfect voor families." },
+        { "title": "Zakelijk & evenementen", "description": "Ook geschikt voor zakelijke gasten." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Hoe ver is Zaanse Schans vanaf Amsterdam?",
+        "answer": "Slechts zo'n 20 minuten met de taxi vanaf Amsterdam. Veel sneller en comfortabeler dan het OV met overstappen."
+      },
+      {
+        "question": "Waar zet de taxi mij af bij Zaanse Schans?",
+        "answer": "Wij zetten u af bij de hoofdingang van het museumgebied. Vanaf daar kunt u direct de molens gaan verkennen."
+      },
+      {
+        "question": "Is Zaanse Schans geschikt voor jonge kinderen?",
+        "answer": "Absoluut! Wij hebben kinderzitjes beschikbaar en het openluchtmuseum is zeer kindvriendelijk. Een perfect gezinsuitje."
+      },
+      {
+        "question": "Wat kost een taxi naar Zaanse Schans?",
+        "answer": "Vanaf Amsterdam Centraal ongeveer €40-50 voor een sedan. Vaste prijs, dus geen verrassingen."
+      }
+    ]
+  },
+
+  "zuid-holland-tour": {
+    "name": "Zuid-Holland Tour",
+    "description": "Complete rondrit door Zuid-Holland.",
+    "heroDescription": "Van Den Haag naar Rotterdam en Delft.",
+    "fullDescription": "Een volledige dag cultuur, geschiedenis en moderne architectuur.",
+    "highlights": [
+      "Madurodam",
+      "Rotterdam",
+      "Delft",
+      "Prachtige routes"
+    ],
+    "whyVisit": "Alle hoogtepunten in één dag zonder overstappen.",
+    "services": {
+      "heading": "Zuid-Holland Taxi Tour",
+      "items": [
+        { "title": "Enkele reis", "description": "Comfortabele sightseeing route." },
+        { "title": "Retour", "description": "Inclusief terugreis." },
+        { "title": "Gezinnen & groepen", "description": "Perfect voor dagtochten." },
+        { "title": "Zakelijk & evenementen", "description": "Ook geschikt voor zakelijk gebruik." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Hoe lang duurt de Zuid-Holland Tour?",
+        "answer": "Een volledige tour duurt ongeveer 6-8 uur, afhankelijk van hoe lang u op elke locatie wilt blijven. Geheel flexibel naar uw wensen."
+      },
+      {
+        "question": "Welke steden bezoeken we tijdens de tour?",
+        "answer": "Standaard: Den Haag (Madurodam), Rotterdam (architectuur), en Delft (historisch centrum). We kunnen de route aanpassen aan uw voorkeuren."
+      },
+      {
+        "question": "Wat kost een hele dag taxitour?",
+        "answer": "Ongeveer €350-450 voor een volledige dag inclusief wachttijd. Voor groepen vaak goedkoper dan losse tickets en treinreizen."
+      },
+      {
+        "question": "Kunnen we de route zelf aanpassen?",
+        "answer": "Ja! Bespreek uw wensen met ons en we maken een route op maat. Wilt u Scheveningen toevoegen of een stad overslaan? Geen probleem."
+      }
+    ]
+  },
+
+  "volendam-edam-marken": {
+    "name": "Volendam, Edam & Marken",
+    "description": "Drie iconische dorpjes in één tour.",
+    "heroDescription": "Traditie, kaas en visserijerfgoed.",
+    "fullDescription": "Ontdek drie unieke dorpen, elk met zijn eigen karakter.",
+    "highlights": [
+      "Volendamse haven",
+      "Edammer kaas",
+      "Houten huizen Marken",
+      "Traditionele klederdracht"
+    ],
+    "whyVisit": "Alles gecombineerd zonder OV-gedoe.",
+    "services": {
+      "heading": "Taxi naar Volendam, Edam & Marken",
+      "items": [
+        { "title": "Enkele reis", "description": "Direct vervoer." },
+        { "title": "Retour", "description": "Veilige terugkeer." },
+        { "title": "Gezinnen & groepen", "description": "Ideaal voor groepen." },
+        { "title": "Zakelijk & evenementen", "description": "Ook voor bedrijfsuitjes." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Hoeveel tijd heb ik nodig voor alle drie de dorpen?",
+        "answer": "Plan 4-6 uur voor een ontspannen bezoek aan Volendam, Edam en Marken. Onze chauffeur rijdt u langs alle hoogtepunten."
+      },
+      {
+        "question": "In welke volgorde bezoeken we de dorpen?",
+        "answer": "Meestal Volendam → Marken (met veerboot) → Edam. We kunnen de route aanpassen aan uw voorkeuren en openingstijden."
+      },
+      {
+        "question": "Is de veerboot naar Marken inbegrepen?",
+        "answer": "Het veerbotticket zit niet bij de taxiprijs, maar wij zetten u af bij de haven en halen u aan de andere kant weer op."
+      },
+      {
+        "question": "Wat kost een rondrit langs deze dorpen?",
+        "answer": "Vanaf Amsterdam ongeveer €180-220 voor een halve dag tour. Veel comfortabeler dan zelf het OV regelen."
+      }
+    ]
+  },
+
+  "giethoorn": {
+    "name": "Giethoorn",
+    "description": "Het Venetië van Nederland.",
+    "heroDescription": "Een dorp zonder wegen.",
+    "fullDescription": "Vaar door grachten omzoomd door rietgedekte huisjes.",
+    "highlights": [
+      "Grachten",
+      "Houten bruggetjes",
+      "Fluisterboten",
+      "Rustige natuur"
+    ],
+    "whyVisit": "Ontspannen reizen naar een afgelegen bestemming.",
+    "services": {
+      "heading": "Taxi naar Giethoorn",
+      "items": [
+        { "title": "Enkele reis", "description": "Geen overstappen nodig." },
+        { "title": "Retour", "description": "Ontspannen terugkeer." },
+        { "title": "Gezinnen & groepen", "description": "Ruime voertuigen." },
+        { "title": "Zakelijk & evenementen", "description": "Ook exclusieve tochten." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Hoe ver is Giethoorn vanaf Amsterdam?",
+        "answer": "Ongeveer 1,5 uur met de taxi. Een comfortabele reis zonder overstappen, veel relaxter dan met het OV."
+      },
+      {
+        "question": "Wat kost een taxi naar Giethoorn?",
+        "answer": "Vanaf Amsterdam ongeveer €180-220 enkele reis, €320-380 retour. Ideaal voor een dagje uit met het gezin."
+      },
+      {
+        "question": "Kunnen we een bootje huren in Giethoorn?",
+        "answer": "Ja! Wij zetten u af bij de bootverhuur. U kunt een fluisterbootje of elektrische boot huren om zelf de grachten te verkennen."
+      },
+      {
+        "question": "Hoeveel tijd moeten we in Giethoorn blijven?",
+        "answer": "De meeste bezoekers zijn 3-5 uur bezig. Genoeg tijd voor een boottocht, lunch en het dorp verkennen. Boek een retour flexibel."
+      }
+    ]
+  },
+
+  "belgium-tour": {
+    "name": "België Tour",
+    "description": "Internationale dagtocht.",
+    "heroDescription": "Ontdek België zonder gedoe.",
+    "fullDescription": "Van Brussel tot chocola en historische bezienswaardigheden.",
+    "highlights": [
+      "Grote Markt",
+      "Belgische chocola",
+      "Atomium",
+      "Middeleeuwse straatjes"
+    ],
+    "whyVisit": "Geen overstappen of grens-stress.",
+    "services": {
+      "heading": "Taxi naar België",
+      "items": [
+        { "title": "Enkele reis", "description": "Internationaal vervoer." },
+        { "title": "Retour", "description": "Dagtocht of meerdaags." },
+        { "title": "Gezinnen & groepen", "description": "Comfortabele lange ritten." },
+        { "title": "Zakelijk & evenementen", "description": "Zakelijke afspraken." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Heb ik een paspoort nodig voor België?",
+        "answer": "Binnen de EU is een geldig identiteitsbewijs voldoende. Onze chauffeurs zijn ervaren met internationale ritten."
+      },
+      {
+        "question": "Hoe lang duurt de reis naar Brussel?",
+        "answer": "Vanaf Amsterdam ongeveer 2-2,5 uur. Vanaf Rotterdam ongeveer 1,5-2 uur. Comfortabel en zonder overstappen."
+      },
+      {
+        "question": "Wat kost een taxi naar België?",
+        "answer": "Naar Brussel ongeveer €280-350 enkele reis. Voor een hele dag tour (inclusief wachttijd) ongeveer €550-700."
+      },
+      {
+        "question": "Kunnen we meerdere steden in België bezoeken?",
+        "answer": "Absoluut! Brussel, Brugge, Antwerpen of Gent - wij maken een route op maat naar uw wensen."
+      }
+    ]
+  },
+
+  "amsterdam-city-tour": {
+    "name": "Amsterdam Stadstour",
+    "description": "Alle hoogtepunten van Amsterdam.",
+    "heroDescription": "Grachten, musea en geschiedenis.",
+    "fullDescription": "Verken Amsterdam zonder navigatie- of parkeerstress.",
+    "highlights": [
+      "Grachtengordel",
+      "Museumkwartier",
+      "Jordaan",
+      "Dam"
+    ],
+    "whyVisit": "Wij regelen de route, u geniet van de stad.",
+    "services": {
+      "heading": "Amsterdam Stadstour Taxi",
+      "items": [
+        { "title": "Enkele reis", "description": "Ophalen waar u wilt." },
+        { "title": "Retour", "description": "Flexibel afzetten." },
+        { "title": "Gezinnen & groepen", "description": "Ideaal voor toeristen." },
+        { "title": "Zakelijk & evenementen", "description": "Delegaties en gasten." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Wat zien we tijdens een Amsterdam stadstour?",
+        "answer": "Standaard: Grachtengordel, Dam, Museumkwartier, Jordaan. We kunnen de route aanpassen aan uw interesses en tempo."
+      },
+      {
+        "question": "Hoe lang duurt een stadstour?",
+        "answer": "Een complete tour duurt ongeveer 3-4 uur. Wilt u musea bezoeken? Plan dan een hele dag met wachttijd."
+      },
+      {
+        "question": "Kunnen we stoppen voor foto's?",
+        "answer": "Natuurlijk! Onze chauffeur kent de mooiste fotospots en stopt graag zodat u prachtige foto's kunt maken."
+      },
+      {
+        "question": "Wat kost een Amsterdam stadstour?",
+        "answer": "Vanaf €120-150 voor een 3-uur tour. Ideaal voor toeristen die Amsterdam comfortabel willen zien zonder navigatiestress."
+      }
+    ]
+  },
+
+  "keukenhof": {
+    "name": "Keukenhof",
+    "description": "'s Werelds mooiste bloementuin.",
+    "heroDescription": "Miljoenen bloemen in bloei.",
+    "fullDescription": "Slechts enkele weken per jaar open tijdens het voorjaar.",
+    "highlights": [
+      "Tulpenvelden",
+      "Thematuinen",
+      "Fotolocaties",
+      "Bloemenshows"
+    ],
+    "whyVisit": "Vroeg aankomen en parkeerchaos vermijden.",
+    "services": {
+      "heading": "Taxi naar Keukenhof",
+      "items": [
+        { "title": "Enkele reis", "description": "Direct naar de ingang." },
+        { "title": "Retour", "description": "Ophalen wanneer u klaar bent." },
+        { "title": "Gezinnen & groepen", "description": "Perfect voor families." },
+        { "title": "Zakelijk & evenementen", "description": "Ook voor zakelijke bezoeken." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Wanneer is de Keukenhof open?",
+        "answer": "De Keukenhof is open van half maart tot half mei. Boek uw taxi van tevoren, vooral tijdens de topbloei (half april)."
+      },
+      {
+        "question": "Waarom een taxi naar de Keukenhof?",
+        "answer": "Vermijd de drukke parkeerplaatsen en lange loopafstanden. Wij zetten u af bij de ingang en halen u op wanneer u klaar bent."
+      },
+      {
+        "question": "Wat kost een taxi naar de Keukenhof?",
+        "answer": "Vanaf Amsterdam ongeveer €60-75, vanaf Schiphol slechts €35-45. Veel comfortabeler dan overvolle bussen."
+      },
+      {
+        "question": "Hoeveel tijd moeten we in de Keukenhof blijven?",
+        "answer": "De meeste bezoekers zijn 2-4 uur bezig. Boek een retour flexibel zodat u op uw eigen tempo van de bloemen kunt genieten."
+      }
+    ]
+  },
+
+  "efteling": {
+    "name": "Efteling",
+    "description": "Magisch attractiepark voor alle leeftijden.",
+    "heroDescription": "Sprookjes en achtbanen.",
+    "fullDescription": "Een van Europa's meest geliefde pretparken.",
+    "highlights": [
+      "Sprookjesbos",
+      "Achtbanen",
+      "Shows",
+      "Seizoensevenementen"
+    ],
+    "whyVisit": "Ontspannen thuiskomen na een lange dag.",
+    "services": {
+      "heading": "Taxi naar Efteling",
+      "items": [
+        { "title": "Enkele reis", "description": "Stressvrij aankomen." },
+        { "title": "Retour", "description": "Comfortabel terugkeren." },
+        { "title": "Gezinnen & groepen", "description": "Kinderzitjes beschikbaar." },
+        { "title": "Zakelijk & evenementen", "description": "Bedrijfsuitjes." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Hoe ver is de Efteling vanaf Amsterdam?",
+        "answer": "Ongeveer 1,5 uur met de taxi. Perfect voor een dagje uit, en de kinderen kunnen op de terugweg slapen."
+      },
+      {
+        "question": "Hebben jullie kinderzitjes beschikbaar?",
+        "answer": "Ja! We hebben kinderzitjes in alle maten. Geef de leeftijden van uw kinderen aan bij het boeken."
+      },
+      {
+        "question": "Wat kost een taxi naar de Efteling?",
+        "answer": "Vanaf Amsterdam ongeveer €180-220 enkele reis, €320-380 retour. Ideaal voor gezinnen die zorgeloos willen reizen."
+      },
+      {
+        "question": "Kunnen we op een specifieke tijd worden opgehaald?",
+        "answer": "Ja, u bepaalt zelf wanneer u opgehaald wilt worden. De meeste gezinnen vertrekken rond 18:00-19:00 uur na een hele dag in het park."
+      }
+    ]
+  },
+
+  "walibi": {
+    "name": "Walibi Holland",
+    "description": "Spanning en adrenaline.",
+    "heroDescription": "Voor echte thrillseekers.",
+    "fullDescription": "Extreme achtbanen en waterpark.",
+    "highlights": [
+      "Goliath",
+      "Lost Gravity",
+      "Waterpark",
+      "Halloween Fright Nights"
+    ],
+    "whyVisit": "Geen vermoeid rijden na een intense dag.",
+    "services": {
+      "heading": "Taxi naar Walibi",
+      "items": [
+        { "title": "Enkele reis", "description": "Snel en comfortabel." },
+        { "title": "Retour", "description": "Geen OV-stress." },
+        { "title": "Gezinnen & groepen", "description": "Ideaal voor jonge groepen." },
+        { "title": "Zakelijk & evenementen", "description": "Groepsuitjes." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Hoe ver is Walibi Holland vanaf Amsterdam?",
+        "answer": "Ongeveer 45 minuten met de taxi. Veel sneller en comfortabeler dan het OV met meerdere overstappen."
+      },
+      {
+        "question": "Is een taxi geschikt voor grote groepen?",
+        "answer": "Ja! We hebben minivans voor tot 8 personen. Voor grotere groepen kunnen we meerdere voertuigen inzetten."
+      },
+      {
+        "question": "Wat kost een taxi naar Walibi?",
+        "answer": "Vanaf Amsterdam ongeveer €100-120 enkele reis, €180-220 retour. Perfect voor een groepsdagje uit."
+      },
+      {
+        "question": "Kunnen we later vertrekken na Halloween Fright Nights?",
+        "answer": "Natuurlijk! Tijdens Halloween Fright Nights (oktober) is Walibi open tot 23:00 uur. Wij halen u op wanneer u maar wilt."
+      }
+    ]
+  }
+}

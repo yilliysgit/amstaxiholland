@@ -1,0 +1,74 @@
+{
+  "title": "Bevestig uw reservering",
+  "subtitle": "Controleer uw gegevens en rond uw boeking af",
+
+  "contact": {
+    "title": "Uw contactgegevens",
+    "firstName": {
+      "label": "Voornaam",
+      "placeholder": "Bijv. Jan"
+    },
+    "lastName": {
+      "label": "Achternaam",
+      "placeholder": "Bijv. de Vries"
+    },
+    "email": {
+      "label": "E-mailadres",
+      "placeholder": "jan@voorbeeld.nl"
+    },
+    "phone": {
+      "label": "Telefoonnummer",
+      "placeholder": "06 12345678"
+    },
+    "company": {
+      "label": "Bedrijf (optioneel)",
+      "placeholder": "Bijv. ABC Consultancy"
+    },
+    "specialRequests": {
+      "label": "Aanvullende opmerkingen (optioneel)",
+      "placeholder": "Eventuele laatste opmerkingen of verzoeken...",
+      "yourRequests": "Uw bijzondere wensen"
+    }
+  },
+
+  "terms": {
+    "agree": "Ik ga akkoord met de",
+    "terms": "algemene voorwaarden",
+    "and": "en",
+    "privacy": "privacyverklaring"
+  },
+
+  "summary": {
+    "title": "Reserveringsoverzicht",
+    "route": "Route",
+    "dateTime": "Datum & tijd",
+    "vehicle": "Voertuig",
+    "passengers": "Passagiers",
+    "return": "Retour",
+    "flightNumber": "Vluchtnummer",
+    "extraServices": "Extra services",
+    "total": "Totaaloverzicht",
+    "transport": "Vervoer",
+    "extraServicesLabel": "Extra services",
+    "payment": {
+      "method": "Betaling bij chauffeur",
+      "hint": "U kunt contant of per pin betalen"
+    }
+  },
+
+  "validation": {
+    "firstNameRequired": "Voornaam is verplicht",
+    "lastNameRequired": "Achternaam is verplicht",
+    "emailRequired": "E-mailadres is verplicht",
+    "emailInvalid": "Ongeldig e-mailadres",
+    "phoneRequired": "Telefoonnummer is verplicht",
+    "phoneInvalid": "Ongeldig telefoonnummer",
+    "termsRequired": "Accepteer de algemene voorwaarden om door te gaan"
+  },
+
+  "navigation": {
+    "back": "Terug naar extra opties",
+    "submit": "Reservering bevestigen",
+    "submitting": "Reservering versturen..."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "sectionTitle": "Premium Taxi",
+  "sectionSubtitle": "Exclusive transport trusted by Amsterdam's elite.",
+  "sectionSubtitleHighlight": "Always on time, always in absolute luxury.",
+  "rating": "Amsterdam #1 Taxi",
+  "service247": "24/7 Service",
+  "fullyInsured": "Fully Insured",
+  "premiumFeatures": "Premium Features",
+  "bookService": "Book Now",
+  "moreInfo": "More Info",
+  "services": {
+    "business": {
+      "title": "Business Class",
+      "subtitle": "Premium comfort for business rides",
+      "features": [
+        "Luxury Mercedes-Benz",
+        "WiFi & USB-C",
+        "Silent ride guaranteed",
+        "Business invoice"
+      ]
+    },
+    "vip": {
+      "title": "VIP Class",
+      "subtitle": "Exclusive experience with top service",
+      "features": [
+        "Tesla Model S / BMW 7 Series",
+        "Personal butler service",
+        "Champagne & snacks",
+        "Red carpet welcome"
+      ]
+    },
+    "minivan": {
+      "title": "Minivan Luxury",
+      "subtitle": "Spacious solution for groups",
+      "features": [
+        "Mercedes V-Class (8 passengers)",
+        "Panoramic roof",
+        "Entertainment system",
+        "Premium leather interior"
+      ]
+    },
+    "ladiestaxi": {
+      "title": "Ladies Taxi",
+      "subtitle": "Safe transport for women",
+      "features": [
+        "Female chauffeur",
+        "Extra security",
+        "Discreet service",
+        "Personal attention"
+      ]
+    }
+  }
+}

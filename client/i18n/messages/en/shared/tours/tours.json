@@ -1,0 +1,72 @@
+{
+  "sectionTitle": "Premium",
+  "sectionTitleAccent": "Tours",
+  "sectionSubtitle": "Discover the Netherlands in absolute luxury",
+  "bookNow": "Book now",
+  "seasonal": "Season",
+  "from": "From",
+  "country": {
+    "Nederland": "Netherlands",
+    "België": "Belgium",
+    "Duitsland": "Germany"
+    },
+  "categories": {
+    "Museum": "Museum",
+    "Cultuur": "Culture",
+    "Shopping": "Shopping",
+    "Natuur": "Nature",
+    "Internationaal": "International",
+    "Stad": "City",
+    "Familie": "Family"
+  },
+  "tours": {
+    "aviodrome-lelystad": {
+      "name": "Aviodrome Lelystad",
+      "description": "Discover the fascinating world of aviation in this unique museum."
+    },
+    "kaasmarkt": {
+      "name": "Cheese Market",
+      "description": "Traditional cheese market experience in the heart of the Netherlands."
+    },
+    "fashion-outlets": {
+      "name": "Fashion Outlets",
+      "description": "Premium shopping experience at the best fashion outlets."
+    },
+    "zaanse-schans": {
+      "name": "Zaanse Schans",
+      "description": "Historic windmills and traditional Dutch crafts."
+    },
+    "zuid-holland-tour": {
+      "name": "South Holland Tour",
+      "description": "A complete tour of the most beautiful places in South Holland."
+    },
+    "volendam-edam-marken": {
+      "name": "Volendam, Edam and Marken Tour",
+      "description": "Three authentic Dutch villages in one beautiful tour."
+    },
+    "giethoorn": {
+      "name": "Giethoorn",
+      "description": "The \"Venice of the Netherlands\" – a village without roads."
+    },
+    "belgium-tour": {
+      "name": "Belgium Tour",
+      "description": "Discover the charm of Belgium with our comfortable service."
+    },
+    "amsterdam-city-tour": {
+      "name": "Amsterdam City Tour",
+      "description": "A complete tour through the capital with all the highlights."
+    },
+    "keukenhof": {
+      "name": "Keukenhof",
+      "description": "The most beautiful flower garden in the world during the blooming season."
+    },
+    "efteling": {
+      "name": "Efteling",
+      "description": "The magical fairytale park for the whole family."
+    },
+    "walibi": {
+      "name": "Walibi",
+      "description": "Thrilling attractions and adrenaline for adventure seekers."
+    }
+  }
+}

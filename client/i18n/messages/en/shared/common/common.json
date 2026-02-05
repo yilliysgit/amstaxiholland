@@ -1,0 +1,27 @@
+{
+  "Common": {
+    "badges": {
+      "rating": "9.3/10 customer rating",
+      "available": "Available 24/7",
+      "customers": "1000+ satisfied customers",
+      "certified": "Certified by municipality",
+      "insured": "Fully insured",
+      "trusted": "Trusted since 2008",
+      "premium": "Premium service",
+      "recommended": "Recommended by customers"
+    },
+    "contact": {
+      "phone": "+31 20 77 97 628",
+      "email": "info@taxiholland.nl",
+      "whatsapp": "+31 20 77 97 628"
+    },
+    "actions": {
+      "bookNow": "Book Now",
+      "callNow": "Call Now",
+      "getQuote": "Request Quote",
+      "learnMore": "Learn More",
+      "viewAll": "View All",
+      "readMore": "Read More"
+    }
+  }
+}

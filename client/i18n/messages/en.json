@@ -1,0 +1,110 @@
+{
+  "Header": {
+    "languages": {
+      "nl": "Nederlands",
+      "en": "English"
+    },
+    "navigation": {
+      "home": "Home",
+      "particulier": "Private",
+      "zakelijk": "Business",
+      "tours": "Tours",
+      "amsschiphol": "Amsterdam Schiphol",
+      "internationaal": "International",
+      "contact": "Contact"
+    },
+    "actions": {
+      "callNow": "Call Now",
+      "bookRide": "Book Ride",
+      "login": "Login",
+      "signup": "Sign Up"
+    }
+  },
+
+  "Footer": {
+    "description": "AmstaxiHolland is your reliable partner for premium taxi transport in Amsterdam and surroundings. With modern vehicles and professional drivers, we guarantee a safe and comfortable journey.",
+
+    "contact": {
+      "title": "Contact",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    },
+
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "jobs": "Careers",
+      "rates": "Rates",
+      "faq": "FAQ"
+    },
+
+    "services": {
+      "title": "Services",
+      "airport": "Airport Transfer",
+      "business": "Business Transport",
+      "tours": "Tours",
+      "events": "Events",
+      "zakelijk": "Business",
+      "schiphol": "Schiphol",
+      "hotel": "Hotel Transfer",
+      "excursie": "Excursions",
+      "vip": "VIP Service",
+      "bedrijf": "Corporate",
+      "evenementen": "Events",
+      "crew": "Crew Transport"
+    },
+
+    "sections": {
+      "professionalServices": "Professional Services",
+      "taxiEuropa": "Taxi Transfer Europe",
+      "taxiAirport": "Airport Transfers",
+      "quickLinks": "Quick Links"
+    },
+
+    "company": {
+      "description": "Premium taxi service in Amsterdam since 2008. Available 24/7 for all your transport needs."
+    },
+
+    "cta": {
+      "title": "Book Your Ride",
+      "description": "Quick and easy booking, fixed prices",
+      "button": "Book Now"
+    },
+
+    "payment": {
+      "inCar": "Payment in Car",
+      "online": "Online Payment"
+    },
+
+    "bottom": {
+      "rights": "All rights reserved",
+      "privacy": "Privacy",
+      "cookies": "Cookies",
+      "terms": "Terms"
+    },
+
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Stay updated with our offers",
+      "placeholder": "Your email address",
+      "subscribe": "Subscribe"
+    },
+
+    "copyright": "© 2024 AmstaxiHolland. All rights reserved.",
+    "madeBy": "Made by Easy Concepts"
+  },
+
+  "Common": {
+    "contact": {
+      "phone": "+31 20 77 97 628",
+      "email": "info@amstaxiholland.com",
+      "address": "Amsterdam, Netherlands"
+    }
+  }
+}

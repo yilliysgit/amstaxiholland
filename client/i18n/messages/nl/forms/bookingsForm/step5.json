@@ -1,0 +1,54 @@
+{
+  "title": "Controleer uw reservering",
+  "subtitle": "Laatste controle voordat u naar de betaling gaat",
+  "edit": "Wijzigen",
+
+  "sections": {
+    "tripDetails": {
+      "title": "Reisdetails",
+      "route": "Route",
+      "stops": "Tussenstops",
+      "date": "Datum",
+      "time": "Tijd",
+      "return": "Retour",
+      "returnDeparture": "Vertrek:"
+    },
+
+    "vehicle": {
+      "title": "Voertuig & passagiers",
+      "vehicle": "Voertuig",
+      "passengers": "Passagiers",
+      "luggage": "Bagage",
+      "noLuggage": "Geen bagage",
+      "handluggage": "Handbagage",
+      "suitcases": "Koffers"
+    },
+
+    "extraServices": {
+      "title": "Extra services",
+      "flightNumber": "Vluchtnummer:",
+      "meetingPoint": "Ontmoetingspunt:",
+      "specialRequests": "Bijzondere wensen:"
+    },
+
+    "contact": {
+      "title": "Contactgegevens",
+      "duringTrip": "(tijdens de reis)"
+    },
+
+    "pricing": {
+      "title": "Prijsoverzicht",
+      "transport": "Vervoer ({vehicle})",
+      "extraServices": "Extra services:",
+      "total": "Totaal",
+      "securePayment": "Veilig betalen",
+      "securePaymentHint": "Uw betaling wordt veilig verwerkt via onze beveiligde betaalomgeving"
+    }
+  },
+
+  "navigation": {
+    "back": "Terug naar contactgegevens",
+    "submit": "Doorgaan naar betaling ({price})",
+    "submitting": "Doorsturen naar betaling..."
+  }
+}

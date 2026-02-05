@@ -1,0 +1,493 @@
+{
+  "aviodrome-lelystad": {
+    "name": "Aviodrome Lelystad",
+    "description": "Discover the fascinating world of aviation in this unique museum.",
+    "heroDescription": "Experience a journey through aviation history. From the first flight attempts to modern aircraft.",
+    "fullDescription": "Aviodrome Lelystad is the national aviation museum of the Netherlands, featuring over 100 aircraft, interactive exhibitions and stories from Dutch aviation history.",
+    "highlights": [
+      "Over 100 historic aircraft",
+      "Interactive flight simulators",
+      "KLM heritage",
+      "Family-friendly activities"
+    ],
+    "whyVisit": "We drop you off directly at the entrance. No parking stress or public transport hassle.",
+    "services": {
+      "heading": "Rides to Aviodrome Lelystad",
+      "items": [
+        { "title": "One-way", "description": "From home, hotel or station to Aviodrome Lelystad." },
+        { "title": "Round trip", "description": "Outbound and return in one booking." },
+        { "title": "Families & groups", "description": "Spacious vehicles and child seats available." },
+        { "title": "Business & events", "description": "Professional transport for events." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "What does a taxi from Amsterdam to Aviodrome cost?",
+        "answer": "A taxi from Amsterdam Central to Aviodrome costs approximately €85 for a sedan and €110 for a minivan. You always receive a fixed price in advance."
+      },
+      {
+        "question": "Can I be dropped off directly at the entrance?",
+        "answer": "Yes, our driver drops you off directly at the main entrance of the Aviodrome, so you can go straight inside."
+      },
+      {
+        "question": "Is a return trip to Aviodrome possible?",
+        "answer": "Absolutely! You can indicate when booking when you want to be picked up again. Ideal after a day at the aviation museum."
+      },
+      {
+        "question": "How long does the journey to Aviodrome take?",
+        "answer": "From Amsterdam the travel time is approximately 45-55 minutes, depending on traffic."
+      }
+    ]
+  },
+
+  "kaasmarkt": {
+    "name": "Alkmaar Cheese Market",
+    "description": "Traditional cheese market experience in the heart of the Netherlands.",
+    "heroDescription": "See the famous cheese carriers in action at the historic Waagplein.",
+    "fullDescription": "The Alkmaar Cheese Market is a living piece of Dutch history, held every Friday from April to September.",
+    "highlights": [
+      "Authentic cheese carriers",
+      "Historic Waagplein",
+      "Cheese tastings",
+      "Charming city center"
+    ],
+    "whyVisit": "We drop you off right at the square. No parking, no walking.",
+    "services": {
+      "heading": "Taxi to the Cheese Market",
+      "items": [
+        { "title": "One-way", "description": "Early and stress-free arrival in Alkmaar." },
+        { "title": "Round trip", "description": "Comfortable return after your visit." },
+        { "title": "Families & groups", "description": "Ideal for families and friends." },
+        { "title": "Business & events", "description": "Also suitable for business groups." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "When is the Alkmaar Cheese Market held?",
+        "answer": "The cheese market takes place every Friday from April to September, from 10:00 to 13:00. With a taxi you arrive on time without stress."
+      },
+      {
+        "question": "Where exactly does the taxi drop me off?",
+        "answer": "We drop you off directly at the Waagplein, right where the cheese market takes place. No long walking required."
+      },
+      {
+        "question": "What does a taxi to the Cheese Market cost?",
+        "answer": "From Amsterdam approximately €65-75 for a sedan. From Schiphol approximately €55-65. Fixed price, no surprises."
+      },
+      {
+        "question": "Can I book a return trip after the market?",
+        "answer": "Yes, we recommend booking a return trip around 13:30-14:00, so you have time to explore both the market and the city center."
+      }
+    ]
+  },
+
+  "fashion-outlets": {
+    "name": "Fashion Outlets",
+    "description": "Premium shopping experience at the best fashion outlets.",
+    "heroDescription": "Shop top brands with major discounts at Batavia Stad.",
+    "fullDescription": "More than 150 premium brands in a comfortable outlet village.",
+    "highlights": [
+      "150+ stores",
+      "Up to 70% discounts",
+      "Covered shopping streets",
+      "Tax-free options"
+    ],
+    "whyVisit": "We pick you up with all your bags. No carrying, no hassle.",
+    "services": {
+      "heading": "Taxi to Fashion Outlets",
+      "items": [
+        { "title": "One-way", "description": "Direct transport to Batavia Stad." },
+        { "title": "Round trip", "description": "Comfortable return with your purchases." },
+        { "title": "Families & groups", "description": "Spacious vehicles available." },
+        { "title": "Business & events", "description": "VIP shopping transport." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Is there enough space for all my shopping bags?",
+        "answer": "Yes! Our minivans and sedans have plenty of trunk space. We can even provide an extra vehicle if you're shopping with a large group."
+      },
+      {
+        "question": "What does a taxi to Batavia Stad Fashion Outlet cost?",
+        "answer": "From Amsterdam approximately €75-85, from Schiphol €45-55. Ideal for a shopping day without parking costs."
+      },
+      {
+        "question": "How long should I plan for a shopping day?",
+        "answer": "Most visitors spend 3-5 hours. Book your return trip flexibly so you can shop at your own pace."
+      },
+      {
+        "question": "Can the driver wait while I shop?",
+        "answer": "For waiting times longer than 30 minutes, we recommend booking a return trip instead. This is more economical and flexible."
+      }
+    ]
+  },
+
+  "zaanse-schans": {
+    "name": "Zaanse Schans",
+    "description": "Historic windmills and traditional crafts.",
+    "heroDescription": "An iconic Dutch open-air museum.",
+    "fullDescription": "Working windmills, crafts and historic houses in a picturesque setting.",
+    "highlights": [
+      "Working windmills",
+      "Cheese and clog workshops",
+      "Perfect photo spots",
+      "Traditional crafts"
+    ],
+    "whyVisit": "Explore at your own pace without train schedules.",
+    "services": {
+      "heading": "Taxi to Zaanse Schans",
+      "items": [
+        { "title": "One-way", "description": "Arrive without parking stress." },
+        { "title": "Round trip", "description": "Flexible pickup time." },
+        { "title": "Families & groups", "description": "Perfect for families." },
+        { "title": "Business & events", "description": "Also suitable for business guests." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "How far is Zaanse Schans from Amsterdam?",
+        "answer": "Only about 20 minutes by taxi from Amsterdam. Much faster and more comfortable than public transport with transfers."
+      },
+      {
+        "question": "Where does the taxi drop me off at Zaanse Schans?",
+        "answer": "We drop you off at the main entrance of the museum area. From there you can immediately start exploring the windmills."
+      },
+      {
+        "question": "Is Zaanse Schans suitable for young children?",
+        "answer": "Absolutely! We have child seats available and the open-air museum is very child-friendly. A perfect family outing."
+      },
+      {
+        "question": "What does a taxi to Zaanse Schans cost?",
+        "answer": "From Amsterdam Central approximately €40-50 for a sedan. Fixed price, so no surprises."
+      }
+    ]
+  },
+
+  "zuid-holland-tour": {
+    "name": "South Holland Tour",
+    "description": "Complete tour through South Holland.",
+    "heroDescription": "From The Hague to Rotterdam and Delft.",
+    "fullDescription": "A full day of culture, history and modern architecture.",
+    "highlights": [
+      "Madurodam",
+      "Rotterdam",
+      "Delft",
+      "Scenic routes"
+    ],
+    "whyVisit": "All highlights in one day without transfers.",
+    "services": {
+      "heading": "South Holland Taxi Tour",
+      "items": [
+        { "title": "One-way", "description": "Comfortable sightseeing route." },
+        { "title": "Round trip", "description": "Includes return journey." },
+        { "title": "Families & groups", "description": "Perfect for day trips." },
+        { "title": "Business & events", "description": "Also suitable for business use." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "How long does the South Holland Tour take?",
+        "answer": "A full tour takes approximately 6-8 hours, depending on how long you want to stay at each location. Completely flexible to your wishes."
+      },
+      {
+        "question": "Which cities do we visit during the tour?",
+        "answer": "Standard: The Hague (Madurodam), Rotterdam (architecture), and Delft (historic center). We can adjust the route to your preferences."
+      },
+      {
+        "question": "What does a full-day taxi tour cost?",
+        "answer": "Approximately €350-450 for a full day including waiting time. For groups this is often cheaper than individual tickets and train travel."
+      },
+      {
+        "question": "Can we adjust the route ourselves?",
+        "answer": "Yes! Discuss your wishes with us and we'll create a custom route. Want to add Scheveningen or skip a city? No problem."
+      }
+    ]
+  },
+
+  "volendam-edam-marken": {
+    "name": "Volendam, Edam & Marken",
+    "description": "Three iconic villages in one tour.",
+    "heroDescription": "Tradition, cheese and fishing heritage.",
+    "fullDescription": "Discover three unique villages, each with its own character.",
+    "highlights": [
+      "Volendam harbor",
+      "Edam cheese",
+      "Marken wooden houses",
+      "Traditional costumes"
+    ],
+    "whyVisit": "All combined without public transport hassle.",
+    "services": {
+      "heading": "Taxi to Volendam, Edam & Marken",
+      "items": [
+        { "title": "One-way", "description": "Direct transport." },
+        { "title": "Round trip", "description": "Safe return." },
+        { "title": "Families & groups", "description": "Ideal for groups." },
+        { "title": "Business & events", "description": "Also for corporate outings." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "How long do I need for all three villages?",
+        "answer": "Plan 4-6 hours for a relaxed visit to Volendam, Edam and Marken. Our driver takes you past all highlights."
+      },
+      {
+        "question": "In what order do we visit the villages?",
+        "answer": "Usually Volendam → Marken (with ferry) → Edam. We can adjust the route to your preferences and opening hours."
+      },
+      {
+        "question": "Is the ferry to Marken included?",
+        "answer": "The ferry ticket is not included in the taxi price, but we drop you off at the harbor and pick you up on the other side."
+      },
+      {
+        "question": "What does a tour of these villages cost?",
+        "answer": "From Amsterdam approximately €180-220 for a half-day tour. Much more comfortable than organizing public transport yourself."
+      }
+    ]
+  },
+
+  "giethoorn": {
+    "name": "Giethoorn",
+    "description": "The Venice of the Netherlands.",
+    "heroDescription": "A village without roads.",
+    "fullDescription": "Cruise through canals lined with thatched-roof houses.",
+    "highlights": [
+      "Canals",
+      "Wooden bridges",
+      "Whisper boats",
+      "Peaceful nature"
+    ],
+    "whyVisit": "Relaxed travel to a remote destination.",
+    "services": {
+      "heading": "Taxi to Giethoorn",
+      "items": [
+        { "title": "One-way", "description": "No transfers needed." },
+        { "title": "Round trip", "description": "Relaxed return." },
+        { "title": "Families & groups", "description": "Spacious vehicles." },
+        { "title": "Business & events", "description": "Also exclusive trips." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "How far is Giethoorn from Amsterdam?",
+        "answer": "Approximately 1.5 hours by taxi. A comfortable journey without transfers, much more relaxing than by public transport."
+      },
+      {
+        "question": "What does a taxi to Giethoorn cost?",
+        "answer": "From Amsterdam approximately €180-220 one way, €320-380 return. Ideal for a day trip with the family."
+      },
+      {
+        "question": "Can we take a boat ride in Giethoorn?",
+        "answer": "Yes! We drop you off at the boat rental. You can rent a whisper boat or electric boat to explore the canals yourself."
+      },
+      {
+        "question": "How long should we stay in Giethoorn?",
+        "answer": "Most visitors spend 3-5 hours. Enough time for a boat ride, lunch, and exploring the village. Book a return trip flexibly."
+      }
+    ]
+  },
+
+  "belgium-tour": {
+    "name": "Belgium Tour",
+    "description": "International day trip.",
+    "heroDescription": "Discover Belgium without hassle.",
+    "fullDescription": "From Brussels to chocolate and historic landmarks.",
+    "highlights": [
+      "Grand Place",
+      "Belgian chocolate",
+      "Atomium",
+      "Medieval streets"
+    ],
+    "whyVisit": "No transfers or border stress.",
+    "services": {
+      "heading": "Taxi to Belgium",
+      "items": [
+        { "title": "One-way", "description": "International transport." },
+        { "title": "Round trip", "description": "Day trip or multi-day." },
+        { "title": "Families & groups", "description": "Comfortable long rides." },
+        { "title": "Business & events", "description": "Business appointments." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "Do I need a passport for Belgium?",
+        "answer": "Within the EU a valid ID card is sufficient. Our drivers are experienced with international journeys."
+      },
+      {
+        "question": "How long does the journey to Brussels take?",
+        "answer": "From Amsterdam approximately 2-2.5 hours. From Rotterdam approximately 1.5-2 hours. Comfortable and without transfers."
+      },
+      {
+        "question": "What does a taxi to Belgium cost?",
+        "answer": "To Brussels approximately €280-350 one way. For a full day tour (including waiting time) approximately €550-700."
+      },
+      {
+        "question": "Can we visit multiple cities in Belgium?",
+        "answer": "Absolutely! Brussels, Bruges, Antwerp or Ghent - we create a custom route to your wishes."
+      }
+    ]
+  },
+
+  "amsterdam-city-tour": {
+    "name": "Amsterdam City Tour",
+    "description": "All highlights of Amsterdam.",
+    "heroDescription": "Canals, museums and history.",
+    "fullDescription": "Explore Amsterdam without navigation or parking stress.",
+    "highlights": [
+      "Canal Ring",
+      "Museum Quarter",
+      "Jordaan",
+      "Dam Square"
+    ],
+    "whyVisit": "We handle the route, you enjoy the city.",
+    "services": {
+      "heading": "Amsterdam City Taxi Tour",
+      "items": [
+        { "title": "One-way", "description": "Pickup anywhere." },
+        { "title": "Round trip", "description": "Flexible drop-off." },
+        { "title": "Families & groups", "description": "Ideal for tourists." },
+        { "title": "Business & events", "description": "Delegations and guests." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "What do we see during an Amsterdam city tour?",
+        "answer": "Standard: Canal Ring, Dam Square, Museum Quarter, Jordaan. We can adjust the route to your interests and pace."
+      },
+      {
+        "question": "How long does a city tour take?",
+        "answer": "A complete tour takes approximately 3-4 hours. Want to visit museums? Then plan a full day with waiting time."
+      },
+      {
+        "question": "Can we stop for photos?",
+        "answer": "Of course! Our driver knows the best photo spots and is happy to stop so you can take beautiful pictures."
+      },
+      {
+        "question": "What does an Amsterdam city tour cost?",
+        "answer": "From €120-150 for a 3-hour tour. Ideal for tourists who want to see Amsterdam comfortably without navigation stress."
+      }
+    ]
+  },
+
+  "keukenhof": {
+    "name": "Keukenhof",
+    "description": "The world's most beautiful flower garden.",
+    "heroDescription": "Millions of flowers in bloom.",
+    "fullDescription": "Open only a few weeks each year during spring.",
+    "highlights": [
+      "Tulip fields",
+      "Themed gardens",
+      "Photo locations",
+      "Flower shows"
+    ],
+    "whyVisit": "Arrive early and avoid parking chaos.",
+    "services": {
+      "heading": "Taxi to Keukenhof",
+      "items": [
+        { "title": "One-way", "description": "Direct to the entrance." },
+        { "title": "Round trip", "description": "Pickup when ready." },
+        { "title": "Families & groups", "description": "Perfect for families." },
+        { "title": "Business & events", "description": "Also for business visits." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "When is Keukenhof open?",
+        "answer": "Keukenhof is open from mid-March to mid-May. Book your taxi in advance, especially during peak bloom (mid-April)."
+      },
+      {
+        "question": "Why take a taxi to Keukenhof?",
+        "answer": "Avoid the busy parking lots and long walks. We drop you off at the entrance and pick you up when you're ready."
+      },
+      {
+        "question": "What does a taxi to Keukenhof cost?",
+        "answer": "From Amsterdam approximately €60-75, from Schiphol only €35-45. Much more comfortable than crowded buses."
+      },
+      {
+        "question": "How long should we stay at Keukenhof?",
+        "answer": "Most visitors spend 2-4 hours. Book a return trip flexibly so you can enjoy the flowers at your own pace."
+      }
+    ]
+  },
+
+  "efteling": {
+    "name": "Efteling",
+    "description": "Magical theme park for all ages.",
+    "heroDescription": "Fairy tales and roller coasters.",
+    "fullDescription": "One of Europe's most beloved theme parks.",
+    "highlights": [
+      "Fairytale Forest",
+      "Roller coasters",
+      "Shows",
+      "Seasonal events"
+    ],
+    "whyVisit": "Relax on the way home after a long day.",
+    "services": {
+      "heading": "Taxi to Efteling",
+      "items": [
+        { "title": "One-way", "description": "Stress-free arrival." },
+        { "title": "Round trip", "description": "Comfortable return." },
+        { "title": "Families & groups", "description": "Child seats available." },
+        { "title": "Business & events", "description": "Corporate outings." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "How far is Efteling from Amsterdam?",
+        "answer": "Approximately 1.5 hours by taxi. Perfect for a day trip, and the children can sleep on the way back."
+      },
+      {
+        "question": "Do you have child seats available?",
+        "answer": "Yes! We have child seats in all sizes. Indicate the ages of your children when booking."
+      },
+      {
+        "question": "What does a taxi to Efteling cost?",
+        "answer": "From Amsterdam approximately €180-220 one way, €320-380 return. Ideal for families who want to travel stress-free."
+      },
+      {
+        "question": "Can we be picked up at a specific time?",
+        "answer": "Yes, you decide when you want to be picked up. Most families leave around 6-7 PM after a full day in the park."
+      }
+    ]
+  },
+
+  "walibi": {
+    "name": "Walibi Holland",
+    "description": "Thrills and adrenaline.",
+    "heroDescription": "For true thrill seekers.",
+    "fullDescription": "Extreme roller coasters and water park.",
+    "highlights": [
+      "Goliath",
+      "Lost Gravity",
+      "Water park",
+      "Halloween Fright Nights"
+    ],
+    "whyVisit": "No tired driving after an intense day.",
+    "services": {
+      "heading": "Taxi to Walibi",
+      "items": [
+        { "title": "One-way", "description": "Fast and comfortable." },
+        { "title": "Round trip", "description": "No public transport stress." },
+        { "title": "Families & groups", "description": "Great for young groups." },
+        { "title": "Business & events", "description": "Group outings." }
+      ]
+    },
+    "faq": [
+      {
+        "question": "How far is Walibi Holland from Amsterdam?",
+        "answer": "Approximately 45 minutes by taxi. Much faster and more comfortable than public transport with multiple transfers."
+      },
+      {
+        "question": "Is a taxi suitable for large groups?",
+        "answer": "Yes! We have minivans for up to 8 people. For larger groups we can provide multiple vehicles."
+      },
+      {
+        "question": "What does a taxi to Walibi cost?",
+        "answer": "From Amsterdam approximately €100-120 one way, €180-220 return. Perfect for a group day out."
+      },
+      {
+        "question": "Can we leave later after Halloween Fright Nights?",
+        "answer": "Of course! During Halloween Fright Nights (October) Walibi is open until 11 PM. We'll pick you up whenever you want."
+      }
+    ]
+  }
+}

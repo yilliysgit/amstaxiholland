@@ -1,0 +1,495 @@
+{
+  "SchipholPage": {
+    "meta": {
+      "title": "Schiphol Airport Transfer Amsterdam | Reliable AMS Transport",
+      "description": "Reliable taxi to AMS Schiphol from €45. Fixed rates, flight tracking, no search fees. Book your Airport transfer now!"
+    },
+    "hero": {
+      "badge": "Taxi to Schiphol",
+      "title": "Stress-free to the airport",
+      "subtitle": "from €45 fixed rate",
+      "description": "No surprises, no search fees. Book your ride to Schiphol with guaranteed arrival time and fixed price.",
+      "cta": {
+        "primary": "Book now",
+        "secondary": "View rates"
+      },
+      "features": [
+        "Flight tracking",
+        "No search fees",
+        "30 min free waiting time"
+      ],
+      "priceCard": {
+        "title": "Popular routes",
+        "routes": [
+          {
+            "from": "Amsterdam Central",
+            "to": "Schiphol",
+            "price": "€45"
+          },
+          {
+            "from": "Amsterdam Zuid",
+            "to": "Schiphol",
+            "price": "€40"
+          },
+          {
+            "from": "Amstelveen",
+            "to": "Schiphol",
+            "price": "€35"
+          }
+        ],
+        "stats": {
+          "avgTime": {
+            "label": "Avg. travel time",
+            "value": "25-35 min"
+          },
+          "onTimeGuarantee": {
+            "label": "On-time guarantee",
+            "value": "98%"
+          }
+        }
+      },
+      "ctaBar": {
+        "features": [
+          "Fixed rates",
+          "Free cancellation up to 3 hours in advance",
+          "Meet & greet service",
+          "Luggage space guaranteed"
+        ],
+        "cta": "Book your ride"
+      }
+    },
+    "filosofie": {
+      "badge": "Our philosophy",
+      "title": "Private transport with the attention of a personal chauffeur",
+      "description": "We believe every ride should be an experience — discreet, comfortable and fully tailored to your needs. Always on time. Always well taken care of. Always exclusive.",
+      "usps": [
+        {
+          "title": "Discreet, professionally dressed chauffeurs",
+          "description": "Selected for etiquette, driving style and confidentiality. Your privacy always comes first."
+        },
+        {
+          "title": "Luxury vehicles: Mercedes E, S & V-Class",
+          "description": "Representative cars with optimal legroom, quiet cabin and premium finish."
+        },
+        {
+          "title": "Punctual and reliable, 24/7 available",
+          "description": "We plan ahead and monitor in real-time, so you arrive on time without worry."
+        },
+        {
+          "title": "Personalized service on request",
+          "description": "From drinks and music to route preferences: every ride is fully tailored to your wishes."
+        }
+      ]
+    },
+    "services": {
+      "badge": "Premium Schiphol Services",
+      "title": {
+        "line1": "Your journey to Schiphol,",
+        "line2": "perfectly arranged"
+      },
+      "description": "From private airport transfer to executive service — every detail is designed to make your journey smooth, comfortable and worry-free.",
+      "items": [
+        {
+          "id": "departure",
+          "title": "Departure Transfer",
+          "subtitle": "Carefree departure from home",
+          "description": "Your journey begins the moment we arrive at your door. No hassle with parking or traffic — we take you directly to the right departure hall, well in time for check-in. Relaxed start, that's what it's all about.",
+          "highlights": [
+            "Personal chauffeur at your home",
+            "Drop-off at your terminal entrance",
+            "Luggage assistance to check-in desk",
+            "Traffic monitoring for optimal arrival time"
+          ],
+          "icon": "✈️"
+        },
+        {
+          "id": "arrival",
+          "title": "Arrival Service",
+          "subtitle": "Welcome home",
+          "description": "After hours of flying you want one thing: to go home. Our chauffeur waits in the arrival hall with a name board, helps with your luggage and takes you to your destination in complete comfort. No waiting, no stress.",
+          "highlights": [
+            "Meet & greet with name board in arrival hall",
+            "Real-time flight tracking — always on time",
+            "60 minutes free waiting time in case of delay",
+            "VIP treatment from the arrival hall"
+          ],
+          "icon": "🌍"
+        },
+        {
+          "id": "business",
+          "title": "Executive Transfer",
+          "subtitle": "For business travelers",
+          "description": "Time is precious. Our executive service offers you a mobile office: spacious Mercedes S-Class, WiFi, privacy and a discreet chauffeur who knows the fastest routes. Work on the go or relax before your next meeting.",
+          "highlights": [
+            "Mercedes S-Class, BMW 7-series or Tesla Model S",
+            "High-speed WiFi and charging points for all devices",
+            "Quiet cabin and privacy screen available",
+            "Direct invoicing to your company"
+          ],
+          "icon": "💼"
+        },
+        {
+          "id": "first-class",
+          "title": "First Class Experience",
+          "subtitle": "The ultimate luxury",
+          "description": "For those who expect the best. Our First Class service combines top-of-the-line vehicles with personal attention and discretion. From champagne on board to luggage concierge — every detail is taken care of.",
+          "highlights": [
+            "Mercedes S-Class Long, BMW 7-series or equivalent",
+            "Champagne, soft drinks and premium water on board",
+            "Professional luggage concierge",
+            "Personal chauffeur who knows your preferences"
+          ],
+          "icon": "👑"
+        },
+        {
+          "id": "group",
+          "title": "Group & Family Transfer",
+          "subtitle": "Travel together in comfort",
+          "description": "Traveling with the whole family or a group of colleagues? Our luxury Mercedes V-Class offers space for 7 people with full luggage capacity. Everyone travels in the same comfort, no one has to stay behind.",
+          "highlights": [
+            "Mercedes V-Class with leather interior",
+            "Comfortable captain seats and air conditioning",
+            "Child seats and booster cushions on request",
+            "Ideal for families, friends or small teams"
+          ],
+          "icon": "🚐"
+        },
+        {
+          "id": "hourly",
+          "title": "Chauffeur by the Hour",
+          "subtitle": "Your personal chauffeur",
+          "description": "Sometimes you want flexibility. Rent our chauffeur by the hour: for multiple stops, a day trip, or simply because you want the freedom to set your own pace. Your chauffeur remains available as long as you need them.",
+          "highlights": [
+            "Minimum 3 hours, no maximum",
+            "Free route choice and intermediate stops",
+            "Waiting time without extra costs",
+            "Perfect for multi-city trips or complex routes"
+          ],
+          "icon": "⏱️"
+        }
+      ],
+      "cta": {
+        "title": "Tailored to your journey",
+        "description": "Have specific wishes? From multi-city transfers to VIP treatment — we create the perfect airport experience for you.",
+        "buttons": {
+          "primary": "Plan your transfer",
+          "secondary": "Personal advice"
+        },
+        "trustIndicators": [
+          "Fixed rates",
+          "24/7 available",
+          "No search fees"
+        ]
+      },
+      "infoCards": [
+        {
+          "title": "All terminals",
+          "description": "Whether you're traveling from Departure Hall 1, 2, 3 or the private jet terminal — our chauffeurs know every route."
+        },
+        {
+          "title": "Flight tracking",
+          "description": "We monitor your flight in real-time. Delayed or landed early? We adjust automatically."
+        },
+        {
+          "title": "Premium vehicles",
+          "description": "Mercedes S-Class, BMW 7-series and Tesla Model S. Luxury, comfort and style in every detail."
+        }
+      ]
+    },
+    "vehicleClasses": {
+      "sectionHeader": {
+        "badge": "Your vehicle choice",
+        "title": "Choose your comfort level",
+        "description": "Every vehicle in our fleet stands for quality, comfort and style. Make your choice based on the experience you're looking for."
+      },
+      "classes": [
+        {
+          "id": "business",
+          "name": "Business Class",
+          "tagline": "Stylish daily transport",
+          "description": "Perfect balance between elegance and functionality. Ideal for business meetings, airport transfers and daily rides where you expect comfort and reliability.",
+          "features": [
+            "Mercedes-Benz E-Class or equivalent",
+            "Leather interior with climate control",
+            "Complimentary water & towels",
+            "WiFi & charging options",
+            "Newspapers on request",
+            "Discreet, professional chauffeur"
+          ],
+          "passengers": "1-3",
+          "luggage": "2-3",
+          "icon": "🚘"
+        },
+        {
+          "id": "vip",
+          "name": "VIP Class",
+          "tagline": "Exclusive rides with extra comfort",
+          "description": "For those who expect the very best. More spacious, quieter and more refined. With extra attention to detail and personal service that makes the difference at important moments.",
+          "features": [
+            "Mercedes-Benz S-Class or equivalent",
+            "First-class leather seats with massage",
+            "Premium sound system",
+            "Refreshments & champagne on request",
+            "Privacy screens & tinted glass",
+            "Personal chauffeur with discretion",
+            "Extensive multimedia options",
+            "Extra legroom"
+          ],
+          "passengers": "1-3",
+          "luggage": "3-4",
+          "icon": "🚗"
+        },
+        {
+          "id": "luxury-van",
+          "name": "Luxury Van",
+          "tagline": "Space and luxury for groups",
+          "description": "Exclusive group transport without compromises. Perfect for family outings, business delegations or friends traveling together. Everyone enjoys the same comfort and attention.",
+          "features": [
+            "Mercedes-Benz V-Class or equivalent",
+            "Captain seats with extra legroom",
+            "Individual climate control",
+            "Panoramic glass roof",
+            "Refreshments for all passengers",
+            "Spacious luggage compartment",
+            "WiFi & multimedia system",
+            "Privacy & comfort for everyone"
+          ],
+          "passengers": "4-7",
+          "luggage": "6-8",
+          "icon": "🚐"
+        }
+      ],
+      "featuresTitle": "Features & amenities",
+      "ctaButtons": {
+        "reserve": "Reserve",
+        "quote": "Request quote"
+      },
+      "disclaimer": {
+        "label": "Please note:",
+        "text": "All vehicles are cleaned and checked before every ride. Your chauffeur will be ready at least 15 minutes before arrival."
+      },
+      "trustSection": [
+        {
+          "title": "Always insured",
+          "description": "Full coverage and discreet service"
+        },
+        {
+          "title": "Punctuality guaranteed",
+          "description": "We're always on time for you"
+        },
+        {
+          "title": "Premium maintenance",
+          "description": "Every vehicle maximum 2 years old"
+        }
+      ],
+      "statsLabels": {
+        "passengers": "Passengers",
+        "luggage": "Luggage"
+      }
+    },
+    "pricing": {
+      "sectionHeader": {
+        "title": "Transparent Pricing",
+        "description": "Choose the package that fits your business. No hidden costs, always clear rates."
+      },
+      "packages": [
+        {
+          "id": "flex",
+          "name": "Flex",
+          "tagline": "Pay per ride",
+          "price": "From €35",
+          "description": "Perfect for occasional business transport without commitments.",
+          "features": [
+            "No monthly costs",
+            "Standard invoicing",
+            "Business Class vehicles",
+            "Online booking platform",
+            "Email support",
+            "VAT deductible"
+          ],
+          "cta": "Book directly",
+          "popular": false
+        },
+        {
+          "id": "business",
+          "name": "Business",
+          "tagline": "For growing companies",
+          "price": "From €32",
+          "priceNote": "per ride with 10+ rides/month",
+          "description": "Ideal for companies with regular transport needs.",
+          "features": [
+            "Everything from Flex, plus:",
+            "Fixed chauffeurs possible",
+            "Priority booking (< 30 min)",
+            "Monthly reports",
+            "Dedicated account manager",
+            "Team management dashboard",
+            "Fixed monthly invoicing",
+            "Up to 15% discount"
+          ],
+          "cta": "Request account",
+          "popular": true,
+          "popularBadge": "MOST POPULAR"
+        },
+        {
+          "id": "corporate",
+          "name": "Corporate",
+          "tagline": "Enterprise solution",
+          "price": "Custom",
+          "description": "Complete package for organizations with high transport needs.",
+          "features": [
+            "Everything from Business, plus:",
+            "Custom SLA agreements",
+            "API integration possible",
+            "Dedicated support 24/7",
+            "VIP vehicles available",
+            "Contract pricing",
+            "Quarterly reviews",
+            "Multi-location support",
+            "Up to 25% volume discount"
+          ],
+          "cta": "Discuss options",
+          "popular": false
+        }
+      ],
+      "disclaimer": {
+        "title": "All packages include:",
+        "text": "VAT, fuel costs, toll costs and insurance. No hidden costs or unexpected surcharges.",
+        "contact": {
+          "text": "Questions about which package suits you? Call",
+          "phone": "+31 20 723 56 38",
+          "or": "or",
+          "linkText": "request a quote"
+        }
+      }
+    },
+    "fleet": {
+      "sectionHeader": {
+        "title": "Premium Taxi",
+        "description": "Exclusive transport trusted by Amsterdam's elite.",
+        "highlight": "Always on time",
+        "suffix": "always in absolute luxury."
+      },
+      "tabsLabel": "Vehicle categories",
+      "categories": [
+        {
+          "key": "business",
+          "name": "Business Class",
+          "subtitle": "Premium comfort for business rides",
+          "featuresTitle": "Premium Features",
+          "features": [
+            {
+              "label": "Luxury Mercedes-Benz"
+            },
+            {
+              "label": "WiFi & USB-C"
+            },
+            {
+              "label": "Business invoice"
+            },
+            {
+              "label": "Quiet ride"
+            },
+            {
+              "label": "Climate control"
+            }
+          ],
+          "bullets": [
+            "1–3 passengers",
+            "2–3 suitcases",
+            "Professional chauffeur"
+          ],
+          "cta": "Book Business"
+        },
+        {
+          "key": "vip",
+          "name": "VIP Class",
+          "subtitle": "Exclusive experience with top service",
+          "featuresTitle": "Premium Features",
+          "features": [
+            {
+              "label": "S-Class / Model S"
+            },
+            {
+              "label": "Privacy & discreet"
+            },
+            {
+              "label": "Champagne & refreshments"
+            },
+            {
+              "label": "Butler service"
+            },
+            {
+              "label": "Fast-lane pickup"
+            }
+          ],
+          "bullets": [
+            "1–3 passengers",
+            "2–3 suitcases",
+            "Absolute discretion"
+          ],
+          "cta": "Plan VIP"
+        },
+        {
+          "key": "van",
+          "name": "Minivan Luxury",
+          "subtitle": "Spacious solution for groups",
+          "featuresTitle": "Premium Features",
+          "features": [
+            {
+              "label": "V-Class (up to 8p)"
+            },
+            {
+              "label": "Panoramic roof"
+            },
+            {
+              "label": "Zone air conditioning"
+            },
+            {
+              "label": "Lots of luggage space"
+            },
+            {
+              "label": "USB-C charging"
+            }
+          ],
+          "bullets": [
+            "Up to 8 passengers",
+            "6–8 suitcases",
+            "Ideal for events"
+          ],
+          "cta": "Request group ride"
+        },
+        {
+          "key": "ladies",
+          "name": "Ladies Taxi",
+          "subtitle": "Safe transport for women",
+          "featuresTitle": "Premium Features",
+          "features": [
+            {
+              "label": "Female chauffeur"
+            },
+            {
+              "label": "Extra security check"
+            },
+            {
+              "label": "Live tracking"
+            },
+            {
+              "label": "24/7 available"
+            },
+            {
+              "label": "Discreet & reliable"
+            }
+          ],
+          "bullets": [
+            "1–3 passengers",
+            "2–3 suitcases",
+            "Preferred chauffeurs"
+          ],
+          "cta": "Plan Ladies Taxi"
+        }
+      ],
+      "ctaDefault": "Reserve"
+    }
+  }
+}

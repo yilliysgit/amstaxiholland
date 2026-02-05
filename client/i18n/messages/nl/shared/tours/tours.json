@@ -1,0 +1,72 @@
+{
+  "sectionTitle": "Premium",
+  "sectionTitleAccent": "Tours",
+  "sectionSubtitle": "Ontdek Nederland in absolute luxe",
+  "bookNow": "Boek nu",
+  "seasonal": "Seizoen",
+  "from": "Vanaf",
+  "country": {
+    "Nederland": "Nederland",
+    "België": "België",
+    "Duitsland": "Duitsland"
+  },
+  "categories": {
+    "Museum": "Museum",
+    "Cultuur": "Cultuur",
+    "Shopping": "Shopping",
+    "Natuur": "Natuur",
+    "Internationaal": "Internationaal",
+    "Stad": "Stad",
+    "Familie": "Familie"
+  },
+  "tours": {
+    "aviodrome-lelystad": {
+      "name": "Aviodrome Lelystad",
+      "description": "Ontdek de fascinerende wereld van de luchtvaart in dit unieke museum."
+    },
+    "kaasmarkt": {
+      "name": "Kaasmarkt",
+      "description": "Traditionele kaasmarkt ervaring in het hart van Nederland."
+    },
+    "fashion-outlets": {
+      "name": "Fashion Outlets",
+      "description": "Premium shopping ervaring in de beste fashion outlets."
+    },
+    "zaanse-schans": {
+      "name": "Zaanse Schans",
+      "description": "Historische windmolens en traditionele Nederlandse ambachten."
+    },
+    "zuid-holland-tour": {
+      "name": "Zuid-Holland Tour",
+      "description": "Complete rondleiding door de mooiste plekken van Zuid-Holland."
+    },
+    "volendam-edam-marken": {
+      "name": "Volendam, Edam en Marken Tour",
+      "description": "Drie authentieke Nederlandse dorpjes in één prachtige tour."
+    },
+    "giethoorn": {
+      "name": "Giethoorn",
+      "description": "Het \"Venetië van Nederland\" - een dorp zonder wegen."
+    },
+    "belgium-tour": {
+      "name": "België Tour",
+      "description": "Ontdek de charme van België met onze comfortabele service."
+    },
+    "amsterdam-city-tour": {
+      "name": "Amsterdam City Tour",
+      "description": "Complete rondleiding door de hoofdstad met alle highlights."
+    },
+    "keukenhof": {
+      "name": "Keukenhof",
+      "description": "De mooiste bloementuin ter wereld tijdens het bloeiSeizoen."
+    },
+    "efteling": {
+      "name": "Efteling",
+      "description": "Het magische sprookjespark voor het hele gezin."
+    },
+    "walibi": {
+      "name": "Walibi",
+      "description": "Spannende attracties en adrenaline voor de avonturiers."
+    }
+  }
+}

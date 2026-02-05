@@ -1,0 +1,144 @@
+{
+  "hero": {
+    "badge": "Vervoerstype: Business Class",
+    "title": "Business Taxi",
+    "subtitle": "Premium en representatief vervoer voor zakelijke reizigers",
+    "description": "Een business taxi is een luxe vervoerstype gericht op reizigers die maximale betrouwbaarheid, comfort en professionaliteit verwachten. Ideaal voor directievervoer, zakelijke afspraken, luchthavenritten en corporate hospitality.",
+    "ctaPrimary": "Plan een zakelijke rit",
+    "ctaSecondary": "Bekijk de voordelen",
+    "stats": [
+      { "label": "Comfort", "value": "Premium" },
+      { "label": "Chauffeur", "value": "Discreet & professioneel" },
+      { "label": "Reizigers", "value": "Zakelijke doelgroep" },
+      { "label": "Voertuigen", "value": "Luxe sedans & minivans" }
+    ],
+    "image": "/img/vervoerstype/business-class-hero.jpg",
+    "imageAlt": "Business class taxi met professionele chauffeur",
+    "backgroundImage": "/img/bg/business-dark.jpg"
+  },
+
+  "howItWorks": {
+    "title": "Hoe werkt een zakelijke rit?",
+    "steps": [
+      { "title": "1. Plan uw rit", "text": "Voer eenvoudig uw locatie, bestemming en voorkeuren in." },
+      { "title": "2. Chauffeur toegewezen", "text": "Een professionele chauffeur wordt automatisch toegewezen." },
+      { "title": "3. Reis in business class", "text": "Geniet van comfort, discretie en een ontspannen reis." }
+    ]
+  },
+
+  "premiumVehicles": {
+    "title": "Luxe voertuigen",
+    "subtitle": "Business-class voertuigen van topkwaliteit",
+    "items": [
+      "Mercedes-Benz E-Class",
+      "Mercedes-Benz S-Class",
+      "Mercedes-Benz V-Class",
+      "Premium sedans & executive minivans"
+    ],
+    "image": "/img/vervoerstype/business-class-fleet.jpg",
+    "imageAlt": "Moderne zakelijke taxi’s van Mercedes"
+  },
+
+  "audience": {
+    "title": "Voor wie is Business Class bedoeld?",
+    "list": [
+      "CEO’s & executives",
+      "Corporate delegaties",
+      "Zakelijke meetings & events",
+      "Hotel- en luchthavenvervoer"
+    ]
+  },
+
+  "ratesSection": {
+    "title": "Tarieven",
+    "description": "Business Class tarieven zijn transparant en gebaseerd op afstand, route en voertuigtype.",
+    "note": "Op rekening rijden voor zakelijke klanten is mogelijk."
+  },
+
+  "pricing": {
+    "title": "Business Class Prijzen",
+    "cards": [
+      {
+        "title": "Business Sedan",
+        "price": "Vanaf €65",
+        "details": [
+          "Mercedes E-Class",
+          "Tot 3 passagiers",
+          "Wifi & water inbegrepen"
+        ]
+      },
+      {
+        "title": "Executive Sedan",
+        "price": "Vanaf €95",
+        "details": [
+          "Mercedes S-Class",
+          "Maximale privacy",
+          "Luxe interieur"
+        ]
+      },
+      {
+        "title": "Business Minivan",
+        "price": "Vanaf €110",
+        "details": [
+          "Mercedes V-Class",
+          "Tot 7 passagiers",
+          "Veel bagageruimte"
+        ]
+      }
+    ]
+  },
+
+  "bookingCard": {
+    "title": "Zakelijke rit plannen?",
+    "description": "Reserveer direct binnen één minuut. U ontvangt onmiddellijk bevestiging.",
+    "cta": "Plan een rit"
+  },
+
+  "whyBusiness": {
+    "title": "Waarom Business Class?",
+    "items": [
+      { "title": "Professionele chauffeurs", "text": "Geselecteerd op discretie, rijstijl en representatie." },
+      { "title": "Luxe comfort", "text": "Premium voertuigen voor een kalme en efficiënte reis." },
+      { "title": "Flexibiliteit", "text": "Wachttijd, stops en facturatie mogelijk." },
+      { "title": "Betrouwbaarheid", "text": "Altijd op tijd en volledig privé." }
+    ]
+  },
+
+  "extraServices": {
+    "title": "Extra zakelijke services",
+    "items": [
+      "Meet & Greet op luchthaven",
+      "VIP begeleiding",
+      "Event logistics",
+      "City business tours",
+      "Wachttijd-service"
+    ]
+  },
+
+  "nationwide": {
+    "title": "Nationaal & internationaal",
+    "text": "Business Class ritten in heel Nederland en grote zakelijke hubs zoals Brussel, Düsseldorf, Antwerpen en Frankfurt."
+  },
+
+  "footerCTA": {
+    "title": "Zakelijke rit reserveren?",
+    "subtitle": "Onze chauffeurs staan 24/7 klaar.",
+    "ctaPrimary": "Plan direct",
+    "ctaSecondary": "Bel ons",
+    "phone": "+31 6 12 34 56 78"
+  },
+
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      { "question": "Is Business Class geschikt voor executives?", "answer": "Ja, het is ontworpen voor CEO’s en zakelijke delegaties." },
+      { "question": "Kan ik op rekening rijden?", "answer": "Ja, bedrijven kunnen maandelijks gefactureerd worden." },
+      { "question": "Zijn voertuigen luxe uitgerust?", "answer": "Ja, met wifi, water, privacy opties en premium interieur." }
+    ]
+  },
+
+  "seo": {
+    "title": "Business Class Taxi – Zakelijk VIP vervoer",
+    "description": "Premium business-class taxivervoer: luxe voertuigen, professionele chauffeurs en maximale betrouwbaarheid voor zakelijke reizigers."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Evenementen & Speciale Gelegenheden",
+  "subtitle": "VIP vervoer voor uw belangrijke momenten",
+  "description": "Van bruiloften tot zakelijke evenementen - wij zorgen voor luxe en betrouwbaar vervoer.",
+  "overline": "EXCLUSIEF VERVOER",
+  "title": {
+    "line1": "Events &",
+    "line2": "Speciale Gelegenheden"
+  },
+  "primaryCta": "Bekijk alle evenementen",
+  "secondaryCta": "Neem contact op",
+  "ctaNote": "24/7 beschikbaar voor al uw vervoersbehoeften",
+  "viewAll": "Bekijk alle evenementen",
+  "bookNow": "Reserveer nu",
+  "tiles": {
+    "concerts": {
+      "title": "Concerten & Festivals",
+      "imageAlt": "Concert vervoer"
+    },
+    "weddings": {
+      "title": "Bruiloften",
+      "imageAlt": "Bruiloft vervoer"
+    },
+    "corporate-parties": {
+      "title": "Bedrijfsfeesten",
+      "imageAlt": "Bedrijfsfeest vervoer"
+    },
+    "sports-events": {
+      "title": "Sportevenementen",
+      "imageAlt": "Sport event vervoer"
+    },
+    "corporate-events": {
+      "title": "Zakelijke Evenementen",
+      "imageAlt": "Zakelijk event vervoer"
+    }
+  },
+  "benefits": [
+    "Professionele chauffeur in uniform",
+    "Luxe voertuigen voor elke gelegenheid",
+    "Stipt op tijd, gegarandeerd",
+    "Groepsvervoer tot 50+ personen mogelijk"
+  ]
+}

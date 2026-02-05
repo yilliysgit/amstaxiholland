@@ -1,0 +1,495 @@
+{
+  "SchipholPage": {
+    "meta": {
+      "title": "Taxi Schiphol Amsterdam | Betrouwbaar Vervoer naar AMS Airport",
+      "description": "Betrouwbare taxi naar AMS Schiphol vanaf €45. Vaste tarieven, flight tracking, geen zoekkosten. Boek nu uw Airport transfer!"
+    },
+    "hero": {
+      "badge": "Taxi naar Schiphol",
+      "title": "Stressvrij naar de luchthaven",
+      "subtitle": "vanaf €45 vast tarief",
+      "description": "Geen verrassingen, geen zoekkosten. Boek je rit naar Schiphol met gegarandeerde aankomsttijd en vaste prijs.",
+      "cta": {
+        "primary": "Boek direct",
+        "secondary": "Bekijk tarieven"
+      },
+      "features": [
+        "Flight tracking",
+        "Geen zoekkosten",
+        "30 min gratis wachttijd"
+      ],
+      "priceCard": {
+        "title": "Populaire routes",
+        "routes": [
+          {
+            "from": "Amsterdam CS",
+            "to": "Schiphol",
+            "price": "€45"
+          },
+          {
+            "from": "Zuid",
+            "to": "Schiphol",
+            "price": "€40"
+          },
+          {
+            "from": "Amstelveen",
+            "to": "Schiphol",
+            "price": "€35"
+          }
+        ],
+        "stats": {
+          "avgTime": {
+            "label": "Gem. rijtijd",
+            "value": "25-35 min"
+          },
+          "onTimeGuarantee": {
+            "label": "On-time garantie",
+            "value": "98%"
+          }
+        }
+      },
+      "ctaBar": {
+        "features": [
+          "Vaste tarieven",
+          "Gratis annuleren tot 3u van tevoren",
+          "Meet & greet service",
+          "Bagageruimte gegarandeerd"
+        ],
+        "cta": "Boek je rit"
+      }
+    },
+    "filosofie": {
+      "badge": "Onze filosofie",
+      "title": "Particulier vervoer met de aandacht van een privéchauffeur",
+      "description": "Wij geloven dat elke rit een ervaring mag zijn — discreet, comfortabel en volledig afgestemd op uw wensen. Altijd op tijd. Altijd verzorgd. Altijd exclusief.",
+      "usps": [
+        {
+          "title": "Discrete, professioneel geklede chauffeurs",
+          "description": "Geselecteerd op etiquette, rijstijl en vertrouwelijkheid. Uw privacy staat altijd voorop."
+        },
+        {
+          "title": "Luxe voertuigen: Mercedes E, S & V‑Klasse",
+          "description": "Representatieve wagens met optimale beenruimte, stille cabine en premium afwerking."
+        },
+        {
+          "title": "Stipt en betrouwbaar, 24/7 beschikbaar",
+          "description": "We plannen vooruit en monitoren in realtime, zodat u zorgeloos op tijd aankomt."
+        },
+        {
+          "title": "Gepersonaliseerde service op aanvraag",
+          "description": "Van drank en muziek tot routevoorkeur: elke rit is volledig afgestemd op uw wensen."
+        }
+      ]
+    },
+    "services": {
+      "badge": "Premium Schiphol Services",
+      "title": {
+        "line1": "Uw reis naar Schiphol,",
+        "line2": "volmaakt verzorgd"
+      },
+      "description": "Van privé luchthaventransfer tot executive service — elk detail is ontworpen om uw reis soepel, comfortabel en zorgeloos te maken.",
+      "items": [
+        {
+          "id": "departure",
+          "title": "Departure Transfer",
+          "subtitle": "Zorgeloos vertrek vanaf huis",
+          "description": "Uw reis begint op het moment dat wij voor uw deur staan. Geen gedoe met parkeren of verkeer — wij brengen u rechtstreeks naar de juiste vertrekhal, ruim op tijd voor inchecken. Ontspannen beginnen, dat is waar het om draait.",
+          "highlights": [
+            "Persoonlijke chauffeur bij u thuis",
+            "Drop-off bij de ingang van uw terminal",
+            "Assistentie met bagage tot aan de incheckbalie",
+            "Verkeersmonitoring voor optimale aankomsttijd"
+          ],
+          "icon": "✈️"
+        },
+        {
+          "id": "arrival",
+          "title": "Arrival Service",
+          "subtitle": "Welkom thuis",
+          "description": "Na uren vliegen wilt u maar één ding: naar huis. Onze chauffeur wacht in de aankomsthal met een naambord, helpt met uw koffers en brengt u in alle rust naar uw bestemming. Geen wachten, geen stress.",
+          "highlights": [
+            "Meet & greet met naambord in aankomsthal",
+            "Real-time flight tracking — altijd op tijd",
+            "60 minuten gratis wachttijd bij vertraging",
+            "VIP-behandeling vanaf de aankomsthal"
+          ],
+          "icon": "🌍"
+        },
+        {
+          "id": "business",
+          "title": "Executive Transfer",
+          "subtitle": "Voor zakelijke reizigers",
+          "description": "Tijd is kostbaar. Onze executive service biedt u een mobile office: ruime Mercedes S-Klasse, WiFi, privacy en een discrete chauffeur die de snelste routes kent. Werk onderweg of kom tot rust voor uw volgende meeting.",
+          "highlights": [
+            "Mercedes S-Klasse, BMW 7-serie of Tesla Model S",
+            "High-speed WiFi en oplaadpunten voor alle devices",
+            "Stille cabine en privacy scherm beschikbaar",
+            "Directe facturering naar uw bedrijf"
+          ],
+          "icon": "💼"
+        },
+        {
+          "id": "first-class",
+          "title": "First Class Experience",
+          "subtitle": "De ultieme luxe",
+          "description": "Voor wie het beste verwacht. Onze First Class service combineert het neusje van de zalm qua voertuigen met persoonlijke aandacht en discretie. Van champagne aan boord tot bagageconcierge — elk detail is verzorgd.",
+          "highlights": [
+            "Mercedes S-Klasse Long, BMW 7-serie of vergelijkbaar",
+            "Champagne, frisdrank en premium water aan boord",
+            "Professionele bagageconcierge",
+            "Persoonlijke chauffeur die uw voorkeuren kent"
+          ],
+          "icon": "👑"
+        },
+        {
+          "id": "group",
+          "title": "Group & Family Transfer",
+          "subtitle": "Samen reizen in comfort",
+          "description": "Met het hele gezin of een groep collega's op reis? Onze luxe Mercedes V-Klasse biedt ruimte aan 7 personen met volledige bagageruimte. Iedereen reist in hetzelfde comfort, niemand hoeft achter te blijven.",
+          "highlights": [
+            "Mercedes V-Klasse met leren interieur",
+            "Comfortabele captain seats en airconditioning",
+            "Kinderzitjes en verhoogkussens op aanvraag",
+            "Ideaal voor families, vrienden of small teams"
+          ],
+          "icon": "🚐"
+        },
+        {
+          "id": "hourly",
+          "title": "Chauffeur op Maat",
+          "subtitle": "Uw persoonlijke chauffeur",
+          "description": "Soms wilt u flexibiliteit. Huur onze chauffeur per uur: voor meerdere stops, een dagtrip, of gewoon omdat u de vrijheid wilt om zelf het tempo te bepalen. Uw chauffeur blijft beschikbaar zolang u hem nodig heeft.",
+          "highlights": [
+            "Minimaal 3 uur, geen maximum",
+            "Vrije route-keuze en tussenstops",
+            "Wachttijd zonder meerkosten",
+            "Perfect voor multi-city trips of complexe routes"
+          ],
+          "icon": "⏱️"
+        }
+      ],
+      "cta": {
+        "title": "Maatwerk voor uw reis",
+        "description": "Heeft u specifieke wensen? Van multi-city transfers tot VIP-behandeling — wij creëren de perfecte luchthavenervaring voor u.",
+        "buttons": {
+          "primary": "Plan uw transfer",
+          "secondary": "Persoonlijk advies"
+        },
+        "trustIndicators": [
+          "Vaste tarieven",
+          "24/7 beschikbaar",
+          "Geen zoekkosten"
+        ]
+      },
+      "infoCards": [
+        {
+          "title": "Alle terminals",
+          "description": "Of u nu vanaf Vertrekhal 1, 2, 3 of de privéjet-terminal reist — onze chauffeurs kennen elke route."
+        },
+        {
+          "title": "Flight tracking",
+          "description": "Wij monitoren uw vlucht realtime. Vertraging of eerder geland? Wij passen automatisch aan."
+        },
+        {
+          "title": "Premium voertuigen",
+          "description": "Mercedes S-Klasse, BMW 7-serie en Tesla Model S. Luxe, comfort en stijl in elk detail."
+        }
+      ]
+    },
+    "vehicleClasses": {
+      "sectionHeader": {
+        "badge": "Uw voertuigkeuze",
+        "title": "Kies uw comfortniveau",
+        "description": "Elk voertuig in onze vloot staat symbool voor kwaliteit, comfort en stijl. Maak uw keuze op basis van de ervaring die u zoekt."
+      },
+      "classes": [
+        {
+          "id": "business",
+          "name": "Business Class",
+          "tagline": "Stijlvol dagelijks vervoer",
+          "description": "Perfecte balans tussen elegantie en functionaliteit. Ideaal voor zakelijke afspraken, luchthaventransfers en dagelijkse ritten waarbij u comfort en betrouwbaarheid verwacht.",
+          "features": [
+            "Mercedes-Benz E-Klasse of vergelijkbaar",
+            "Lederen interieur met klimaatregeling",
+            "Complimentary water & handdoekjes",
+            "WiFi & oplaadmogelijkheden",
+            "Dagbladen op verzoek",
+            "Discrete, professionele chauffeur"
+          ],
+          "passengers": "1-3",
+          "luggage": "2-3",
+          "icon": "🚘"
+        },
+        {
+          "id": "vip",
+          "name": "VIP Class",
+          "tagline": "Exclusieve ritten met extra comfort",
+          "description": "Voor wie het allerbeste verwacht. Ruimer, stiller en verfijnder. Met extra aandacht voor detail en persoonlijke service die het verschil maakt bij belangrijke momenten.",
+          "features": [
+            "Mercedes-Benz S-Klasse of vergelijkbaar",
+            "First-class lederen zetels met massage",
+            "Premium sound system",
+            "Verfrissingen & champagne op aanvraag",
+            "Privacy screens & gedimd glas",
+            "Persoonlijke chauffeur met discretie",
+            "Uitgebreide multimedia opties",
+            "Extra beenruimte"
+          ],
+          "passengers": "1-3",
+          "luggage": "3-4",
+          "icon": "🚗"
+        },
+        {
+          "id": "luxury-van",
+          "name": "Luxury Van",
+          "tagline": "Ruimte en luxe voor groepen",
+          "description": "Exclusief groepsvervoer zonder concessies. Perfect voor gezinsuitjes, zakelijke delegaties of vrienden die samen reizen. Iedereen geniet van hetzelfde comfort en dezelfde aandacht.",
+          "features": [
+            "Mercedes-Benz V-Klasse of vergelijkbaar",
+            "Captain seats met extra beenruimte",
+            "Individuele klimaatregeling",
+            "Panorama glazen dak",
+            "Verfrissingen voor alle passagiers",
+            "Ruime bagageruimte",
+            "WiFi & multimedia systeem",
+            "Privacy & comfort voor iedereen"
+          ],
+          "passengers": "4-7",
+          "luggage": "6-8",
+          "icon": "🚐"
+        }
+      ],
+      "featuresTitle": "Kenmerken & voorzieningen",
+      "ctaButtons": {
+        "reserve": "Reserveer",
+        "quote": "Vraag offerte aan"
+      },
+      "disclaimer": {
+        "label": "Let op:",
+        "text": "Alle voertuigen worden voor elke rit gereinigd en gecontroleerd. Uw chauffeur staat minimaal 15 minuten voor aankomst klaar."
+      },
+      "trustSection": [
+        {
+          "title": "Altijd verzekerd",
+          "description": "Volledige dekking en discrete service"
+        },
+        {
+          "title": "Stiptheid gegarandeerd",
+          "description": "Wij zijn er altijd op tijd voor u"
+        },
+        {
+          "title": "Premium onderhoud",
+          "description": "Elk voertuig maximaal 2 jaar oud"
+        }
+      ],
+      "statsLabels": {
+        "passengers": "Passagiers",
+        "luggage": "Koffers"
+      }
+    },
+    "pricing": {
+      "sectionHeader": {
+        "title": "Transparante Pricing",
+        "description": "Kies het pakket dat past bij jouw bedrijf. Geen verborgen kosten, altijd duidelijke tarieven."
+      },
+      "packages": [
+        {
+          "id": "flex",
+          "name": "Flex",
+          "tagline": "Betaal per rit",
+          "price": "Vanaf €35",
+          "description": "Perfect voor incidenteel zakelijk vervoer zonder verplichtingen.",
+          "features": [
+            "Geen maandelijkse kosten",
+            "Standaard facturatie",
+            "Business Class voertuigen",
+            "Online boekingsplatform",
+            "Email support",
+            "BTW-aftrek mogelijk"
+          ],
+          "cta": "Direct boeken",
+          "popular": false
+        },
+        {
+          "id": "business",
+          "name": "Business",
+          "tagline": "Voor groeiende bedrijven",
+          "price": "Vanaf €32",
+          "priceNote": "per rit bij 10+ ritten/maand",
+          "description": "Ideaal voor bedrijven met regelmatige vervoersbehoeften.",
+          "features": [
+            "Alles van Flex, plus:",
+            "Vaste chauffeurs mogelijk",
+            "Priority booking (< 30 min)",
+            "Maandelijkse rapportages",
+            "Dedicated account manager",
+            "Team management dashboard",
+            "Vaste maandfacturatie",
+            "Tot 15% korting"
+          ],
+          "cta": "Account aanvragen",
+          "popular": true,
+          "popularBadge": "MEEST GEKOZEN"
+        },
+        {
+          "id": "corporate",
+          "name": "Corporate",
+          "tagline": "Enterprise oplossing",
+          "price": "Op maat",
+          "description": "Volledig pakket voor organisaties met hoge vervoersbehoefte.",
+          "features": [
+            "Alles van Business, plus:",
+            "Custom SLA afspraken",
+            "API integratie mogelijk",
+            "Dedicated support 24/7",
+            "VIP voertuigen beschikbaar",
+            "Contract pricing",
+            "Kwartaalreviews",
+            "Multi-locatie support",
+            "Tot 25% volume korting"
+          ],
+          "cta": "Bespreek mogelijkheden",
+          "popular": false
+        }
+      ],
+      "disclaimer": {
+        "title": "Alle pakketten inclusief:",
+        "text": "BTW, brandstofkosten, tolkosten en verzekering. Geen verborgen kosten of onverwachte toeslagen.",
+        "contact": {
+          "text": "Vragen over welk pakket bij jou past? Bel",
+          "phone": "020 723 56 38",
+          "or": "of",
+          "linkText": "vraag een offerte aan"
+        }
+      }
+    },
+    "fleet": {
+      "sectionHeader": {
+        "title": "Premium Taxi",
+        "description": "Exclusief vervoer dat Amsterdam's elite vertrouwt.",
+        "highlight": "Altijd op tijd",
+        "suffix": "altijd in absolute luxe."
+      },
+      "tabsLabel": "Voertuigcategorieën",
+      "categories": [
+        {
+          "key": "business",
+          "name": "Business Class",
+          "subtitle": "Premium comfort voor zakelijke ritten",
+          "featuresTitle": "Premium Features",
+          "features": [
+            {
+              "label": "Luxe Mercedes-Benz"
+            },
+            {
+              "label": "WiFi & USB-C"
+            },
+            {
+              "label": "Zakelijke factuur"
+            },
+            {
+              "label": "Stille rit"
+            },
+            {
+              "label": "Klimaatregeling"
+            }
+          ],
+          "bullets": [
+            "1–3 passagiers",
+            "2–3 koffers",
+            "Professionele chauffeur"
+          ],
+          "cta": "Boek Business"
+        },
+        {
+          "key": "vip",
+          "name": "VIP Class",
+          "subtitle": "Exclusieve ervaring met topservice",
+          "featuresTitle": "Premium Features",
+          "features": [
+            {
+              "label": "S-Klasse / Model S"
+            },
+            {
+              "label": "Privacy & discreet"
+            },
+            {
+              "label": "Champagne & refreshments"
+            },
+            {
+              "label": "Butler-service"
+            },
+            {
+              "label": "Fast-lane pickup"
+            }
+          ],
+          "bullets": [
+            "1–3 passagiers",
+            "2–3 koffers",
+            "Absolute discretie"
+          ],
+          "cta": "Plan VIP"
+        },
+        {
+          "key": "van",
+          "name": "Minivan Luxury",
+          "subtitle": "Ruime oplossing voor groepen",
+          "featuresTitle": "Premium Features",
+          "features": [
+            {
+              "label": "V-Klasse (tot 8p)"
+            },
+            {
+              "label": "Panorama dak"
+            },
+            {
+              "label": "Zones-airco"
+            },
+            {
+              "label": "Veel bagage"
+            },
+            {
+              "label": "USB-C laden"
+            }
+          ],
+          "bullets": [
+            "Tot 8 passagiers",
+            "6–8 koffers",
+            "Ideaal voor events"
+          ],
+          "cta": "Vraag groepsrit aan"
+        },
+        {
+          "key": "ladies",
+          "name": "Ladies Taxi",
+          "subtitle": "Veilig vervoer voor vrouwen",
+          "featuresTitle": "Premium Features",
+          "features": [
+            {
+              "label": "Vrouwelijke chauffeur"
+            },
+            {
+              "label": "Extra veiligheidscheck"
+            },
+            {
+              "label": "Live tracking"
+            },
+            {
+              "label": "24/7 beschikbaar"
+            },
+            {
+              "label": "Discreet & betrouwbaar"
+            }
+          ],
+          "bullets": [
+            "1–3 passagiers",
+            "2–3 koffers",
+            "Preferente chauffeurs"
+          ],
+          "cta": "Plan Ladies Taxi"
+        }
+      ],
+      "ctaDefault": "Reserveren"
+    }
+  }
+}

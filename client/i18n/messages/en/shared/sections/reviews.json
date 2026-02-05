@@ -1,0 +1,20 @@
+{
+  "overline": "CUSTOMER REVIEWS",
+  "title": "What Our Customers Say",
+  "ratingScore": "4.8/5",
+  "ratingCount": "1,200+ reviews",
+  "reviews": {
+    "jan-van-der-berg": {
+      "text": "Professional service! The driver was on time and very courteous. The Mercedes was spotless and comfortable. Highly recommend for business trips."
+    },
+    "maria-jansen": {
+      "text": "Excellent experience from booking to arrival. The driver helped with my luggage and knew the best route. Will definitely use again!"
+    },
+    "peter-de-wit": {
+      "text": "Best taxi service in Amsterdam! Clean cars, friendly drivers, and always on time. Perfect for airport transfers."
+    },
+    "laura-vermeer": {
+      "text": "Amazing service! The driver was waiting with a sign, helped with luggage, and the ride was smooth and comfortable. Five stars!"
+    }
+  }
+}

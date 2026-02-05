@@ -1,0 +1,12 @@
+{
+  "cards": {
+    "book-taxi": {
+      "title": "Book a Taxi",
+      "description": "Fast & Easy Booking"
+    },
+    "become-driver": {
+      "title": "Become a Driver",
+      "description": "Join our team"
+    }
+  }
+}

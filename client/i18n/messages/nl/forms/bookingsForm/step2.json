@@ -1,0 +1,75 @@
+{
+  "title": "Kies uw voertuig",
+  "subtitle": "Selecteer het perfecte voertuig voor uw reis",
+
+  "passengers": {
+    "title": "Aantal passagiers",
+    "label": {
+      "one": "{count} passagier",
+      "other": "{count} passagiers"
+    },
+    "moreWarning": "Let op: u heeft meer passagiers geselecteerd dan in stap 1"
+  },
+
+  "luggage": {
+    "title": "Type bagage",
+    "subtitle": "Specificeer het type bagage voor de beste voertuigkeuze",
+    "handluggage": {
+      "label": "Alleen handbagage",
+      "description": "Kleine tassen, rugzakken en laptoptassen die op schoot kunnen"
+    },
+    "suitcases": {
+      "label": "Koffers / grote bagage",
+      "description": "Koffers, sporttassen en grote rugzakken die in de kofferbak moeten"
+    }
+  },
+
+  "vehicles": {
+    "title": "Beschikbare voertuigen",
+    "capacity": {
+      "one": "Tot {count} passagier",
+      "other": "Tot {count} passagiers"
+    },
+    "luggage": {
+      "one": "{count} grote koffer",
+      "other": "{count} grote koffers"
+    },
+    "noVehicles": {
+      "one": "Geen voertuigen beschikbaar voor {count} passagier",
+      "other": "Geen voertuigen beschikbaar voor {count} passagiers"
+    },
+    "noVehiclesHint": "Verminder het aantal passagiers of neem contact met ons op voor aangepaste oplossingen."
+  },
+
+  "pricing": {
+    "base": "basis",
+    "perKm": "per km"
+  },
+
+  "summary": {
+    "title": "Reserveringsoverzicht",
+    "route": "Route",
+    "stops": "Tussenstops",
+    "date": "Datum",
+    "time": "Tijd",
+    "passengers": "Passagiers",
+    "luggage": "Bagage",
+    "noLuggage": "Geen bagage",
+    "handluggage": "Handbagage",
+    "suitcases": "Koffers",
+    "return": "Retour",
+    "returnDeparture": "Vertrek:",
+    "priceCalculation": "Prijsberekening",
+    "vehicle": "{name}",
+    "distance": "Afstand ({km} km)",
+    "outboundTotal": "Heenreis totaal",
+    "returnDiscount": "Retourkorting (10%)",
+    "returnPrice": "Retourprijs",
+    "total": "Totaal"
+  },
+
+  "navigation": {
+    "back": "Terug naar reisdetails",
+    "next": "Naar bevestiging"
+  }
+}

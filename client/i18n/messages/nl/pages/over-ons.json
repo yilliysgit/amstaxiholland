@@ -1,0 +1,256 @@
+{
+  "AboutPage": {
+    "meta": {
+      "title": "Over Ons - Amsterdam Taxi Service | Ons Verhaal",
+      "description": "Ontdek het verhaal achter Amsterdam's meest vertrouwde taxi service. Van klein familiebedrijf tot 50+ professionals."
+    },
+
+    "hero": {
+      "badge": "Ons verhaal",
+      "title": "Van passie voor",
+      "titleHighlight": "service tot succes",
+      "description": {
+        "line1": "Sinds 2008 rijden we met trots door Amsterdam.",
+        "line2": "Van 3 taxi's naar een team van 50+ professionals die elke dag duizenden klanten bedienen."
+      },
+      "keyMessage": {
+        "title": "Onze missie: perfecte service, elke rit",
+        "description": "We geloven dat elke rit meetelt. Daarom investeren we in onze mensen, voertuigen en technologie om jou de beste ervaring te bieden. Van je eerste boeking tot je bestemming."
+      },
+      "usp": {
+        "years": "15+",
+        "drivers": "50+",
+        "rides": "100k+"
+      },
+      "uspLabel": {
+        "years": "Jaar ervaring",
+        "drivers": "Professionals",
+        "rides": "Ritten per jaar"
+      },
+      "cta": {
+        "primary": "Ontdek onze diensten"
+      }
+    },
+
+    "story": {
+      "sectionHeader": {
+        "title": "Ons verhaal",
+        "description": "Van familiebedrijf naar Amsterdam's meest vertrouwde taxi service."
+      },
+      "timeline": [
+        {
+          "year": "2008",
+          "title": "Het begin",
+          "description": "Gestart met 3 taxi's en één missie: de beste service bieden in Amsterdam. Wat begon als een kleine droom, groeide al snel uit tot meer.",
+          "milestone": "3 taxi's",
+          "icon": "car",
+          "isHighlight": false
+        },
+        {
+          "year": "2012",
+          "title": "Groei",
+          "description": "Uitgebreid naar 15 voertuigen en onze eerste zakelijke contracten. Bedrijven begonnen ons te vertrouwen voor hun vervoersbehoeften.",
+          "milestone": "15 chauffeurs",
+          "icon": "users",
+          "isHighlight": false
+        },
+        {
+          "year": "2016",
+          "title": "Digitaal",
+          "description": "Introductie van GPS-tracking en online boekingssystemen. Technologie hielp ons nog beter te worden.",
+          "milestone": "Digital first",
+          "icon": "zap",
+          "isHighlight": false
+        },
+        {
+          "year": "2020",
+          "title": "Crisis",
+          "description": "Tijdens COVID-19 bleven we rijden en ondersteunden we onze stad. Het was zwaar, maar we gaven niet op.",
+          "milestone": "Veerkrachtig",
+          "icon": "trophy",
+          "isHighlight": true
+        },
+        {
+          "year": "2024",
+          "title": "Vandaag",
+          "description": "Nu een team van 50+ professionals die duizenden klanten per dag bedienen. Het verhaal gaat door.",
+          "milestone": "50+ team",
+          "icon": "mapPin",
+          "isHighlight": false
+        }
+      ],
+      "bottomCTA": {
+        "title": "Word onderdeel van ons verhaal",
+        "description": "Of je nu regelmatig rijdt of voor het eerst boekt, we behandelen je als familie.",
+        "buttonText": "Boek je eerste rit"
+      }
+    },
+
+    "values": {
+      "sectionHeader": {
+        "title": "Onze kernwaarden",
+        "description": "Dit is waar we voor staan en wat ons elke dag drijft om beter te worden."
+      },
+      "items": {
+        "safety": {
+          "title": "Veiligheid voorop",
+          "description": "Alle chauffeurs zijn gescreend en gecertificeerd. Voertuigen worden onderhouden volgens de hoogste standaarden.",
+          "highlight": "100% verzekerd"
+        },
+        "reliability": {
+          "title": "Betrouwbaarheid",
+          "description": "Punctualiteit is onze belofte. We plannen elke rit zorgvuldig en houden rekening met verkeer.",
+          "highlight": "Altijd op tijd"
+        },
+        "service": {
+          "title": "Persoonlijke service",
+          "description": "Elke klant is uniek. We stemmen onze service af op jouw specifieke wensen en behoeften.",
+          "highlight": "Maatwerk service"
+        },
+        "expertise": {
+          "title": "Lokale expertise",
+          "description": "15 jaar ervaring in Amsterdam betekent dat we elke route kennen en altijd de snelste weg vinden.",
+          "highlight": "Amsterdam experts"
+        },
+        "quality": {
+          "title": "Gegarandeerde kwaliteit",
+          "description": "Moderne vloot, professionele chauffeurs en duizenden tevreden klanten dagelijks.",
+          "highlight": "Premium standaard"
+        },
+        "team": {
+          "title": "Samen sterker",
+          "description": "Ons team van 50+ professionals werkt als één geheel om jouw ervaring perfect te maken.",
+          "highlight": "One team spirit"
+        }
+      },
+      "bottomStatement": {
+        "title": "Waarom klanten voor ons kiezen",
+        "description": "We zijn meer dan een taxi service. We zijn een betrouwbare partner voor al je vervoersbehoeften in Amsterdam.",
+        "details": [
+          "4.9/5 sterren beoordeling",
+          "98% on-time rate",
+          "200+ zakelijke klanten"
+        ]
+      }
+    },
+
+    "services": {
+      "sectionHeader": {
+        "title": "Onze diensten",
+        "description": "Van zakelijk vervoer tot luchthaven shuttle, we hebben een oplossing voor elke situatie."
+      },
+      "items": {
+        "business": {
+          "title": "Zakelijk vervoer",
+          "description": "Representatief en betrouwbaar vervoer voor uw bedrijf. Van belangrijke meetings tot zakelijke evenementen.",
+          "features": [
+            "Luxe voertuigen",
+            "Professionele chauffeurs",
+            "Factuurservice",
+            "Contract opties mogelijk"
+          ],
+          "highlight": "Meest gekozen"
+        },
+        "airport": {
+          "title": "Luchthaven shuttle",
+          "description": "Stressvrij vervoer van en naar Schiphol en andere luchthavens. Altijd op tijd voor je vlucht.",
+          "features": [
+            "Vluchtmonitoring",
+            "Bagage service",
+            "24/7 beschikbaar",
+            "Vaste tarieven"
+          ],
+          "highlight": "Populair"
+        },
+        "group": {
+          "title": "Groepsvervoer",
+          "description": "Comfortabel reizen met familie, vrienden of collega's. Bereik samen je bestemming.",
+          "features": [
+            "Grote voertuigen",
+            "Flexibele routes",
+            "Groepstarieven",
+            "Evenementen service"
+          ],
+          "highlight": "Voordelig"
+        },
+        "private": {
+          "title": "Privé vervoer",
+          "description": "Persoonlijk vervoer voor elke gelegenheid. Shopping, uitgaan of gewoon wanneer je het nodig hebt.",
+          "features": [
+            "Direct beschikbaar",
+            "Comfortabele ritten",
+            "Lokale kennis",
+            "Discrete service"
+          ],
+          "highlight": "Flexibel"
+        }
+      },
+      "whyChooseUs": {
+        "title": "Waarom voor ons kiezen?",
+        "description": "Wij maken elke rit een ervaring met comfort, veiligheid en betrouwbaarheid.",
+        "differentiators": [
+          "Altijd op tijd",
+          "Gecertificeerde chauffeurs",
+          "Premium service",
+          "Lokale expertise"
+        ]
+      },
+      "cta": {
+        "title": "Klaar om met ons te rijden?",
+        "description": "Boek je rit of bekijk al onze diensten.",
+        "buttons": [
+          "Boek nu",
+          "Bekijk diensten"
+        ]
+      }
+    },
+
+    "recruitment": {
+      "sectionHeader": {
+        "title": "Word onderdeel van ons team",
+        "description": "We zijn altijd op zoek naar gedreven professionals die onze klanten de beste service willen bieden."
+      },
+      "driver": {
+        "title": "Chauffeur worden",
+        "description": "Rijd voor Amsterdam's meest vertrouwde taxi service. Flexibele werktijden en goede verdiensten.",
+        "benefits": [
+          "Flexibele uren",
+          "Goede verdiensten",
+          "Modern wagenpark",
+          "Training & ontwikkeling"
+        ],
+        "button": "Solliciteer nu"
+      },
+      "partner": {
+        "title": "Partner worden",
+        "description": "Heb je een eigen auto? Word partner en profiteer van onze klantenstroom.",
+        "benefits": [
+          "Eigen planning",
+          "Vaste klanten",
+          "Marketing support",
+          "Administratieve hulp"
+        ],
+        "button": "Meer informatie"
+      },
+      "bottom": {
+        "text": "Vragen over werken bij ons?",
+        "highlight": "Neem contact op voor een vrijblijvend gesprek."
+      }
+    },
+
+    "team": {
+      "sectionHeader": {
+        "title": "Ontmoet ons team",
+        "description": "De mensen achter de service. Ons team van professionals staat elke dag voor je klaar."
+      },
+      "stats": {
+        "drivers": "50+",
+        "driversLabel": "Chauffeurs",
+        "languages": "15+",
+        "languagesLabel": "Talen",
+        "experience": "15 jaar",
+        "experienceLabel": "Gemiddelde ervaring"
+      }
+    }
+  }
+}

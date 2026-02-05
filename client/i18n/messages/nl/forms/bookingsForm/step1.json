@@ -1,0 +1,83 @@
+{
+  "title": "Reserveer uw premium rit",
+  "subtitle": "Luxe vervoer, op tijd en in stijl",
+
+  "from": {
+    "title": "Vertrekadres",
+    "street": "Straat / adres",
+    "streetPlaceholder": "Bijv. Hoofdstraat",
+    "houseNumber": "Huisnummer",
+    "houseNumberPlaceholder": "123",
+    "addition": "Toevoeging",
+    "additionPlaceholder": "A, B, etc."
+  },
+
+  "to": {
+    "title": "Afleveradres",
+    "street": "Straat / adres",
+    "streetPlaceholder": "Bijv. Stationsplein",
+    "houseNumber": "Huisnummer",
+    "houseNumberPlaceholder": "15",
+    "addition": "Toevoeging",
+    "additionPlaceholder": "B, C, etc."
+  },
+
+  "stops": {
+    "title": "Tussenstops",
+    "add": "Tussenstop toevoegen",
+    "remove": "Verwijder tussenstop",
+    "label": "Tussenstop",
+    "streetPlaceholder": "Straat / adres",
+    "houseNumberPlaceholder": "Nr.",
+    "additionPlaceholder": "Toev."
+  },
+
+  "when": {
+    "title": "Wanneer",
+    "date": "Vertrekdatum",
+    "time": "Vertrektijd"
+  },
+
+  "return": {
+    "title": "Retour",
+    "checkbox": "Boek uw retour en ontvang 10% korting",
+    "whereFrom": "Waar wilt u vertrekken voor de retourrit?",
+    "sameLocation": "Zelfde locatie als eindbestemming",
+    "differentLocation": "Ander vertrekadres",
+    "fromAddress": "Retour vertrekadres:",
+    "date": "Retourdatum",
+    "time": "Retourtijd",
+    "addressTitle": "Retour vertrekadres"
+  },
+
+  "passengers": {
+    "title": "Passagiers",
+    "label": "{count} passagier{s}"
+  },
+
+  "luggage": {
+    "title": "Bagage",
+    "yes": "Ja, ik heb bagage",
+    "no": "Nee, geen bagage"
+  },
+
+  "cta": "Naar voertuigkeuze",
+
+  "trustIndicators": {
+    "safe": "Veilig & betrouwbaar",
+    "available": "24/7 beschikbaar",
+    "premium": "Premium service"
+  },
+
+  "validation": {
+    "required": "{field} is verplicht",
+    "sameAddress": "Vertrek- en afleveradres mogen niet hetzelfde zijn",
+    "returnAfterDeparture": "Retourdatum en -tijd moeten na de heenreis liggen",
+    "selectLuggage": "Selecteer of u bagage heeft",
+    "streetInvalid": "{field} adres lijkt ongeldig",
+    "houseNumberFmt": "{field} huisnummer moet 1–4 cijfers zijn",
+    "additionFmt": "{field} toevoeging is ongeldig (max 3 karakters)",
+    "passengersRange": "Aantal passagiers moet tussen 1 en 8 liggen",
+    "selectFromList": "Selecteer een adres uit de Google suggesties"
+  }
+}

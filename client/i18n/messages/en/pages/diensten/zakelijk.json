@@ -1,0 +1,342 @@
+{
+  "ZakelijkPage": {
+    "meta": {
+      "title": "Business Taxi Transport Amsterdam | Business Taxi Service 24/7",
+      "description": "Professional business taxi transport in Amsterdam. Fixed rates, monthly invoicing and SLA guarantees. Ideal for companies and executives. Book your business ride now."
+    },
+
+    "hero": {
+      "badge": "Business transport",
+      "title": "Reliable transport",
+      "titleHighlight": "for teams & clients",
+      "description": "Fixed rates, monthly invoicing and 24/7 service. One platform for rides, reports and custom SLAs.",
+      "cta": {
+        "primary": "Request business account",
+        "secondary": "Contact us"
+      },
+      "features": {
+        "response": "Response time < 5 min",
+        "sla": "SLA & invoicing",
+        "ontime": "98% on-time rate"
+      },
+      "trustCard": {
+        "trustedBy": "Trusted by",
+        "rating": "Avg. rating",
+        "ridesPerMonth": "Rides/month"
+      },
+      "ctaBar": {
+        "available": "24/7 available",
+        "invoicing": "Monthly invoicing",
+        "realtime": "Real-time overview",
+        "fixedRates": "Fixed rates",
+        "cta": "Request quote"
+      }
+    },
+
+    "accountIntro": {
+      "title": "Business account set up in 1 business day",
+      "description": "One platform for rides, reports and invoicing. Custom SLAs and 24/7 availability. Leave your details; we'll have your account ready within 1 business day.",
+      "details": "Our business platform offers complete transparency over all your rides. From real-time tracking to detailed monthly reports with cost analysis per department, employee or project. Invoices are sent automatically and can be exported directly to your accounting system.",
+      "features": {
+        "setup": {
+          "title": "Quick setup",
+          "description": "Account active within 24 hours"
+        },
+        "sla": {
+          "title": "SLA guarantee",
+          "description": "Fixed response times"
+        },
+        "invoicing": {
+          "title": "Monthly invoicing",
+          "description": "Clear & VAT-compliant"
+        },
+        "team": {
+          "title": "Team management",
+          "description": "Multiple users possible"
+        }
+      },
+      "process": {
+        "title": "How it works:",
+        "steps": {
+          "apply": {
+            "title": "Submit application",
+            "description": "Fill in the form with your company details"
+          },
+          "activate": {
+            "title": "Account activation",
+            "description": "Your account is live within 1 business day"
+          },
+          "book": {
+            "title": "Book directly",
+            "description": "Log in and schedule your first ride"
+          }
+        }
+      },
+      "stats": {
+        "rating": "4.9/5",
+        "ratingLabel": "Avg. rating",
+        "rides": "10k+",
+        "ridesLabel": "Rides / month",
+        "clients": "200+",
+        "clientsLabel": "Business clients"
+      },
+      "included": {
+        "title": "Included:",
+        "accountManager": "Dedicated account manager",
+        "reports": "Monthly reports",
+        "priority": "Priority booking",
+        "drivers": "Fixed drivers available"
+      },
+      "cta": {
+        "title": "Request business account",
+        "description": "Leave your details; we'll have your account ready within 1 business day.",
+        "button": "Request account",
+        "terms": "By submitting you agree to our terms and privacy policy."
+      }
+    },
+
+    "diensten": {
+      "title": "Business Services",
+      "subtitle": "From airport transfers to VIP transport. Every service is tailored to business needs.",
+      "services": {
+        "airport": {
+          "title": "Airport Transfers",
+          "description": "Reliable transport to and from Schiphol. Flight tracking and meet & greet service.",
+          "features": {
+            "tracking": "Flight tracking",
+            "meetGreet": "Meet & greet",
+            "fixedDrivers": "Fixed drivers"
+          }
+        },
+        "meeting": {
+          "title": "Meeting Transport",
+          "description": "Professional transport for business meetings. Always on time, always discreet.",
+          "features": {
+            "priority": "Priority booking",
+            "wifi": "WiFi on board",
+            "quiet": "Quiet ride"
+          }
+        },
+        "event": {
+          "title": "Event Transport",
+          "description": "Group transport for events, trade shows and corporate events. Up to 8 people.",
+          "features": {
+            "minivan": "Minivan luxury",
+            "discount": "Group discount",
+            "planning": "Event planning"
+          }
+        },
+        "ladies": {
+          "title": "Ladies Taxi",
+          "description": "Safe transport for female employees. Female drivers and extra safety.",
+          "features": {
+            "femaleDrivers": "Female drivers",
+            "safety": "Extra safety check",
+            "available": "24/7 available"
+          }
+        },
+        "vip": {
+          "title": "VIP & Executive",
+          "description": "Premium transport for executives and important guests. Tesla or Mercedes S-Class.",
+          "features": {
+            "luxury": "Luxury vehicles",
+            "butler": "Butler service",
+            "discretion": "Absolute discretion"
+          }
+        },
+        "contract": {
+          "title": "Contract Rides",
+          "description": "Fixed routes and times for daily use. Maximum cost efficiency.",
+          "features": {
+            "fixedDriver": "Fixed driver",
+            "discount": "Preferential rate",
+            "monthly": "Monthly contract"
+          }
+        }
+      },
+      "cta": {
+        "notFound": "Can't find what you're looking for? We're happy to create a customized proposal.",
+        "button": "Discuss your needs",
+        "learnMore": "More information"
+      }
+    },
+
+    "pricing": {
+      "title": "Transparent Pricing",
+      "subtitle": "Choose the package that fits your company. No hidden costs, always clear rates.",
+      "packages": {
+        "flex": {
+          "name": "Flex",
+          "tagline": "Pay per ride",
+          "price": "From €35",
+          "description": "Perfect for occasional business transport without commitments.",
+          "cta": "Book directly",
+          "popular": "MOST POPULAR"
+        },
+        "business": {
+          "name": "Business",
+          "tagline": "For growing companies",
+          "price": "From €32",
+          "priceNote": "per ride with 10+ rides/month",
+          "description": "Ideal for companies with regular transport needs.",
+          "cta": "Request account"
+        },
+        "corporate": {
+          "name": "Corporate",
+          "tagline": "Enterprise solution",
+          "price": "Custom",
+          "description": "Complete package for organizations with high transport demand.",
+          "cta": "Discuss options"
+        }
+      },
+      "features": {
+        "flex": [
+          "No monthly costs",
+          "Standard invoicing",
+          "Business Class vehicles",
+          "Online booking platform",
+          "Email support",
+          "VAT deductible"
+        ],
+        "business": [
+          "Everything from Flex, plus:",
+          "Fixed drivers possible",
+          "Priority booking (< 30 min)",
+          "Monthly reports",
+          "Dedicated account manager",
+          "Team management dashboard",
+          "Fixed monthly invoicing",
+          "Up to 15% discount"
+        ],
+        "corporate": [
+          "Everything from Business, plus:",
+          "Custom SLA agreements",
+          "API integration possible",
+          "Dedicated support 24/7",
+          "VIP vehicles available",
+          "Contract pricing",
+          "Quarterly reviews",
+          "Multi-location support",
+          "Up to 25% volume discount"
+        ]
+      },
+      "footer": {
+        "included": "All packages include: VAT, fuel costs, tolls and insurance. No hidden costs or unexpected surcharges.",
+        "questions": "Questions about which package suits you? Call",
+        "or": "or",
+        "requestQuote": "request a quote"
+      }
+    },
+
+    "vloot": {
+      "title": "Premium Fleet",
+      "subtitle": "Exclusive transport that Amsterdam's elite trusts.",
+      "subtitleHighlight": "Always on time",
+      "subtitleEnd": "always in absolute luxury.",
+      "categories": {
+        "business": {
+          "name": "Business Class",
+          "subtitle": "Premium comfort for business rides",
+          "featuresTitle": "Business Class Premium Features",
+          "features": {
+            "mercedes": "Luxury Mercedes-Benz",
+            "wifi": "WiFi & USB-C",
+            "invoice": "Business invoice",
+            "quiet": "Quiet ride",
+            "climate": "Climate control"
+          },
+          "bullets": [
+            "1–3 passengers",
+            "2–3 suitcases",
+            "Professional driver"
+          ],
+          "cta": "Book Business"
+        },
+        "vip": {
+          "name": "VIP Class",
+          "subtitle": "Exclusive experience with top service",
+          "featuresTitle": "VIP Class Premium Features",
+          "features": {
+            "vehicle": "S-Class / Model S",
+            "privacy": "Privacy & discreet",
+            "champagne": "Champagne & refreshments",
+            "butler": "Butler service",
+            "fastlane": "Fast-lane pickup"
+          },
+          "bullets": [
+            "1–3 passengers",
+            "2–3 suitcases",
+            "Absolute discretion"
+          ],
+          "cta": "Plan VIP"
+        },
+        "van": {
+          "name": "Minivan Luxury",
+          "subtitle": "Spacious solution for groups",
+          "featuresTitle": "Minivan Luxury Premium Features",
+          "features": {
+            "capacity": "V-Class (up to 8p)",
+            "roof": "Panoramic roof",
+            "climate": "Zone climate control",
+            "luggage": "Lots of luggage",
+            "charging": "USB-C charging"
+          },
+          "bullets": [
+            "Up to 8 passengers",
+            "6–8 suitcases",
+            "Ideal for events"
+          ],
+          "cta": "Request group ride"
+        },
+        "ladies": {
+          "name": "Ladies Taxi",
+          "subtitle": "Safe transport for women",
+          "featuresTitle": "Ladies Taxi Premium Features",
+          "features": {
+            "female": "Female driver",
+            "safety": "Extra safety check",
+            "tracking": "Live tracking",
+            "available": "24/7 available",
+            "discreet": "Discreet & reliable"
+          },
+          "bullets": [
+            "1–3 passengers",
+            "2–3 suitcases",
+            "Preferred drivers"
+          ],
+          "cta": "Plan Ladies Taxi"
+        }
+      },
+      "ariaLabel": "Vehicle categories"
+    },
+
+    "faq": {
+      "questions": [
+        {
+          "q": "How does monthly invoicing work exactly?",
+          "a": "You receive one clear invoice every month with all rides. This contains a detailed overview per ride, employee and cost center. All invoices are VAT-compliant and can be exported directly to your accounting system."
+        },
+        {
+          "q": "Can multiple employees use the business account?",
+          "a": "Yes, you can add unlimited users to your account. Each employee gets their own login credentials and you determine the rights and budgets per user yourself."
+        },
+        {
+          "q": "What happens with a no-show or cancellation?",
+          "a": "Cancellations up to 2 hours before the scheduled ride are free. For cancellations within 2 hours or no-shows we charge 50% of the ride fare. For contract customers we often apply more flexible conditions."
+        },
+        {
+          "q": "How quickly can you activate a business account?",
+          "a": "After receiving your application, your account is active within 1 business day. You receive your login details immediately and can book rides right away. For urgent cases we can activate within 2 hours."
+        },
+        {
+          "q": "Do you offer SLA guarantees?",
+          "a": "Yes, for Business and Corporate packages we offer custom SLAs. Think of guaranteed response times, availability and on-time performance. This is all recorded in your contract."
+        },
+        {
+          "q": "Can we also book international rides?",
+          "a": "Absolutely. We drive throughout Europe. For rides outside the Benelux we recommend booking at least 48 hours in advance so we can schedule the best driver."
+        }
+      ]
+    }
+  }
+}

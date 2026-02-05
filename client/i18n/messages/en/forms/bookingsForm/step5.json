@@ -1,0 +1,54 @@
+{
+  "title": "Review Your Booking",
+  "subtitle": "Final check before proceeding to payment",
+  "edit": "Edit",
+
+  "sections": {
+    "tripDetails": {
+      "title": "Trip details",
+      "route": "Route",
+      "stops": "Stops",
+      "date": "Date",
+      "time": "Time",
+      "return": "Return",
+      "returnDeparture": "Departure:"
+    },
+
+    "vehicle": {
+      "title": "Vehicle & passengers",
+      "vehicle": "Vehicle",
+      "passengers": "Passengers",
+      "luggage": "Luggage",
+      "noLuggage": "No luggage",
+      "handluggage": "Hand luggage",
+      "suitcases": "Suitcases"
+    },
+
+    "extraServices": {
+      "title": "Extra services",
+      "flightNumber": "Flight number:",
+      "meetingPoint": "Meeting point:",
+      "specialRequests": "Special requests:"
+    },
+
+    "contact": {
+      "title": "Contact details",
+      "duringTrip": "(during the trip)"
+    },
+
+    "pricing": {
+      "title": "Price overview",
+      "transport": "Transport ({vehicle})",
+      "extraServices": "Extra services:",
+      "total": "Total",
+      "securePayment": "Secure payment",
+      "securePaymentHint": "Your payment is securely processed through our protected payment environment"
+    }
+  },
+
+  "navigation": {
+    "back": "Back to contact details",
+    "submit": "Proceed to payment ({price})",
+    "submitting": "Redirecting to payment..."
+  }
+}

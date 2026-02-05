@@ -1,0 +1,83 @@
+{
+  "title": "Book your premium ride",
+  "subtitle": "Luxury transport, on time and in style",
+
+  "from": {
+    "title": "Pickup address",
+    "street": "Street / address",
+    "streetPlaceholder": "E.g. Main Street",
+    "houseNumber": "House number",
+    "houseNumberPlaceholder": "123",
+    "addition": "Addition",
+    "additionPlaceholder": "A, B, etc."
+  },
+
+  "to": {
+    "title": "Drop-off address",
+    "street": "Street / address",
+    "streetPlaceholder": "E.g. Station Square",
+    "houseNumber": "House number",
+    "houseNumberPlaceholder": "15",
+    "addition": "Addition",
+    "additionPlaceholder": "B, C, etc."
+  },
+
+  "stops": {
+    "title": "Stops",
+    "add": "Add stop",
+    "remove": "Remove stop",
+    "label": "Stop",
+    "streetPlaceholder": "Street / address",
+    "houseNumberPlaceholder": "No.",
+    "additionPlaceholder": "Add."
+  },
+
+  "when": {
+    "title": "When",
+    "date": "Departure date",
+    "time": "Departure time"
+  },
+
+  "return": {
+    "title": "Return",
+    "checkbox": "Book your return and receive 10% discount",
+    "whereFrom": "Where would you like to depart for the return trip?",
+    "sameLocation": "Same location as destination",
+    "differentLocation": "Different departure address",
+    "fromAddress": "Return departure address:",
+    "date": "Return date",
+    "time": "Return time",
+    "addressTitle": "Return departure address"
+  },
+
+  "passengers": {
+    "title": "Passengers",
+    "label": "{count} passenger{s}"
+  },
+
+  "luggage": {
+    "title": "Luggage",
+    "yes": "Yes, I have luggage",
+    "no": "No, no luggage"
+  },
+
+  "cta": "Select vehicle",
+
+  "trustIndicators": {
+    "safe": "Safe & reliable",
+    "available": "24/7 available",
+    "premium": "Premium service"
+  },
+
+  "validation": {
+    "required": "{field} is required",
+    "sameAddress": "Pickup and drop-off address cannot be the same",
+    "returnAfterDeparture": "Return date/time must be after the outbound trip",
+    "selectLuggage": "Please select if you have luggage",
+    "streetInvalid": "{field} address looks invalid",
+    "houseNumberFmt": "{field} house number must be 1–4 digits",
+    "additionFmt": "{field} addition is invalid (max 3 characters)",
+    "passengersRange": "Number of passengers must be between 1 and 8",
+    "selectFromList": "Select an address from the Google suggestions"
+  }
+}

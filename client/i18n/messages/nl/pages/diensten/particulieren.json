@@ -1,0 +1,302 @@
+{
+  "ParticulierenPage": {
+    "meta": {
+      "title": "Exclusief Privévervoer | Comfort & Professionele Chauffeurs",
+      "description": "Privévervoer met gecertificeerde chauffeurs. Ideaal voor luchthavenvervoer, dagtrips, avondritten en luxe privéritten. 24/7 beschikbaar."
+    },
+
+    "hero": {
+      "badge": "Privévervoer",
+      "title": "Exclusief privévervoer",
+      "titleHighlight": "met comfort & stijl",
+      "subtitle": "Wij bieden privévervoer met ervaren chauffeurs en luxe voertuigen. Perfect voor luchthavenvervoer, privéritten en speciale gelegenheden.",
+      "usp": {
+        "available": "24/7 beschikbaar",
+        "safeDrivers": "Gecertificeerde chauffeurs",
+        "professional": "Professionele privéchauffeurs"
+      },
+      "cta": {
+        "primary": "Plan uw rit",
+        "secondary": "Meer informatie"
+      },
+      "stats": {
+        "rides": "10.000+ ritten per maand",
+        "rating": "Beoordeling 4.9/5"
+      }
+    },
+
+    "filosofie": {
+      "badge": "Onze filosofie",
+      "title": "Particulier vervoer met de aandacht van een privéchauffeur",
+      "description": "Wij geloven dat elke rit een ervaring mag zijn — discreet, comfortabel en volledig afgestemd op uw wensen. Altijd op tijd. Altijd verzorgd. Altijd exclusief.",
+      "usps": {
+        "discreet": {
+          "title": "Discrete, professioneel geklede chauffeurs",
+          "description": "Geselecteerd op etiquette, rijstijl en vertrouwelijkheid. Uw privacy staat altijd voorop."
+        },
+        "vehicles": {
+          "title": "Luxe voertuigen: Mercedes E, S & V-Klasse",
+          "description": "Representatieve wagens met optimale beenruimte, stille cabine en premium afwerking."
+        },
+        "ontime": {
+          "title": "Stipt en betrouwbaar, 24/7 beschikbaar",
+          "description": "We plannen vooruit en monitoren in realtime, zodat u zorgeloos op tijd aankomt."
+        },
+        "service": {
+          "title": "Gepersonaliseerde service op aanvraag",
+          "description": "Van drank en muziek tot routevoorkeur: elke rit is volledig afgestemd op uw wensen."
+        }
+      }
+    },
+
+    "vloot": {
+      "title": "Kies uw comfortniveau",
+      "subtitle": "Elke rit verdient comfort, stijl en luxe.",
+      "subtitleHighlight": "Altijd comfortabel",
+      "subtitleEnd": "voor elke gelegenheid.",
+      "ariaLabel": "Voertuigcategorieën",
+      "categories": {
+        "business": {
+          "name": "Business Class",
+          "subtitle": "Premium vervoer voor dagelijks gebruik",
+          "featuresTitle": "Business Class kenmerken",
+          "features": {
+            "climate": "Klimaatregeling",
+            "leather": "Lederen interieur",
+            "privacyGlass": "Privacyglas",
+            "charging": "USB & draadloos opladen"
+          },
+          "bullets": [
+            "1–3 passagiers",
+            "2–3 koffers",
+            "Professionele chauffeur"
+          ],
+          "cta": "Boek Business"
+        },
+        "vip": {
+          "name": "VIP Class",
+          "subtitle": "Topniveau luxe & comfort",
+          "featuresTitle": "VIP kenmerken",
+          "features": {
+            "massage": "Stoelmassage",
+            "privacy": "Extra privacy",
+            "leather": "Premium leder"
+          },
+          "bullets": [
+            "1–3 passagiers",
+            "2–3 koffers",
+            "VIP-behandeling"
+          ],
+          "cta": "Boek VIP"
+        },
+        "van": {
+          "name": "Luxury Van",
+          "subtitle": "Perfect voor families & groepen",
+          "featuresTitle": "Luxury Van kenmerken",
+          "features": {
+            "space": "Ruimte voor 6–7 passagiers",
+            "luggage": "Grote bagageruimte",
+            "comfort": "Zeer comfortabel zitcomfort"
+          },
+          "bullets": [
+            "6–7 passagiers",
+            "Veel bagage",
+            "Ideaal voor trips"
+          ],
+          "cta": "Boek Luxury Van"
+        },
+        "ladies": {
+  "name": "Ladies Taxi",
+  "subtitle": "Veilig & comfortabel vervoer voor vrouwen",
+  "featuresTitle": "Ladies Taxi Premium Features",
+  "features": {
+    "femaleDriver": "Vrouwelijke chauffeur",
+    "extraSafety": "Extra veiligheid",
+    "discreet": "Discrete service",
+    "personal": "Persoonlijke aandacht"
+  },
+  "bullets": [
+    "1–3 passagiers",
+    "2 koffers",
+    "Premium service"
+  ],
+  "cta": "Reserveer Ladies Taxi"
+}
+      }
+    },
+
+    "services": {
+  "section": {
+    "badge": "Onze diensten",
+    "title": "Waar kunnen wij u mee helpen?",
+    "description": "Van een belangrijke afspraak tot een zorgeloze avond uit — wij bieden privévervoer dat aansluit bij uw leven en wensen."
+  },
+  "items": {
+    "airport": {
+      "title": "Privé luchthavenvervoer",
+      "subtitle": "Naar en van Schiphol",
+      "description": "Uw reis begint en eindigt met rust. Wij monitoren uw vlucht, passen ons aan bij vertraging en staan klaar wanneer u aankomt. Geen haast, geen stress — alleen comfort.",
+      "highlights": [
+        "Flight tracking & flexibele ophaaltijd",
+        "Meet & greet in de aankomsthal",
+        "Hulp met bagage",
+        "Privé transfer, geen tussenstops"
+      ],
+      "icon": "✈️",
+      "gradient": "from-blue-500 to-blue-600"
+    },
+    "dinner": {
+      "title": "Avond- en dinertransport",
+      "subtitle": "Geniet zonder zorgen",
+      "description": "Een avondje uit hoort zorgeloos te zijn. Wij brengen u naar uw restaurant, theater of gala — en halen u weer op wanneer u klaar bent.",
+      "highlights": [
+        "Flexibele ophaaltijd na afloop",
+        "Discrete wachtservice",
+        "Perfect voor speciale gelegenheden",
+        "Geen parkeer- of alcoholzorgen"
+      ],
+      "icon": "🍷",
+      "gradient": "from-amber-500 to-orange-600"
+    },
+    "events": {
+      "title": "Evenementen & concertvervoer",
+      "subtitle": "Aankomst in stijl",
+      "description": "Of het nu gaat om een concert, musical of sportevenement — kom ontspannen aan en vertrek zonder gedrang. Wij regelen alles rondom uw vervoer.",
+      "highlights": [
+        "Drop-off bij de ingang",
+        "Pickup na afloop zonder wachttijd",
+        "Kennis van venues en routes",
+        "Ideaal voor groepen tot 7 personen"
+      ],
+      "icon": "🎭",
+      "gradient": "from-purple-500 to-pink-600"
+    },
+    "daytrips": {
+      "title": "Luxe dagtrips & weekendvervoer",
+      "subtitle": "Ontdek op uw tempo",
+      "description": "Een dagje weg of een weekendje erop uit? Laat ons het rijden doen. Wij brengen u naar uw bestemming en blijven beschikbaar voor eventuele aanpassingen.",
+      "highlights": [
+        "Flexibele planning onderweg",
+        "Meerdere stops mogelijk",
+        "Chauffeur blijft beschikbaar",
+        "Perfect voor familie-uitjes"
+      ],
+      "icon": "🏞️",
+      "gradient": "from-green-500 to-teal-600"
+    },
+    "chauffeur": {
+      "title": "Chauffeurservice",
+      "subtitle": "Voor uw eigen voertuig",
+      "description": "Liever in uw eigen auto reizen? Onze ervaren chauffeurs rijden uw voertuig, zodat u kunt werken, ontspannen of genieten van het gezelschap.",
+      "highlights": [
+        "Gekwalificeerde chauffeurs",
+        "Volledig verzekerd",
+        "Respectvolle omgang met uw voertuig",
+        "Ook voor speciale gelegenheden"
+      ],
+      "icon": "👔",
+      "gradient": "from-gray-600 to-gray-800"
+    },
+    "business": {
+      "title": "Zakelijke verplaatsingen",
+      "subtitle": "Uw mobiele werkplek",
+      "description": "Maak van reistijd werktijd. Met WiFi, oplaadmogelijkheden en een rustige omgeving blijft u productief tussen afspraken door.",
+      "highlights": [
+        "Volledige privacy en discretie",
+        "WiFi en werkfaciliteiten",
+        "Vaste chauffeurs beschikbaar",
+        "Maandcontracten mogelijk"
+      ],
+      "icon": "💼",
+      "gradient": "from-slate-600 to-slate-800"
+    },
+    "ladiesTaxi": {
+      "title": "Ladies Taxi",
+      "subtitle": "Veilig vervoer voor vrouwen",
+      "description": "Onze Ladies Taxi service biedt extra veiligheid, discretie en comfort — met professionele vrouwelijke chauffeurs.",
+      "highlights": [
+        "Vrouwelijke chauffeur",
+        "Extra veiligheidsmaatregelen",
+        "Discrete service",
+        "Persoonlijke aandacht"
+      ],
+      "icon": "💗",
+      "gradient": "from-rose-500 to-pink-600"
+    }
+  },
+  "cta": {
+    "button": "Meer informatie",
+    "missingTitle": "Uw service staat er niet tussen?",
+    "missingDescription": "Elk vervoer dat u nodig heeft, kunnen wij voor u regelen. Neem contact op en bespreek uw wensen — wij denken graag met u mee.",
+    "cta1": "Plan een gesprek",
+    "cta2": "Bel ons direct"
+  },
+  "trust": {
+    "available": "24/7 bereikbaar",
+    "confirmation": "Directe bevestiging",
+    "custom": "Maatwerk mogelijk"
+  }
+},
+
+    "pricing": {
+      "title": "Tarieven privévervoer",
+      "subtitle": "Kies het comfortniveau dat past bij uw reis. Geen verrassingen, altijd duidelijke prijzen.",
+      "packages": {
+        "flex": {
+          "name": "Comfort",
+          "tagline": "Voor dagelijkse ritten",
+          "price": "Vanaf €35",
+          "description": "Ideaal voor korte ritten binnen de stad.",
+          "cta": "Plan uw rit"
+        },
+        "business": {
+          "name": "Premium",
+          "tagline": "Extra comfort & service",
+          "price": "Vanaf €45",
+          "priceNote": "Afhankelijk van afstand en tijd",
+          "description": "Meer luxe, rust en persoonlijke aandacht.",
+          "cta": "Offerte aanvragen",
+          "popular": "MEEST GEKOZEN"
+        },
+        "corporate": {
+          "name": "VIP",
+          "tagline": "Maximale luxe",
+          "price": "Op aanvraag",
+          "description": "Voor speciale gelegenheden en belangrijke gasten.",
+          "cta": "Bespreek mogelijkheden"
+        }
+      },
+      "features": {
+        "flex": [
+          "Comfortabele voertuigen",
+          "Perfect voor korte ritten",
+          "Professionele chauffeurs",
+          "Eenvoudig boeken",
+          "Transparante prijzen"
+        ],
+        "business": [
+          "Alles van Comfort, plus:",
+          "Meer beenruimte",
+          "Stille en rustige rijervaring",
+          "Flexibele ophaaltijden",
+          "Persoonlijke service",
+          "Ideaal voor avondjes uit"
+        ],
+        "corporate": [
+          "Alles van Premium, plus:",
+          "Topklasse voertuigen",
+          "Maximale privacy & comfort",
+          "Volledig maatwerk",
+          "Perfect voor bruiloften en evenementen"
+        ]
+      },
+      "footer": {
+        "included": "Alle ritten zijn inclusief BTW en standaard wachttijd.",
+        "questions": "Vragen over de tarieven? Bel",
+        "or": "of",
+        "requestQuote": "vraag een persoonlijke offerte aan",
+        "phone": "020 723 56 38"
+      }
+    }
+  }
+}

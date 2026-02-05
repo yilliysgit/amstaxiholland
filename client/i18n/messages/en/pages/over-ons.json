@@ -1,0 +1,256 @@
+{
+  "AboutPage": {
+    "meta": {
+      "title": "About Us - Amsterdam Taxi Service | Our Story",
+      "description": "Discover the story behind Amsterdam's most trusted taxi service. From small family business to 50+ professionals."
+    },
+
+    "hero": {
+      "badge": "Our story",
+      "title": "From passion for",
+      "titleHighlight": "service to success",
+      "description": {
+        "line1": "Since 2008, we've been proudly serving Amsterdam.",
+        "line2": "From 3 taxis to a team of 50+ professionals serving thousands of customers daily."
+      },
+      "keyMessage": {
+        "title": "Our mission: perfect service, every ride",
+        "description": "We believe every ride matters. That's why we invest in our people, vehicles, and technology to give you the best experience. From your first booking to your destination."
+      },
+      "usp": {
+        "years": "15+",
+        "drivers": "50+",
+        "rides": "100k+"
+      },
+      "uspLabel": {
+        "years": "Years experience",
+        "drivers": "Professionals",
+        "rides": "Rides per year"
+      },
+      "cta": {
+        "primary": "Explore our services"
+      }
+    },
+
+    "story": {
+      "sectionHeader": {
+        "title": "Our Story",
+        "description": "From a small family business to Amsterdam's most trusted taxi service."
+      },
+      "timeline": [
+        {
+          "year": "2008",
+          "title": "The beginning",
+          "description": "Started with 3 taxis and one mission: provide the best service in Amsterdam. What began as a small dream quickly grew into something more.",
+          "milestone": "3 taxis",
+          "icon": "car",
+          "isHighlight": false
+        },
+        {
+          "year": "2012",
+          "title": "Growth",
+          "description": "Expanded to 15 vehicles and secured our first corporate contracts. Companies began trusting us for their transport needs.",
+          "milestone": "15 drivers",
+          "icon": "users",
+          "isHighlight": false
+        },
+        {
+          "year": "2016",
+          "title": "Digital",
+          "description": "Introduced GPS tracking and online booking systems. Technology helped us become even better.",
+          "milestone": "Digital first",
+          "icon": "zap",
+          "isHighlight": false
+        },
+        {
+          "year": "2020",
+          "title": "Resilience",
+          "description": "During COVID-19, we kept driving and supporting our city. It was tough, but we didn't give up.",
+          "milestone": "Resilient",
+          "icon": "trophy",
+          "isHighlight": true
+        },
+        {
+          "year": "2024",
+          "title": "Today",
+          "description": "Now a team of 50+ professionals serving thousands of customers daily. The story continues.",
+          "milestone": "50+ team",
+          "icon": "mapPin",
+          "isHighlight": false
+        }
+      ],
+      "bottomCTA": {
+        "title": "Become part of our story",
+        "description": "Whether you ride regularly or book for the first time, we treat you like family.",
+        "buttonText": "Book your first ride"
+      }
+    },
+
+    "values": {
+      "sectionHeader": {
+        "title": "Our Core Values",
+        "description": "This is what we stand for and what drives us to improve every day."
+      },
+      "items": {
+        "safety": {
+          "title": "Safety first",
+          "description": "All drivers are screened and certified. Vehicles are maintained according to the highest standards.",
+          "highlight": "100% insured"
+        },
+        "reliability": {
+          "title": "Reliability",
+          "description": "Punctuality is our promise. We plan every ride carefully and account for traffic conditions.",
+          "highlight": "Always on time"
+        },
+        "service": {
+          "title": "Personal service",
+          "description": "Every customer is unique. We tailor our service to your specific wishes and needs.",
+          "highlight": "Custom service"
+        },
+        "expertise": {
+          "title": "Local expertise",
+          "description": "15 years of experience in Amsterdam means we know every route and always find the fastest way.",
+          "highlight": "Amsterdam experts"
+        },
+        "quality": {
+          "title": "Guaranteed quality",
+          "description": "Modern fleet, professional drivers, and thousands of satisfied customers daily.",
+          "highlight": "Premium standard"
+        },
+        "team": {
+          "title": "Stronger together",
+          "description": "Our team of 50+ professionals works as one to make your experience perfect.",
+          "highlight": "One team spirit"
+        }
+      },
+      "bottomStatement": {
+        "title": "Why customers choose us",
+        "description": "We're more than a taxi service. We're a reliable partner for all your transport needs in Amsterdam.",
+        "details": [
+          "4.9/5 star rating",
+          "98% on-time rate",
+          "200+ business clients"
+        ]
+      }
+    },
+
+    "services": {
+      "sectionHeader": {
+        "title": "Our Services",
+        "description": "From business transport to airport shuttle, we have a solution for every situation."
+      },
+      "items": {
+        "business": {
+          "title": "Business transport",
+          "description": "Representative and reliable transport for your company. From important meetings to corporate events.",
+          "features": [
+            "Luxury vehicles",
+            "Professional drivers",
+            "Invoice service",
+            "Contract options available"
+          ],
+          "highlight": "Most chosen"
+        },
+        "airport": {
+          "title": "Airport shuttle",
+          "description": "Stress-free transport to and from Schiphol and other airports. Always on time for your flight.",
+          "features": [
+            "Flight monitoring",
+            "Luggage assistance",
+            "Available 24/7",
+            "Fixed rates"
+          ],
+          "highlight": "Popular"
+        },
+        "group": {
+          "title": "Group transport",
+          "description": "Comfortable travel with family, friends or colleagues. Reach your destination together.",
+          "features": [
+            "Large vehicles",
+            "Flexible routes",
+            "Group rates",
+            "Event service"
+          ],
+          "highlight": "Affordable"
+        },
+        "private": {
+          "title": "Private transport",
+          "description": "Personal transport for any occasion. Shopping, nightlife, or simply whenever you need it.",
+          "features": [
+            "Direct availability",
+            "Comfortable rides",
+            "Local knowledge",
+            "Discreet service"
+          ],
+          "highlight": "Flexible"
+        }
+      },
+      "whyChooseUs": {
+        "title": "Why choose us?",
+        "description": "We make every ride an experience with comfort, safety and reliability.",
+        "differentiators": [
+          "Always on time",
+          "Certified drivers",
+          "Premium service",
+          "Local expertise"
+        ]
+      },
+      "cta": {
+        "title": "Ready to ride with us?",
+        "description": "Book your ride or explore all our services.",
+        "buttons": [
+          "Book now",
+          "View services"
+        ]
+      }
+    },
+
+    "recruitment": {
+      "sectionHeader": {
+        "title": "Join our team",
+        "description": "We're always looking for dedicated professionals who want to provide our customers with the best service."
+      },
+      "driver": {
+        "title": "Become a driver",
+        "description": "Drive for Amsterdam's most trusted taxi service. Flexible hours and good earnings.",
+        "benefits": [
+          "Flexible hours",
+          "Good earnings",
+          "Modern fleet",
+          "Training & development"
+        ],
+        "button": "Apply now"
+      },
+      "partner": {
+        "title": "Become a partner",
+        "description": "Have your own car? Become a partner and benefit from our customer base.",
+        "benefits": [
+          "Own schedule",
+          "Regular customers",
+          "Marketing support",
+          "Administrative help"
+        ],
+        "button": "More information"
+      },
+      "bottom": {
+        "text": "Questions about working with us?",
+        "highlight": "Get in touch for a no-obligation chat."
+      }
+    },
+
+    "team": {
+      "sectionHeader": {
+        "title": "Meet our team",
+        "description": "The people behind the service. Our team of professionals is ready for you every day."
+      },
+      "stats": {
+        "drivers": "50+",
+        "driversLabel": "Drivers",
+        "languages": "15+",
+        "languagesLabel": "Languages",
+        "experience": "15 years",
+        "experienceLabel": "Average experience"
+      }
+    }
+  }
+}

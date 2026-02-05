@@ -1,0 +1,77 @@
+{
+  "title": "Extra services & wensen",
+  "subtitle": "Maak uw reis nog comfortabeler met extra services",
+
+  "extraServices": {
+    "title": "Extra services",
+    "childSeat": {
+      "name": "Kinderzitje",
+      "description": "Veilig kinderzitje voor kinderen tot 12 jaar"
+    },
+    "meetGreet": {
+      "name": "Meet & Greet service",
+      "description": "Chauffeur wacht u op met een naambordje"
+    },
+    "refreshments": {
+      "name": "Verfrissingen",
+      "description": "Water, koffie en snacks aan boord"
+    },
+    "wifi": {
+      "name": "Premium wifi",
+      "description": "Snelle internetverbinding tijdens de rit"
+    },
+    "newspapers": {
+      "name": "Dagbladen",
+      "description": "Nederlandse en internationale kranten"
+    },
+    "flightTracking": {
+      "name": "Vluchtmonitoring",
+      "description": "Wij volgen uw vlucht bij eventuele vertragingen"
+    }
+  },
+
+  "flightInfo": {
+    "title": "Vluchtinformatie (optioneel)",
+    "flightNumber": {
+      "label": "Vluchtnummer",
+      "placeholder": "Bijv. KL1234",
+      "hint": "Voor luchthaventransfers – wij volgen uw vlucht"
+    },
+    "meetingPoint": {
+      "label": "Ontmoetingspunt",
+      "placeholder": "Bijv. aankomsthal, uitgang 3",
+      "hint": "Waar kunnen wij u het beste ontmoeten?"
+    }
+  },
+
+  "contact": {
+    "title": "Contact & bijzondere wensen",
+    "phone": {
+      "label": "Contactnummer tijdens de reis (optioneel)",
+      "placeholder": "06 12345678",
+      "hint": "Voor belangrijke updates tijdens uw reis"
+    },
+    "specialRequests": {
+      "label": "Bijzondere wensen of opmerkingen",
+      "placeholder": "Bijvoorbeeld: allergieën, muziekvoorkeur, routewensen, etc.",
+      "hint": "Laat ons weten hoe we uw reis perfect kunnen maken"
+    }
+  },
+
+  "summary": {
+    "title": "Prijsoverzicht",
+    "route": "Route",
+    "vehicle": "Voertuig",
+    "passengers": "Passagiers",
+    "costs": "Kosten",
+    "baseTransport": "Basisvervoer",
+    "extraServices": "Extra services:",
+    "extraServicesTotal": "Extra services: {price}",
+    "total": "Totaal"
+  },
+
+  "navigation": {
+    "back": "Terug naar voertuigkeuze",
+    "next": "Naar overzicht"
+  }
+}

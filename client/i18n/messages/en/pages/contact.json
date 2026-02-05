@@ -1,0 +1,105 @@
+{
+  "ContactPage": {
+    "hero": {
+      "badge": {
+        "availability": "24/7",
+        "text": "Always available for your rides"
+      },
+      "title": "Get in touch with us",
+      "titleHighlight": "contact",
+      "description": "Do you have questions, want a quote, or wish to schedule a business or Schiphol ride? Our team is available 24/7 to assist you personally.",
+      "usp": {
+        "responseTime": "Response within 15 minutes",
+        "luxury": "Luxury & business transport",
+        "professional": "Professional chauffeurs"
+      },
+      "cta": {
+        "primary": "Send a message",
+        "secondary": "Call now",
+        "availability": "24/7 service"
+      }
+    },
+
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "Fill out the form and we will contact you as soon as possible.",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your full name",
+          "required": "Name is required"
+        },
+        "email": {
+          "label": "Email address",
+          "placeholder": "your.email@example.com",
+          "required": "Email is required",
+          "invalid": "Invalid email address"
+        },
+        "phone": {
+          "label": "Phone number",
+          "placeholder": "+31 6 12345678",
+          "optional": "(optional)"
+        },
+        "subject": {
+          "label": "Subject",
+          "placeholder": "Select a subject",
+          "required": "Subject is required",
+          "options": {
+            "booking": "Booking",
+            "quote": "Quote request",
+            "question": "General question",
+            "complaint": "Complaint",
+            "lost-item": "Lost item",
+            "partnership": "Business partnership",
+            "other": "Other"
+          }
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Tell us how we can help you...",
+          "required": "Message is required"
+        }
+      },
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": "Thank you! We have received your message and will contact you soon.",
+      "error": "Something went wrong. Please try again or call us directly."
+    },
+
+    "infoCards": {
+      "title": "How would you like to contact us?",
+      "subtitle": "Choose the method that best suits your question and situation.",
+      "cards": {
+        "available": {
+          "title": "Available 24/7",
+          "description": "Call us for bookings, questions, or immediate assistance.",
+          "badge": "24/7",
+          "whatsapp": "WhatsApp us"
+        },
+        "lostItems": {
+          "title": "Lost & found",
+          "description": "Left something in the taxi? We’ll check it for you right away.",
+          "note": "If possible, keep the time, departure, and arrival location of the ride at hand.",
+          "cta": "Call us now"
+        },
+        "feedback": {
+          "title": "Complaints & feedback",
+          "description": "Share your experience so we can improve our service.",
+          "note": "We respond within one business day.",
+          "cta": "Share your experience"
+        },
+        "serviceArea": {
+          "title": "Service area",
+          "description": "Always available in Amsterdam, Schiphol, and surrounding regions.",
+          "areas": {
+            "amsterdam": "Amsterdam & direct surroundings",
+            "schiphol": "Schiphol transfers",
+            "business": "Business & private transport"
+          },
+          "availability": "Always open",
+          "badge": "24/7 service"
+        }
+      }
+    }
+  }
+}

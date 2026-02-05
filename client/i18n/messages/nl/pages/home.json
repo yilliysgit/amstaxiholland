@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "badge": {
+      "text": "VIP VERVOER • SINDS 2008"
+    },
+    "title": {
+      "overline": "PREMIUM TAXI AMSTERDAM",
+      "main": "VIP Taxiservice",
+      "sub": "Schiphol & Zakelijk"
+    },
+    "description": {
+      "line1": "Luxe taxi Amsterdam met Mercedes S-Class & Tesla. Professionele chauffeurs voor VIP-vervoer.",
+      "line2": "24/7 beschikbaar voor Schiphol ritten, zakelijke transfers en privévervoer."
+    },
+    "cta": {
+      "callNow": "Boek Nu",
+      "ourServices": "Onze Diensten"
+    },
+    "trustIndicators": {
+      "certified": "Gecertificeerd",
+      "insured": "Verzekerd",
+      "premium": "Premium Service",
+      "safe": "Veilig",
+      "instant": "Direct",
+      "premiumShort": "Premium"
+    },
+    "bookingForm": {
+      "title": "Boek Uw Rit",
+      "subtitle": "Premium service staat voor u klaar",
+      "labels": {
+        "pickup": "Ophaallocatie",
+        "destination": "Bestemming",
+        "date": "Datum",
+        "time": "Tijd"
+      },
+      "placeholders": {
+        "pickup": "Voer uw adres in",
+        "destination": "Waar wilt u naartoe?"
+      },
+      "submit": "Bevestig Premium Boeking"
+    }
+  },
+
+  "amsSchipholRates": {
+    "title": "Schiphol Taxi Tarieven",
+    "subtitle": "Vaste prijzen van Amsterdam naar Schiphol.",
+    "ratesOverview": "€ Tarieven Overzicht",
+    "bookNow": "Reserveer Nu",
+    "bookNowDirect": "Boek Nu Direct",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "from": "Vanaf",
+    "to": "Naar",
+    "travelTime": "Reistijd",
+    "minutesShort": "min",
+    "fixedPriceTo": "Vaste prijs naar Schiphol",
+    "averageTime": "Gemiddelde reistijd",
+    "available": "Beschikbaar",
+    "pricesIncludeVAT": "Alle prijzen zijn inclusief BTW",
+    "badges": {
+      "cheapest1": "#1 Goedkoopste",
+      "cheapest2": "#2 Goedkoopste",
+      "cheapest3": "#3 Goedkoopste",
+      "expensive": "Duurste"
+    },
+    "availability": {
+      "24-7": "24/7",
+      "daily": "Dagelijks",
+      "limited": "Beperkt"
+    },
+    "vehicle": {
+      "sedan": "MAX 4 PERS",
+      "van": "MAX 8 PERS"
+    },
+    "highlights": {
+      "meetAndGreet": "Ontmoeting & begroeting bij aankomst",
+      "flightTracking": "Vluchttracking inbegrepen",
+      "freeWaiting": "Gratis wachttijd tot 60 minuten"
+    }
+  },
+
+  "PromoSection": {
+    "overline": "Premium Service",
+    "title": "Altijd verzekerd van een taxi voor zakelijke of particuliere diensten",
+    "intro": "Moet u zich voor werk of privé vaak verplaatsen? In een drukke stad kost dit veel tijd door verkeer en het zoeken naar een parkeerplek. Dat kan makkelijker.",
+    "description": "Door samen te werken met AmstaxiHolland bent u verzekerd van altijd een taxi in Amsterdam wanneer u die nodig heeft.",
+    "benefits": [
+      "Geen oponthoud meer in het drukke stadsverkeer",
+      "U hoeft geen parkeerplek meer te zoeken",
+      "Altijd een taxi in de buurt, altijd beschikbaar",
+      "Extra voordelige prijzen bij een contractueel samenwerkingsverband"
+    ],
+    "ctaLabel": "Vraag vrijblijvend een offerte aan",
+    "imageAlt": "Luxe Mercedes E-Class met privéchauffeur voor zakelijke ritten in Amsterdam"
+  },
+
+  "toursSection": {
+    "title": "Ontdek Amsterdam met Stijl",
+    "subtitle": "Exclusieve tours met privéchauffeur",
+    "description": "Ervaar Amsterdam zoals een local met onze gepersonaliseerde tours.",
+    "viewAll": "Bekijk alle tours",
+    "bookTour": "Boek Tour",
+    "from": "Vanaf"
+  }
+}

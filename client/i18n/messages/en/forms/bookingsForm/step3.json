@@ -1,0 +1,77 @@
+{
+  "title": "Extra Services & Preferences",
+  "subtitle": "Make your trip even more comfortable with extra services",
+
+  "extraServices": {
+    "title": "Extra services",
+    "childSeat": {
+      "name": "Child seat",
+      "description": "Safe child seat for children up to 12 years old"
+    },
+    "meetGreet": {
+      "name": "Meet & Greet service",
+      "description": "Driver will meet you with a name sign"
+    },
+    "refreshments": {
+      "name": "Refreshments",
+      "description": "Water, coffee, and snacks on board"
+    },
+    "wifi": {
+      "name": "Premium WiFi",
+      "description": "Fast internet connection during the ride"
+    },
+    "newspapers": {
+      "name": "Newspapers",
+      "description": "Dutch and international newspapers"
+    },
+    "flightTracking": {
+      "name": "Flight tracking",
+      "description": "We monitor your flight for possible delays"
+    }
+  },
+
+  "flightInfo": {
+    "title": "Flight information (optional)",
+    "flightNumber": {
+      "label": "Flight number",
+      "placeholder": "e.g. KL1234",
+      "hint": "For airport transfers – we track your flight"
+    },
+    "meetingPoint": {
+      "label": "Meeting point",
+      "placeholder": "e.g. arrivals hall, exit 3",
+      "hint": "Where can we best meet you?"
+    }
+  },
+
+  "contact": {
+    "title": "Contact & special requests",
+    "phone": {
+      "label": "Contact number during the trip (optional)",
+      "placeholder": "+31 6 12345678",
+      "hint": "For important updates during your trip"
+    },
+    "specialRequests": {
+      "label": "Special requests or remarks",
+      "placeholder": "For example: allergies, music preference, route requests, etc.",
+      "hint": "Let us know how we can make your trip perfect"
+    }
+  },
+
+  "summary": {
+    "title": "Price overview",
+    "route": "Route",
+    "vehicle": "Vehicle",
+    "passengers": "Passengers",
+    "costs": "Costs",
+    "baseTransport": "Base transport",
+    "extraServices": "Extra services:",
+    "extraServicesTotal": "Extra services: {price}",
+    "total": "Total"
+  },
+
+  "navigation": {
+    "back": "Back to vehicle selection",
+    "next": "Proceed to overview"
+  }
+}

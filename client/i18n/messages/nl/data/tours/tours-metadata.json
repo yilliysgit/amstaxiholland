@@ -1,0 +1,141 @@
+{
+  "categories": {
+    "museum": "Museum",
+    "cultuur": "Cultuur",
+    "shopping": "Winkelen",
+    "natuur": "Natuur",
+    "internationaal": "Internationaal",
+    "stad": "Stad",
+    "familie": "Familie"
+  },
+
+  "countries": {
+    "NL": "Nederland",
+    "BE": "België",
+    "DE": "Duitsland"
+  },
+
+  "whyTaxi": {
+    "title": "Waarom met een taxi naar {destination}?",
+    "taxi": {
+      "title": "Met onze taxi",
+      "benefits": {
+        "noParking": "Geen parkeer- of loopstress",
+        "fixedPrice": "Vaste prijs (geen verrassingen)",
+        "comfortable": "Comfortabel, ook met kinderen",
+        "onTime": "Op tijd aanwezig"
+      }
+    },
+    "alternatives": {
+      "title": "OV / eigen auto",
+      "downsides": {
+        "transfers": "Overstappen of lange reistijd",
+        "parking": "Parkeerkosten & drukte",
+        "delays": "Onzekerheid bij vertraging",
+        "luggage": "Minder comfortabel met bagage/kinderen"
+      }
+    }
+  },
+
+    "howItWorks": {
+    "title": "Zo werkt boeken",
+    "step": "Stap",
+    "step1": {
+      "title": "1) Vul uw rit in",
+      "description": "Ophaaladres, datum en tijd."
+    },
+    "step2": {
+      "title": "2) Ontvang een vaste prijs",
+      "description": "U weet vooraf waar u aan toe bent."
+    },
+    "step3": {
+      "title": "3) Zorgeloos reizen",
+      "description": "Chauffeur staat op tijd klaar en zet u voor de deur af."
+    }
+  },
+
+
+   "practicalInfo": {
+    "title": "Praktische info (kort)",
+    "intro": "{destination} is een populair uitje voor gezinnen, groepen en liefhebbers van luchtvaart.",
+    "taxiBenefit": "Met een taxi wordt u voor de ingang afgezet en hoeft u niet te zoeken naar parkeren of overstappen.",
+    "tipLabel": "Tip",
+    "tipText": "Boek uw retourrit direct mee zodat u na afloop niet hoeft te wachten."
+  },
+
+  "provinces": {
+    "FL": "Flevoland",
+    "NH": "Noord-Holland",
+    "ZH": "Zuid-Holland",
+    "UT": "Utrecht",
+    "GE": "Gelderland",
+    "OV": "Overijssel",
+    "DR": "Drenthe",
+    "FR": "Friesland",
+    "GR": "Groningen",
+    "LI": "Limburg",
+    "NB": "Noord-Brabant",
+    "ZE": "Zeeland"
+  },
+
+  "badges": {
+    "seasonal": "Seizoensgebonden",
+    "pickup": "Ophalen mogelijk"
+  },
+
+  "units": {
+    "hours": "uur",
+    "km": "km",
+    "max": "Max"
+  },
+
+  "vehicles": {
+    "sedan": "Sedan",
+    "van": "Minivan",
+    "maxPersons": "Max. personen"
+  },
+
+  "price": {
+    "from": "Vanaf"
+  },
+
+  "trust": {
+    "fixedPrice": "Vaste prijs vooraf",
+    "professionalDrivers": "Professionele chauffeurs",
+    "available247": "24/7 bereikbaar",
+    "reliableComfortable": "Betrouwbaar & comfortabel"
+  },
+
+  "usp": {
+    "fixedPrice": "Vaste prijs vooraf",
+    "available247": "24/7 bereikbaar",
+    "doorToDoor": "Van deur tot deur"
+  },
+
+  "buttons": {
+    "info": "Meer info",
+    "bookNow": "Boek direct",
+    "callNow": "Bel direct"
+  },
+
+  "labels": {
+    "province": "Provincie",
+    "country": "Land",
+    "arrivalTime": "Aankomsttijd",
+    "noArrivalTime": "Geen vaste aankomsttijd",
+    "duration": "Duur",
+    "persons": "Personen"
+  },
+
+"sections": {
+  "description": "Beschrijving",
+  "highlights": "Hoogtepunten",
+  "route": "Route & afstand",
+  "distance": "Afstand",
+  "travelTime": "Reistijd",
+  "mainRoute": "Hoofdroute",
+  "doorToDoor": "Van deur tot deur",
+  "included": "Inbegrepen",
+  "notIncluded": "Niet inbegrepen"
+}
+}

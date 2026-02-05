@@ -1,0 +1,74 @@
+{
+  "title": "Confirm Your Booking",
+  "subtitle": "Review your details and complete your booking",
+
+  "contact": {
+    "title": "Your contact details",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "e.g. John"
+    },
+    "lastName": {
+      "label": "Last name",
+      "placeholder": "e.g. Smith"
+    },
+    "email": {
+      "label": "Email address",
+      "placeholder": "john@example.com"
+    },
+    "phone": {
+      "label": "Phone number",
+      "placeholder": "+31 6 12345678"
+    },
+    "company": {
+      "label": "Company (optional)",
+      "placeholder": "e.g. ABC Consultancy"
+    },
+    "specialRequests": {
+      "label": "Additional remarks (optional)",
+      "placeholder": "Any final remarks or requests...",
+      "yourRequests": "Your special requests"
+    }
+  },
+
+  "terms": {
+    "agree": "I agree to the",
+    "terms": "terms and conditions",
+    "and": "and",
+    "privacy": "privacy policy"
+  },
+
+  "summary": {
+    "title": "Booking summary",
+    "route": "Route",
+    "dateTime": "Date & time",
+    "vehicle": "Vehicle",
+    "passengers": "Passengers",
+    "return": "Return",
+    "flightNumber": "Flight number",
+    "extraServices": "Extra services",
+    "total": "Total overview",
+    "transport": "Transport",
+    "extraServicesLabel": "Extra services",
+    "payment": {
+      "method": "Payment to driver",
+      "hint": "You can pay in cash or by card"
+    }
+  },
+
+  "validation": {
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "emailRequired": "Email address is required",
+    "emailInvalid": "Invalid email address",
+    "phoneRequired": "Phone number is required",
+    "phoneInvalid": "Invalid phone number",
+    "termsRequired": "Please accept the terms and conditions to continue"
+  },
+
+  "navigation": {
+    "back": "Back to extra options",
+    "submit": "Confirm booking",
+    "submitting": "Submitting booking..."
+  }
+}

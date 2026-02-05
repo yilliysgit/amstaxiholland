@@ -1,0 +1,105 @@
+{
+  "ContactPage": {
+    "hero": {
+      "badge": {
+        "availability": "24/7",
+        "text": "Altijd beschikbaar voor uw ritten"
+      },
+      "title": "Neem contact met ons op",
+      "titleHighlight": "contact",
+      "description": "Heeft u vragen, wilt u een offerte aanvragen of een zakelijke of Schiphol-rit plannen? Ons team staat 24/7 persoonlijk voor u klaar.",
+      "usp": {
+        "responseTime": "Reactie binnen 15 minuten",
+        "luxury": "Luxe & zakelijk vervoer",
+        "professional": "Professionele chauffeurs"
+      },
+      "cta": {
+        "primary": "Stuur een bericht",
+        "secondary": "Bel nu",
+        "availability": "24/7 service"
+      }
+    },
+
+    "form": {
+      "title": "Stuur ons een bericht",
+      "subtitle": "Vul het formulier in en wij nemen zo snel mogelijk contact met u op.",
+      "fields": {
+        "name": {
+          "label": "Naam",
+          "placeholder": "Uw volledige naam",
+          "required": "Naam is verplicht"
+        },
+        "email": {
+          "label": "E-mailadres",
+          "placeholder": "uw.email@voorbeeld.com",
+          "required": "E-mailadres is verplicht",
+          "invalid": "Ongeldig e-mailadres"
+        },
+        "phone": {
+          "label": "Telefoonnummer",
+          "placeholder": "+31 6 12345678",
+          "optional": "(optioneel)"
+        },
+        "subject": {
+          "label": "Onderwerp",
+          "placeholder": "Kies een onderwerp",
+          "required": "Onderwerp is verplicht",
+          "options": {
+            "booking": "Boeking",
+            "quote": "Offerteaanvraag",
+            "question": "Algemene vraag",
+            "complaint": "Klacht",
+            "lost-item": "Verloren voorwerp",
+            "partnership": "Zakelijke samenwerking",
+            "other": "Overig"
+          }
+        },
+        "message": {
+          "label": "Bericht",
+          "placeholder": "Vertel ons hoe we u kunnen helpen...",
+          "required": "Bericht is verplicht"
+        }
+      },
+      "submit": "Bericht versturen",
+      "submitting": "Bezig met versturen...",
+      "success": "Bedankt! We hebben uw bericht ontvangen en nemen spoedig contact op.",
+      "error": "Er is iets misgegaan. Probeer het opnieuw of bel ons direct."
+    },
+
+    "infoCards": {
+      "title": "Hoe wilt u contact met ons opnemen?",
+      "subtitle": "Kies de methode die het beste past bij uw vraag of situatie.",
+      "cards": {
+        "available": {
+          "title": "24/7 bereikbaar",
+          "description": "Bel ons voor boekingen, vragen of directe ondersteuning.",
+          "badge": "24/7",
+          "whatsapp": "WhatsApp ons"
+        },
+        "lostItems": {
+          "title": "Gevonden & verloren",
+          "description": "Iets in de taxi laten liggen? We zoeken het direct voor u uit.",
+          "note": "Houd indien mogelijk de tijd, vertrek- en aankomstlocatie van de rit bij de hand.",
+          "cta": "Bel ons nu"
+        },
+        "feedback": {
+          "title": "Klachten & feedback",
+          "description": "Deel uw ervaring zodat wij onze service kunnen verbeteren.",
+          "note": "Wij reageren binnen één werkdag.",
+          "cta": "Deel uw ervaring"
+        },
+        "serviceArea": {
+          "title": "Werkgebied",
+          "description": "Altijd beschikbaar in Amsterdam, Schiphol en omliggende regio’s.",
+          "areas": {
+            "amsterdam": "Amsterdam & directe omgeving",
+            "schiphol": "Schipholvervoer",
+            "business": "Zakelijk & particulier vervoer"
+          },
+          "availability": "Altijd geopend",
+          "badge": "24/7 service"
+        }
+      }
+    }
+  }
+}

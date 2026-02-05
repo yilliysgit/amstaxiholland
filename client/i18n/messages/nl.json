@@ -1,0 +1,110 @@
+{
+  "Header": {
+    "languages": {
+      "nl": "Nederlands",
+      "en": "English"
+    },
+    "navigation": {
+      "home": "Home",
+      "particulier": "Particulier",
+      "zakelijk": "Zakelijk",
+      "tours": "Tours",
+      "amsschiphol": "Amsterdam Schiphol",
+      "internationaal": "Internationaal",
+      "contact": "Contact"
+    },
+    "actions": {
+      "callNow": "Bel Nu",
+      "bookRide": "Boek Rit",
+      "login": "Inloggen",
+      "signup": "Aanmelden"
+    }
+  },
+
+  "Footer": {
+    "description": "AmstaxiHolland is uw betrouwbare partner voor premium taxivervoer in Amsterdam en omgeving. Met moderne voertuigen en professionele chauffeurs garanderen wij een veilige en comfortabele reis.",
+
+    "contact": {
+      "title": "Contact",
+      "phone": "Telefoon",
+      "email": "E-mail",
+      "address": "Adres"
+    },
+
+    "quickLinks": {
+      "title": "Snelle Links",
+      "home": "Home",
+      "about": "Over ons",
+      "services": "Diensten",
+      "contact": "Contact",
+      "privacy": "Privacybeleid",
+      "terms": "Algemene Voorwaarden",
+      "jobs": "Werken bij",
+      "rates": "Tarieven",
+      "faq": "FAQ"
+    },
+
+    "services": {
+      "title": "Diensten",
+      "airport": "Luchthaventransfer",
+      "business": "Zakelijk vervoer",
+      "tours": "Tours",
+      "events": "Evenementen",
+      "zakelijk": "Zakelijk",
+      "schiphol": "Schiphol",
+      "hotel": "Hoteltransfer",
+      "excursie": "Excursies",
+      "vip": "VIP-service",
+      "bedrijf": "Bedrijf",
+      "evenementen": "Evenementen",
+      "crew": "Crewvervoer"
+    },
+
+    "sections": {
+      "professionalServices": "Professionele diensten",
+      "taxiEuropa": "Taxi Transfer Europa",
+      "taxiAirport": "Luchthaventransfers",
+      "quickLinks": "Snelle links"
+    },
+
+    "company": {
+      "description": "Premium taxiservice in Amsterdam sinds 2008. 24/7 beschikbaar voor al uw vervoersbehoeften."
+    },
+
+    "cta": {
+      "title": "Boek uw rit",
+      "description": "Snel en eenvoudig reserveren, vaste prijzen",
+      "button": "Boek nu"
+    },
+
+    "payment": {
+      "inCar": "Betaling in de auto",
+      "online": "Online betalen"
+    },
+
+    "bottom": {
+      "rights": "Alle rechten voorbehouden",
+      "privacy": "Privacy",
+      "cookies": "Cookies",
+      "terms": "Voorwaarden"
+    },
+
+    "newsletter": {
+      "title": "Nieuwsbrief",
+      "description": "Blijf op de hoogte van onze aanbiedingen",
+      "placeholder": "Uw e-mailadres",
+      "subscribe": "Aanmelden"
+    },
+
+    "copyright": "© 2024 AmstaxiHolland. Alle rechten voorbehouden.",
+    "madeBy": "Gemaakt door Easy Concepts"
+  },
+
+  "Common": {
+    "contact": {
+      "phone": "+31 20 77 97 628",
+      "email": "info@amstaxiholland.com",
+      "address": "Amsterdam, Nederland"
+    }
+  }
+}
