@@ -18,11 +18,10 @@
     "isolatedModules": true,
     "jsx": "react-jsx", // ✅ VERANDER naar "preserve" voor Next.js
     "incremental": true,
-    "baseUrl": ".",
+   "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"],
+      "@types/*": ["types/*"]
     },
     "plugins": [
       {
