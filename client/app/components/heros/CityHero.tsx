@@ -1,7 +1,8 @@
 import Image from "next/image";
-import type { CityHero as CityHeroType } from "@/types/cities/city.type";
+import type { TaxiSingleCity } from "@/types/cities/city.type";
 
-type Props = { hero: CityHeroType; phone?: string; cityName: string };
+
+type Props = { hero: any; phone?: string; cityName: string };
 
 export default function CityHero({ hero, phone, cityName }: Props) {
   const { title, intro, image } = hero;
