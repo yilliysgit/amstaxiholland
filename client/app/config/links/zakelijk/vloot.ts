@@ -4,12 +4,11 @@
  * 🚗 ZAKELIJK VLOOT LINKS
  * Links naar voertuigcategorieën
  */
-export const zakelijkVloot = {
-  // Gebruik de KEYS uit routing.ts (niet de NL waarden!)
-  businessClass: "/vervoerstype/business-class",      // ✅ KEY (niet /zakelijke-taxi)
-  vipClass: "/vervoerstype/vip-class",                // ✅ KEY (niet /vip-klasse)
-  minivanLuxury: "/vervoerstype/minivan-luxury",      // ✅ KEY (niet /luxe-minivan)
-  electric: "/vervoerstype/electric",                 // ⚠️ Check of deze in routing.ts staat!
-  ladiesTaxi: "/vervoerstype/ladies-taxi",            // ✅ KEY (niet /dames-taxi)
-  fleetOverview: "/vervoerstype"                      // ✅ KEY
-} as const;
+export const zakelijkVloot: Record<string, string> = {
+  businessClass: "/vervoerstype/business-class",
+  vipClass: "/vervoerstype/vip-class",
+  minivanLuxury: "/vervoerstype/minivan-luxury",
+  electric: "/vervoerstype/electric",
+  ladiesTaxi: "/vervoerstype/ladies-taxi",
+  fleetOverview: "/vervoerstype"
+};
