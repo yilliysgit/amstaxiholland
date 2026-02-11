@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useCallback } from "react";
-import { useTranslations, useLocale } from 'next-intl';
-import { useRouter, usePathname } from '@/i18n/routing';
-import { useParams } from 'next/navigation'; // ⬅️ TOEVOEGEN
+import { useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
+import { useRouter, usePathname } from "@/i18n/routing";
+import { useParams } from "next/navigation";
+
 import Logo from "@/app/assets/Logo/Logo";
 import HelpButton from "@/app/components/ui/buttons/HelpButton";
 import LoginButton from "@/app/components/ui/buttons/login/LoginButton";
@@ -14,34 +15,101 @@ import MobileMenuButton from "@/app/components/layout/header/mobile/MobileMenuBu
 import MobileMenuOverlay from "@/app/components/layout/header/mobile/MobileMenuOverlay";
 import Navigation from "@/app/components/layout/header/navigation/Navigation";
 
+import { translateTaxiSlugs } from "@/sanity/lib/translateTaxiSlugs";
+
+/**
+ * TS-veilige param helper
+ */
+function getParam(value: string | string[] | undefined): string | undefined {
+  if (typeof value === "string") return value;
+  if (Array.isArray(value)) return value[0];
+  return undefined;
+}
+
 export default function Header() {
-  const t = useTranslations('Header');
-  const locale = useLocale();
+  const t = useTranslations("Header");
+  const locale = useLocale() as "nl" | "en";
   const router = useRouter();
-  const pathname = usePathname();
-  const params = useParams(); // ⬅️ TOEVOEGEN: Haal route params op
-  
+  const params = useParams();
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
 
-  const toggleLogin = useCallback(() => setIsLoginOpen(v => !v), []);
-  const closeLogin = useCallback(() => setIsLoginOpen(false), []);
-  const toggleMobileMenu = useCallback(() => setIsMobileMenuOpen(v => !v), []);
-  const closeMobileMenu = useCallback(() => setIsMobileMenuOpen(false), []);
+  const toggleLogin = () => setIsLoginOpen(v => !v);
+  const closeLogin = () => setIsLoginOpen(false);
+  const toggleMobileMenu = () => setIsMobileMenuOpen(v => !v);
+  const closeMobileMenu = () => setIsMobileMenuOpen(false);
+
+  const pathname = usePathname();
   
-  // ⬅️ FIX: Voeg params toe
-  const handleLanguageChange = useCallback((newLang: string) => {
-    const newLocale = newLang.toLowerCase();
-    router.replace(
-      // @ts-expect-error -- TypeScript will validate that only known locales
-      { pathname, params }, // ⬅️ Geef params mee!
-      { locale: newLocale }
-    );
-  }, [router, pathname, params]); // ⬅️ Voeg params toe aan dependencies
+  // 🌍 LANGUAGE SWITCH (DEFINITIEF)
+const handleLanguageChange = async (newLang: string) => {
+  const toLocale = newLang.toLowerCase() as "nl" | "en";
+
+  const slug = getParam(params?.slug);
+  const subslug = getParam(params?.subslug);
+
+  // 1️⃣ Subservice
+  if (slug && subslug) {
+    const translated = await translateTaxiSlugs({
+      kind: "sub",
+      slug,
+      subslug,
+      fromLocale: locale,
+      toLocale,
+    });
+
+    if (translated) {
+      router.push(
+        {
+          pathname: "/diensten/[slug]/[subslug]",
+          params: {
+            slug: translated.slug,
+            subslug: translated.subslug,
+          },
+        },
+        { locale: toLocale }
+      );
+      return;
+    }
+
+    router.push("/diensten", { locale: toLocale });
+    return;
+  }
+
+  // 2️⃣ Main service
+  if (slug) {
+    const translated = await translateTaxiSlugs({
+      kind: "main",
+      slug,
+      fromLocale: locale,
+      toLocale,
+    });
+
+    if (translated) {
+      router.push(
+        {
+          pathname: "/diensten/[slug]",
+          params: { slug: translated.slug },
+        },
+        { locale: toLocale }
+      );
+      return;
+    }
+
+    router.push("/diensten", { locale: toLocale });
+    return;
+  }
+
+  // 3️⃣ Statische pagina’s (over-ons, contact, etc.)
+  // next-intl handelt route-vertaling hier correct af
+  // @ts-expect-error runtime-safe for static routes
+  router.push(pathname, { locale: toLocale });
+};
 
   const languages = [
-    { code: 'nl', name: t('languages.nl'), flag: '🇳🇱' },
-    { code: 'en', name: t('languages.en'), flag: '🇬🇧' }
+    { code: "nl", name: t("languages.nl"), flag: "🇳🇱" },
+    { code: "en", name: t("languages.en"), flag: "🇬🇧" },
   ];
 
   return (
@@ -66,10 +134,18 @@ export default function Header() {
             <div className="flex items-center">
               <div className="hidden lg:flex items-center space-x-6">
                 <HelpButton />
-                <LoginButton onClick={toggleLogin} expanded={isLoginOpen} controlsId="login-popup" />
-                <LoginPopOver isOpen={isLoginOpen} onClose={closeLogin} id="login-popup" />
+                <LoginButton
+                  onClick={toggleLogin}
+                  expanded={isLoginOpen}
+                  controlsId="login-popup"
+                />
+                <LoginPopOver
+                  isOpen={isLoginOpen}
+                  onClose={closeLogin}
+                  id="login-popup"
+                />
                 <SignUpButton />
-                
+
                 <div className="border-l border-gray-300 pl-6">
                   <LanguageSwitcher
                     languages={languages}

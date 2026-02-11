@@ -9,7 +9,7 @@ export interface Logo {
 export interface NavigationItem {
   id: string;
   name: string;
-  href: string;
+  href: string | { pathname: string; params?: any }; // ← Voeg deze toe voor next-intl
   active?: boolean;
 }
 
@@ -47,11 +47,10 @@ export interface MobileMenuButtonProps {
   controlsId?: string;
 }
 
-// Fixed: consistent prop names met onze components
 export interface LanguageSwitcherProps {
   languages: Language[];
-  current: string;  // ✅ Consistent met component
-  onChange?: (language: string) => void;  // ✅ Consistent met component
+  current: string;
+  onChange?: (language: string) => void;
   className?: string;
 }
 
@@ -65,7 +64,6 @@ export interface NavigationProps {
   className?: string;
 }
 
-// UI Button Types
 export interface ButtonProps {
   href?: string;
   className?: string;
@@ -74,6 +72,5 @@ export interface ButtonProps {
 
 export interface LoginButtonProps extends ButtonProps {
   showIcon?: boolean;
-    onClick?: () => void;  // Open modal
-
+  onClick?: () => void;
 }

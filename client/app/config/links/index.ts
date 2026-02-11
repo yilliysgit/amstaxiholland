@@ -2,4 +2,4 @@
 
 export * from "./helpers";
 export * from "./mainNav";
-export * from "./home/homehero";
+export * from "./home/homeLinks";

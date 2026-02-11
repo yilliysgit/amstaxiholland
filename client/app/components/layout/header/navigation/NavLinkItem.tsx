@@ -1,6 +1,6 @@
 "use client";
 import type { JSX } from "react";
-import Link from "next/link";
+import { Link } from "@/i18n/routing"; // ← Verander dit!
 import type { NavigationItem as NavItemType } from "@/types/header/header.types";
 
 interface NavigationItemProps {
@@ -18,7 +18,6 @@ export default function NavigationItem({
 }: NavigationItemProps): JSX.Element {
   const base = "font-medium transition-colors duration-200";
 
-  // Donkerder tint + grotere tekst + grotere klikzone
   const desktop = `
     ${base} relative px-1 py-3 text-base
     ${item.active ? "text-navy-900" : "text-gray-700 hover:text-navy-800"}
@@ -32,15 +31,14 @@ export default function NavigationItem({
   const linkClasses = `${isMobile ? mobile : desktop} ${className}`.trim();
 
   return (
-    <Link
-      href={item.href}
-      onClick={onClick}
-      className={linkClasses}
-      aria-current={item.active ? "page" : undefined}
-      title={`Ga naar ${item.name}`}
-    >
-      {item.name}
-      {/* underline verwijderd */}
-    </Link>
+   <Link
+  href={item.href as any}  // ← Voeg dit toe
+  onClick={onClick}
+  className={linkClasses}
+  aria-current={item.active ? "page" : undefined}
+  title={`Ga naar ${item.name}`}
+>
+  {item.name}
+</Link>
   );
 }

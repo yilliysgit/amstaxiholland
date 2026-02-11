@@ -39,12 +39,15 @@ export default function VehicleFeatures({ service }: Props) {
         </button>
         
         {/* ✅ GEFIXT: String href in plaats van object syntax */}
-        <Link
-          href={`/vervoerstype/${service.slug}`}
-          className="px-10 py-4 rounded-2xl text-gray-800 font-semibold inline-flex items-center justify-center gap-2 bg-gray-100 hover:bg-gray-200 transition shadow-md"
-        >
-          {t('moreInfo')}
-        </Link>
+       <Link
+  href={{
+    pathname: '/vervoerstype/[slug]',
+    params: { slug: service.slug }
+  }}
+  className="px-10 py-4 rounded-2xl text-gray-800 font-semibold inline-flex items-center justify-center gap-2 bg-gray-100 hover:bg-gray-200 transition shadow-md"
+>
+  {t('moreInfo')}
+</Link>
       </div>
     </div>
   );

@@ -10,48 +10,48 @@ export type NavItemKey =
 export type NavItem = {
   key: NavItemKey;
   href: {
-    nl: string;  // Nederlandse URL
-    en: string;  // Engelse URL
+    nl: string;
+    en: string;
   };
 };
 
 /**
- * Hoofd navigatie met vertaalde URLs
+ * Hoofd navigatie met vertaalde URLs naar Sanity diensten
  */
 export const mainNav: NavItem[] = [
   {
     key: "particulier",
     href: {
-      nl: "/particulieren",
-      en: "/private",
+      nl: "/diensten/particulier-vervoer",
+      en: "/services/private-transport",
     },
   },
   {
     key: "zakelijk",
     href: {
-      nl: "/zakelijk",
-      en: "/business",
+      nl: "/diensten/zakelijk-vervoer",
+      en: "/services/business-transfers",
     },
   },
   {
     key: "amsschiphol",
     href: {
-      nl: "/ams-schiphol-airport",
-      en: "/ams-schiphol-airport",  // Deze blijft hetzelfde
+      nl: "/diensten/schipholvervoer",
+      en: "/services/airport-transport",
     },
   },
   {
     key: "tours",
     href: {
-      nl: "/tours",
-      en: "/tours",  // Deze blijft hetzelfde
+      nl: "/diensten/tours",
+      en: "/services/tours",
     },
   },
   {
     key: "internationaal",
     href: {
-      nl: "/internationaal",
-      en: "/international",
+      nl: "/diensten/internationaal-vervoer",
+      en: "/services/international-transport",
     },
   },
 ];

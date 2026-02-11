@@ -25,12 +25,18 @@ export default function VehicleTypeSelector() {
   const selectedServiceData = vehicleServices.find(s => s.id === selectedService);
 
   return (
-    <section className="relative bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#020617]">
-      {/* Subtle overlay */}
-      <div className="pattern-overlay pointer-events-none absolute inset-0 opacity-40" />
+ <section className="relative overflow-hidden bg-[#020617]">
+  {/* Gradient */}
+  <div className="absolute inset-0 bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#020617]" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 sm:py-16 lg:py-20">
-        {/* Header */}
+  {/* Dark safety layer */}
+  <div className="absolute inset-0 bg-black/30 lg:bg-black/20" />
+
+  {/* Pattern */}
+  <div className="pattern-overlay pointer-events-none absolute inset-0 opacity-20 lg:opacity-40" />
+
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 sm:py-16 lg:py-20">
+    {/* Header */}
         <div
           className={`
             transition-all duration-700 mb-8 sm:mb-12

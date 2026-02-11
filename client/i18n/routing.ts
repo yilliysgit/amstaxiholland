@@ -13,89 +13,47 @@ export const routing = defineRouting({
     // Contact
     '/contact': '/contact',
 
-    // ⭐ Over ons
+    // Over ons
     '/over-ons': {
       nl: '/over-ons',
       en: '/about-us'
     },
 
-    
-    // 🆕 DIENSTEN (alle diensten vallen hieronder)
+    // DIENSTEN - Dynamic routes from Sanity
     '/diensten': {
       nl: '/diensten',
       en: '/services'
     },
-    '/diensten/zakelijk': {
-      nl: '/diensten/zakelijk',
-      en: '/services/business-transport'
+    '/diensten/[slug]': {
+      nl: '/diensten/[slug]',
+      en: '/services/[slug]'
     },
-    '/diensten/particulieren': {
-      nl: '/diensten/particulieren',
-      en: '/services/private-transport'
-    },
-    '/diensten/internationaal': {
-      nl: '/diensten/internationaal',
-      en: '/services/international-transport'
-    },
-    '/diensten/tours': {
-      nl: '/diensten/tours',
-      en: '/services/tours'
+    '/diensten/[slug]/[subslug]': {
+      nl: '/diensten/[slug]/[subslug]',
+      en: '/services/[slug]/[subslug]'
     },
 
-    '/diensten/tours/[slug]': {
-  nl: '/diensten/tours/[slug]',
-  en: '/services/tours/[slug]'
+    '/diensten/[slug]/[subslug]/[serviceslug]': {
+  nl: '/diensten/[slug]/[subslug]/[serviceslug]',
+  en: '/services/[slug]/[subslug]/[serviceslug]'
 },
-  
-    '/diensten/hotel': {
-      nl: '/diensten/hotel-vervoer',
-      en: '/services/hotel-transfers'
-    },
-    '/diensten/evenementenvervoer': {
-      nl: '/diensten/evenementenvervoer',
-      en: '/services/event-transport'
-    },
-    '/diensten/taxi-schiphol': {
-      nl: '/diensten/taxi-schiphol',
-      en: '/services/schiphol-airport-transfer'
-    },
     
-    // Vervoerstype overzicht
+    // Vervoerstype (if still needed)
     '/vervoerstype': {
       nl: '/vervoerstype',
       en: '/transport-type'
     },
-    
-    // Vervoerstype detail pagina's
-    '/vervoerstype/business-class': {
-      nl: '/vervoerstype/zakelijke-taxi',
-      en: '/transport-type/business-taxi'
-    },
-    '/vervoerstype/vip-class': {
-      nl: '/vervoerstype/vip-klasse',
-      en: '/transport-type/vip-class'
-    },
-    '/vervoerstype/minivan-luxury': {
-      nl: '/vervoerstype/luxe-minivan',
-      en: '/transport-type/luxury-minivan'
-    },
-    '/vervoerstype/ladies-taxi': {
-      nl: '/vervoerstype/dames-taxi',
-      en: '/transport-type/ladies-taxi'
-    },
-    
-    // Events route
-    '/event-transport': {
-      nl: '/evenementenvervoer',
-      en: '/event-transport'
+    '/vervoerstype/[slug]': {
+      nl: '/vervoerstype/[slug]',
+      en: '/transport-type/[slug]'
     },
     
     // Booking & Driver routes
-    '/booking': {
+    '/reserveren': {
       nl: '/reserveren',
       en: '/booking'
     },
-    '/become-driver': {
+    '/chauffeur-worden': {
       nl: '/chauffeur-worden',
       en: '/become-driver'
     }

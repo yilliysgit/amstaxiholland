@@ -3,9 +3,9 @@
 import { useState, useEffect } from "react";
 import { Shield, Phone, ArrowRight, MapPin, Calendar, Timer, Award, CheckCircle2 } from "lucide-react";
 import { useTranslations } from 'next-intl';
-import { homeHero } from "@/app/config/links";
-import Link from "next/link";
-import { useLocale } from 'next-intl';
+import { homeLinks } from "@/app/config/links";
+// import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 
 interface BookingFormData {
@@ -21,9 +21,10 @@ interface HeroProps {
 
 export default function HomeHero({ onBooking }: HeroProps) {
   const t = useTranslations('HomePage.hero');
-  const locale = useLocale();
-const servicesHref = homeHero.cta.services.href[locale as 'nl' | 'en'];
   
+const servicesHref = homeLinks.hero.cta.services.href;
+
+
   const [formData, setFormData] = useState<BookingFormData>({
     pickupLocation: "",
     destination: "",
@@ -99,33 +100,34 @@ const servicesHref = homeHero.cta.services.href[locale as 'nl' | 'en'];
               </p>
             </div>
 
-            {/* CTA Buttons */}
-            <div className={`hidden lg:flex gap-4 mb-12 transition-all duration-1200 delay-600 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
-              
-               <a 
-               href="https://wa.me/31645014704"  // ← Vervang met jouw WhatsApp nummer
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-gradient-primary flex items-center gap-2"
-               >
-              <Phone className="w-5 h-5" />
-              {t('cta.callNow')}
-              </a>
-
-              <button 
-  onClick={() => {
-    document.getElementById('diensten')?.scrollIntoView({ 
-      behavior: 'smooth' 
-    });
-  }}
-  className="btn-gradient-secondary flex items-center gap-2"
+{/* CTA Buttons */}
+<div
+  className={`hidden lg:flex gap-4 mb-12 transition-all duration-1200 delay-600 ${
+    isLoaded ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"
+  }`}
 >
-  {t('cta.ourServices')}
-  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-</button>
+  {/* WhatsApp CTA (extern → gewone <a>) */}
+  <a
+    href="https://wa.me/31645014704"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn-gradient-primary flex items-center gap-2"
+  >
+    <Phone className="w-5 h-5" />
+    {t("cta.callNow")}
+  </a>
 
-
-            </div>
+  {/* Diensten CTA (intern → next-intl Link met pathname) */}
+  <Link
+    href={{
+      pathname: servicesHref,
+    }}
+    className="btn-gradient-secondary flex items-center gap-2"
+  >
+    {t("cta.ourServices")}
+    <ArrowRight className="w-5 h-5" />
+  </Link>
+</div>
 
             {/* Trust Indicators */}
             <div className={`hidden lg:flex items-center gap-8 pt-8 border-t border-gray-200 transition-all duration-1200 delay-800 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>

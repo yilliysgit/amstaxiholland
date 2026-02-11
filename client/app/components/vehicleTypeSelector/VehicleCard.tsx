@@ -4,7 +4,10 @@
 import { useTranslations } from 'next-intl';
 import { ArrowRight } from 'lucide-react';
 import { Link } from '@/i18n/routing';
+
 import { VehicleService } from '@/types/vehicleTypeSelector/vehicleTypeSelector.type';
+
+
 
 interface Props {
   service: VehicleService;
@@ -75,12 +78,15 @@ export default function VehicleCard({ service, isActive, onToggle }: Props) {
               </button>
               
               {/* ✅ GEFIXT: String href in plaats van object syntax */}
-              <Link 
-                href={`/vervoerstype/${service.slug}`}
-                className="w-full px-6 py-3 rounded-xl text-gray-800 font-semibold flex items-center justify-center gap-2 bg-gray-100 hover:bg-gray-200 transition"
-              >
-                {t('moreInfo')}
-              </Link>
+             <Link 
+  href={{
+    pathname: '/vervoerstype/[slug]',
+    params: { slug: service.slug }
+  }}
+  className="w-full px-6 py-3 rounded-xl text-gray-800 font-semibold flex items-center justify-center gap-2 bg-gray-100 hover:bg-gray-200 transition"
+>
+  {t('moreInfo')}
+</Link>
             </div>
           </div>
         </div>

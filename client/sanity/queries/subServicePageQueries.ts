@@ -3,9 +3,8 @@ import { client } from '@/sanity/lib/client'
 import { groq } from 'next-sanity'
 
 /**
- * Haalt een subservice pagina op EN VALIDEERT of deze onder de juiste hoofdcategorie valt
- * @param slug - De slug van de hoofdcategorie (bijv. "zakelijk-vervoer")
- * @param subslug - De slug van de subservice (bijv. "directievervoer")
+ * Haalt een subservice pagina op EN valideert of deze
+ * onder de juiste hoofdcategorie valt (NL + EN veilig)
  */
 export async function getSubServicePage(slug: string, subslug: string) {
   const query = groq`
@@ -71,84 +70,38 @@ export async function getSubServicePage(slug: string, subslug: string) {
             "question": { "nl": question.nl, "en": question.en },
             "answer": { "nl": answer.nl, "en": answer.en }
           }
-        },
-        
-        _type == "highlightsSection" => {
-          "title": { "nl": title.nl, "en": title.en },
-          highlights[] {
-            "title": { "nl": title.nl, "en": title.en },
-            "description": { "nl": description.nl, "en": description.en },
-            icon
-          }
-        },
-        
-        _type == "stepsSection" => {
-          "title": { "nl": title.nl, "en": title.en },
-          steps[] {
-            stepNumber,
-            "title": { "nl": title.nl, "en": title.en },
-            "description": { "nl": description.nl, "en": description.en }
-          }
-        },
-        
-        _type == "pricingSection" => {
-          "title": { "nl": title.nl, "en": title.en },
-          pricingOptions[] {
-            "title": { "nl": title.nl, "en": title.en },
-            price,
-            "features": { "nl": features.nl, "en": features.en }
-          }
-        },
-        
-        _type == "featuresSection" => {
-          "title": { "nl": title.nl, "en": title.en },
-          features[] {
-            "title": { "nl": title.nl, "en": title.en },
-            "description": { "nl": description.nl, "en": description.en },
-            icon
-          }
-        },
-        
-        _type == "reviewsSection" => {
-          "title": { "nl": title.nl, "en": title.en },
-          reviews[] {
-            name,
-            rating,
-            "review": { "nl": review.nl, "en": review.en },
-            date
-          }
-        },
-        
-        _type == "galerijSection" => {
-          "title": { "nl": title.nl, "en": title.en },
-          images[] {
-            asset,
-            "alt": { "nl": alt.nl, "en": alt.en }
-          }
         }
       },
       
       theme
     }
   `
-  
+
   const result = await client.fetch(query, { subslug })
-  
-  // Valideer of deze subservice onder de juiste hoofdcategorie valt
+
+  // ❌ Geen subservice gevonden
   if (!result) return null
-  
-  const parentSlug = result.mainCategory?.slug?.nl || result.mainCategory?.slug?.en
-  if (parentSlug !== slug) {
-    console.log(`❌ SubService "${subslug}" valt niet onder hoofdcategorie "${slug}"`)
+
+  // ✅ CORRECTE VALIDATIE (NL + EN)
+  const parentSlugNl = result.mainCategory?.slug?.nl
+  const parentSlugEn = result.mainCategory?.slug?.en
+
+  const matchesParent =
+    slug === parentSlugNl || slug === parentSlugEn
+
+  if (!matchesParent) {
+    console.log(
+      `❌ SubService "${subslug}" valt niet onder hoofdcategorie "${slug}"`
+    )
     return null
   }
-  
+
+  // ✅ Alles klopt
   return result
 }
 
 /**
  * Haalt alle subservices op die onder een hoofdcategorie vallen
- * @param slug - De slug van de hoofdcategorie
  */
 export async function getSubServicesByMainCategory(slug: string) {
   const query = groq`
@@ -172,11 +125,14 @@ export async function getSubServicesByMainCategory(slug: string) {
       sortOrder
     }
   `
-  
+
   const results = await client.fetch(query)
-  
-  // Filter op de juiste hoofdcategorie
-  return results?.filter((sub: any) => 
-    sub.mainCategory?.slug?.nl === slug || sub.mainCategory?.slug?.en === slug
-  ) || []
+
+  return (
+    results?.filter(
+      (sub: any) =>
+        sub.mainCategory?.slug?.nl === slug ||
+        sub.mainCategory?.slug?.en === slug
+    ) || []
+  )
 }

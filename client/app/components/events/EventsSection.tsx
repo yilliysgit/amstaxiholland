@@ -7,6 +7,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { eventTiles } from "@/data/events/events.data";
+import { homeLinks } from "@/app/config/links/home/homeLinks";
 
 export default function EventsSection() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -92,21 +93,25 @@ export default function EventsSection() {
               ))}
             </div>
 
-            {/* CTA's */}
-            <div className="pt-6 space-y-3 sm:space-y-0 sm:flex sm:items-center sm:gap-4">
-              <button className="btn-gradient-primary group inline-flex items-center justify-center gap-2 w-full sm:w-auto">
-                {t("primaryCta")}
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+           {/* CTA's */}
+<div className="pt-6 space-y-3 sm:space-y-0 sm:flex sm:items-center sm:gap-4">
+    <Link
+  href={{
+    pathname: "/diensten/[slug]",
+    params: { slug: "evenementen-vervoer" },
+  }}
+  className="btn-gradient-primary"
+>
+  {t("primaryCta")}
+</Link>
 
-              {/* ⬅️ FIX: Gebruik literal string ipv eventsLinks */}
-              <Link
-                href="/event-transport"
-                className="btn-gradient-secondary inline-flex items-center justify-center gap-2 w-full sm:w-auto"
-              >
-                {t("secondaryCta")}
-              </Link>
-            </div>
+ <Link
+  href="/contact"
+  className="btn-gradient-secondary"
+>
+  {t("secondaryCta")}
+</Link>
+</div>
 
             <p className="text-sm text-gray-500 pt-1">{t("ctaNote")}</p>
           </div>

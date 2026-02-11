@@ -7,12 +7,24 @@ import Image from 'next/image'
 
 // Query voor mainServicePage
 // Let op: !(_id in path("drafts.**")) filtert automatisch drafts eruit
+
 const servicesQuery = `
   *[_type == "mainServicePage" && !(_id in path("drafts.**"))] | order(sortOrder asc) {
     _id,
-    slug,
-    title,
-    subtitle,
+    
+    "title": {
+      "nl": basicInfo.title.nl,
+      "en": basicInfo.title.en
+    },
+    "subtitle": {
+      "nl": basicInfo.subtitle.nl,
+      "en": basicInfo.subtitle.en
+    },
+    "slug": {
+      "nl": basicInfo.slug.nl.current,
+      "en": basicInfo.slug.en.current
+    },
+    
     cardImage {
       asset,
       alt
@@ -39,6 +51,7 @@ type Locale = 'nl' | 'en'
 
 export async function ServicesOverview({ locale }: { locale: Locale }) {
   const services = await client.fetch(servicesQuery)
+console.log('📦 All services:', JSON.stringify(services, null, 2))
 
   if (!services || services.length === 0) {
     return (
@@ -58,7 +71,10 @@ export async function ServicesOverview({ locale }: { locale: Locale }) {
         // Get localized content
         const title = service.title?.[locale] || service.title?.nl
         const subtitle = service.subtitle?.[locale] || service.subtitle?.nl
-        const slug = service.slug?.[locale]?.current || service.slug?.nl?.current
+const slug = service.slug?.[locale] || service.slug?.nl
+
+
+          console.log(`🎯 Rendering: ${service._id}`, { title, subtitle, slug })
 
         // Use cardImage for overview, fallback to hero image
         const imageUrl = service.cardImage?.asset
@@ -68,7 +84,7 @@ export async function ServicesOverview({ locale }: { locale: Locale }) {
             : null
 
         // Get alt text
-        const imageAlt = service.cardImage?.alt || service.hero?.image?.alt || title || 'Service image'
+          const imageAlt = service.cardImage?.alt?.[locale] || service.hero?.image?.alt?.[locale] || title || 'Service image'
 
         // Theme colors
         const themeColors = {
