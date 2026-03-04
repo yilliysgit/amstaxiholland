@@ -222,7 +222,7 @@ export function TourHero({
                     </div>
                     <div className="flex-1">
                       <div className="text-xs text-gray-500 uppercase tracking-wide">
-                        {locale === 'nl' ? 'Land' : 'Country'}
+                        {locale === 'nl' ? 'Bestemming' : 'Destination'}
                       </div>
                       <div className="font-semibold">{routeInfo.destination}</div>
                     </div>
@@ -238,7 +238,7 @@ export function TourHero({
                     </div>
                     <div className="flex-1">
                       <div className="text-xs text-gray-500 uppercase tracking-wide">
-                        {locale === 'nl' ? 'Afstand' : 'Discance'}
+                        {locale === 'nl' ? 'Afstand' : 'Distance'}
                       </div>
                       <div className="font-semibold">{routeInfo.distance}</div>
                     </div>
@@ -276,35 +276,44 @@ export function TourHero({
                 )}
               </div>
 
-              {/* Vehicle Toggle - alleen tonen als beide prijzen beschikbaar zijn */}
-              {hasMultipleVehicles && (
-                <div className="flex gap-2 mb-6">
-                  <button
-                    onClick={() => setSelectedVehicle('sedan')}
-                    className={`flex-1 py-3 rounded-xl font-medium transition-all ${
-                      selectedVehicle === 'sedan'
-                        ? 'bg-gray-900 text-white'
-                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                    }`}
-                  >
-                    <Car className="w-5 h-5 mx-auto mb-1" />
-                    Sedan
-                  </button>
-                  <button
-                    onClick={() => setSelectedVehicle('van')}
-                    className={`flex-1 py-3 rounded-xl font-medium transition-all ${
-                      selectedVehicle === 'van'
-                        ? 'bg-gray-900 text-white'
-                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                    }`}
-                  >
-                    <svg className="w-5 h-5 mx-auto mb-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M6,6H18V7H19A2,2 0 0,1 21,9V15A1,1 0 0,1 20,16H17V19A1,1 0 0,1 16,20H15A1,1 0 0,1 14,19V16H10V19A1,1 0 0,1 9,20H8A1,1 0 0,1 7,19V16H4A1,1 0 0,1 3,15V9A2,2 0 0,1 5,7H6V6M6.5,9.5A1.5,1.5 0 0,0 5,11A1.5,1.5 0 0,0 6.5,12.5A1.5,1.5 0 0,0 8,11A1.5,1.5 0 0,0 6.5,9.5M17.5,9.5A1.5,1.5 0 0,0 16,11A1.5,1.5 0 0,0 17.5,12.5A1.5,1.5 0 0,0 19,11A1.5,1.5 0 0,0 17.5,9.5Z" />
-                    </svg>
-                    Van
-                  </button>
-                </div>
-              )}
+{/* Vehicle Toggle - alleen tonen als beide prijzen beschikbaar zijn */}
+{hasMultipleVehicles && (
+  <div className="mb-6">
+    <div className="text-xs text-gray-500 uppercase tracking-wide mb-2">
+      {locale === 'nl' ? 'Voertuig' : 'Vehicle'}
+    </div>
+
+    <div className="flex gap-2">
+      <button
+        type="button"
+        onClick={() => setSelectedVehicle('sedan')}
+        className={`flex-1 py-3 rounded-xl font-medium transition-all ${
+          selectedVehicle === 'sedan'
+            ? 'bg-gray-900 text-white'
+            : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+        }`}
+      >
+        <Car className="w-5 h-5 mx-auto mb-1" />
+        Sedan
+      </button>
+
+      <button
+        type="button"
+        onClick={() => setSelectedVehicle('van')}
+        className={`flex-1 py-3 rounded-xl font-medium transition-all ${
+          selectedVehicle === 'van'
+            ? 'bg-gray-900 text-white'
+            : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+        }`}
+      >
+        <svg className="w-5 h-5 mx-auto mb-1" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M6,6H18V7H19A2,2 0 0,1 21,9V15A1,1 0 0,1 20,16H17V19A1,1 0 0,1 16,20H15A1,1 0 0,1 14,19V16H10V19A1,1 0 0,1 9,20H8A1,1 0 0,1 7,19V16H4A1,1 0 0,1 3,15V9A2,2 0 0,1 5,7H6V6M6.5,9.5A1.5,1.5 0 0,0 5,11A1.5,1.5 0 0,0 6.5,12.5A1.5,1.5 0 0,0 8,11A1.5,1.5 0 0,0 6.5,9.5M17.5,9.5A1.5,1.5 0 0,0 16,11A1.5,1.5 0 0,0 17.5,12.5A1.5,1.5 0 0,0 19,11A1.5,1.5 0 0,0 17.5,9.5Z" />
+        </svg>
+        Van
+      </button>
+    </div>
+  </div>
+)}
 
               {/* Prijs */}
               {currentPrice && (
