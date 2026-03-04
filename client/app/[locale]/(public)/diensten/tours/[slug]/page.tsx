@@ -6,6 +6,7 @@ import { urlFor } from '@/sanity/lib/image'
 import TourInfoGrid from '@/app/components/tours/TourInfoGrid'
 import TourComparison from '@/app/components/tours/TourComparison'
 import TourBookingSteps from '@/app/components/tours/TourBookingSteps'
+import TourFaq from '@/app/components/tours/TourFaq'
 
 type Props = {
   params: Promise<{ 
@@ -129,6 +130,12 @@ routeInfo={
 {/* Booking Steps */}
 <TourBookingSteps locale={locale} />
 
+
+<TourFaq
+  title={tour.faqSection?.title}
+  items={tour.faqSection?.items}
+  locale={locale}
+/>
 
 
       {/* Debug */}
