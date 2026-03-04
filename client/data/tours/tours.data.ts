@@ -5,7 +5,7 @@ import type { Tour } from "@/types/tours/tours.type";
 export const tours: Tour[] = [
   {
     id: 1,
-    slug: 'aviodrome-lelystad',
+    slug: 'taxi-naar-aviodrome-lelystad',
     durationHours: 4,
     category: 'museum',
     basePrice: { sedan: 75, van: 95 },
