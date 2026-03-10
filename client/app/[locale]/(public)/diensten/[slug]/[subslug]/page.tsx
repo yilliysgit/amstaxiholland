@@ -154,10 +154,10 @@ if (section._type === 'voordelenSection') {
           </h2>
         )}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {section.items?.[locale]?.map((item: string, i: number) => (
-            <div key={i} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition flex items-center gap-3">
+          {section.items?.map((item: any, i: number) => (
+            <div key={item._key || i} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition flex items-center gap-3">
               <span className="text-blue-600 text-xl">✓</span>
-              <span className="text-gray-700 font-medium">{item}</span>
+              <span className="text-gray-700 font-medium">{item.label?.[locale]}</span>
             </div>
           ))}
         </div>
@@ -167,32 +167,35 @@ if (section._type === 'voordelenSection') {
 }
 
 
-  if (section._type === 'stepsSection') {
-    return (
-      <div key={section._key} className="py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          {section.title?.[locale] && (
-            <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-              {section.title[locale]}
-            </h2>
-          )}
-          <div className="space-y-6">
-            {section.steps?.[locale]?.map((step: any, i: number) => (
-              <div key={i} className="flex gap-4 bg-white p-6 rounded-xl shadow-sm">
-                <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
-                  {i + 1}
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-1">{step.label}</h3>
-                  {step.description && <p className="text-gray-600">{step.description}</p>}
-                </div>
+if (section._type === 'stepsSection') {
+  return (
+    <div key={section._key} className="py-16 bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4">
+        {section.title?.[locale] && (
+          <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
+            {section.title[locale]}
+          </h2>
+        )}
+        <div className="space-y-6">
+          {section.steps?.map((step: any, i: number) => (
+            <div key={step._key || i} className="flex gap-4 bg-white p-6 rounded-xl shadow-sm">
+              <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
+                {i + 1}
               </div>
-            ))}
-          </div>
+              <div>
+                <h3 className="text-xl font-bold mb-1">{step.label?.[locale]}</h3>
+                {step.description?.[locale] && (
+                  <p className="text-gray-600">{step.description[locale]}</p>
+                )}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-    )
-  }
+    </div>
+  )
+}
+
 
   if (section._type === 'lokaalSection') {
     return (
