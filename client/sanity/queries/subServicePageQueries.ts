@@ -58,14 +58,15 @@ sections[] {
     "items": { "nl": voordelen.nl, "en": voordelen.en }
   },
 
-  _type == "stepsSection" => {
-    "title": { "nl": title.nl, "en": title.en },
-    "steps": steps[]{
-      "_key": _key,
-      "label": { "nl": title.nl, "en": title.en },
-      "description": { "nl": description.nl, "en": description.en }
-    }
-  },
+_type == "stepsSection" => {
+  "title": { "nl": title.nl, "en": title.en },
+  "steps": steps[]{
+    "_key": _key,
+    "label": { "nl": title.nl, "en": title.en },
+    "description": { "nl": description.nl, "en": description.en }
+  }
+},
+
 
   _type == "lokaalSection" => {
     "title": { "nl": title.nl, "en": title.en },

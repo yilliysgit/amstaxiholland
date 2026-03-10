@@ -53,35 +53,16 @@
       }
     },
     {
-      "_type": "stepsSection",
-      "_key": "steps1",
-      "title": {
-        "nl": "Zo werkt het",
-        "en": "How it works"
-      },
-      "steps": [
-        {
-          "_key": "step1",
-          "title": { "nl": "Boek online of neem contact op", "en": "Book online or contact us" },
-          "description": { "nl": "Vul het reserveringsformulier in of bel ons direct.", "en": "Fill in the reservation form or call us directly." }
-        },
-        {
-          "_key": "step2",
-          "title": { "nl": "Wij plannen uw rit", "en": "We plan your ride" },
-          "description": { "nl": "Wij bevestigen uw boeking en plannen de beste route.", "en": "We confirm your booking and plan the best route." }
-        },
-        {
-          "_key": "step3",
-          "title": { "nl": "Chauffeur haalt u op", "en": "Driver picks you up" },
-          "description": { "nl": "Uw chauffeur staat op tijd voor de deur.", "en": "Your driver is at the door on time." }
-        },
-        {
-          "_key": "step4",
-          "title": { "nl": "Comfortabel naar uw bestemming", "en": "Comfortably to your destination" },
-          "description": { "nl": "Ontspan en geniet van de rit naar uw familie.", "en": "Relax and enjoy the ride to your family." }
-        }
-      ]
-    },
+  "_type": "stepsSection",
+  "_key": "steps1",
+  "title": { "nl": "Zo werkt het", "en": "How it works" },
+  "steps": [
+    { "_key": "step1", "title": { "nl": "Boek online of neem contact op", "en": "Book online or contact us" }, "description": { "nl": "Vul het reserveringsformulier in of bel ons direct.", "en": "Fill in the reservation form or call us directly." } },
+    { "_key": "step2", "title": { "nl": "Wij plannen uw rit", "en": "We plan your ride" }, "description": { "nl": "Wij bevestigen uw boeking en plannen de beste route.", "en": "We confirm your booking and plan the best route." } },
+    { "_key": "step3", "title": { "nl": "Chauffeur haalt u op", "en": "Driver picks you up" }, "description": { "nl": "Uw chauffeur staat op tijd voor de deur.", "en": "Your driver is at the door on time." } },
+    { "_key": "step4", "title": { "nl": "Comfortabel naar uw bestemming", "en": "Comfortably to your destination" }, "description": { "nl": "Ontspan en geniet van de rit naar uw familie.", "en": "Relax and enjoy the ride to your family." } }
+  ]
+},
     {
       "_type": "lokaalSection",
       "_key": "lokaal1",

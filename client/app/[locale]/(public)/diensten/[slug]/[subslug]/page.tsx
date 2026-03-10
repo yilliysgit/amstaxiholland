@@ -144,27 +144,28 @@ export default async function SubServicePage({ params }: Props) {
     )
   }
 
-  if (section._type === 'voordelenSection') {
-    return (
-      <div key={section._key} className="py-16">
-        <div className="max-w-7xl mx-auto px-4">
-          {section.title?.[locale] && (
-            <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
-              {section.title[locale]}
-            </h2>
-          )}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {section.items?.[locale]?.map((item: any, i: number) => (
-              <div key={i} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition">
-                <h3 className="text-xl font-bold mb-2">{item.label}</h3>
-                {item.description && <p className="text-gray-600">{item.description}</p>}
-              </div>
-            ))}
-          </div>
+if (section._type === 'voordelenSection') {
+  return (
+    <div key={section._key} className="py-16">
+      <div className="max-w-7xl mx-auto px-4">
+        {section.title?.[locale] && (
+          <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">
+            {section.title[locale]}
+          </h2>
+        )}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {section.items?.[locale]?.map((item: string, i: number) => (
+            <div key={i} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition flex items-center gap-3">
+              <span className="text-blue-600 text-xl">✓</span>
+              <span className="text-gray-700 font-medium">{item}</span>
+            </div>
+          ))}
         </div>
       </div>
-    )
-  }
+    </div>
+  )
+}
+
 
   if (section._type === 'stepsSection') {
     return (
