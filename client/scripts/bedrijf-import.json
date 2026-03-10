@@ -1,0 +1,165 @@
+{
+  "_type": "mainServicePage",
+  "_id": "5a9066fb-0452-422a-843f-8f8feb4bb8b4",
+  "theme": "blue",
+  "sortOrder": 0,
+  "basicInfo": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Bedrijfsvervoer in Amsterdam voor medewerkers en organisaties",
+      "en": "Corporate transportation in Amsterdam for employees and organizations"
+    },
+    "slug": {
+      "_type": "localeSlug",
+      "nl": { "_type": "slug", "current": "bedrijfsvervoer-in-amsterdam-voor-medewerkers-en-organisaties" },
+      "en": { "_type": "slug", "current": "corporate-transportation-in-amsterdam-for-employees-and-organizations" }
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Bedrijfsvervoer in Amsterdam voor medewerkers en organisaties",
+      "en": "Corporate transportation in Amsterdam for employees and organizations"
+    }
+  },
+  "cardImage": {
+    "_type": "image",
+    "alt": {
+      "_type": "localeString",
+      "nl": "Bedrijfsvervoer in Amsterdam voor medewerkers en organisaties",
+      "en": "Corporate transportation in Amsterdam for employees and organizations"
+    }
+  },
+  "hero": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Bedrijfsvervoer dat medewerkers motiveert en kosten bespaart",
+      "en": "Corporate transportation that motivates employees and saves costs"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Efficiënt en betrouwbaar vervoer voor medewerkers. Wij verzorgen vaste en flexibele bedrijfsvervoeroplossingen, comfortabel, veilig en afgestemd op uw organisatie.",
+      "en": "Efficient and reliable transportation for employees. We provide fixed and flexible corporate transport solutions, comfortable, safe, and tailored to your organization."
+    },
+    "stats": [
+      {
+        "_key": "stat1",
+        "value": { "_type": "localeString", "nl": "Sinds 2010", "en": "Since 2010" },
+        "label": { "_type": "localeString", "nl": "Ervaring", "en": "Experience" }
+      },
+      {
+        "_key": "stat2",
+        "value": { "_type": "localeString", "nl": "24/7", "en": "24/7" },
+        "label": { "_type": "localeString", "nl": "Dag en nacht", "en": "Day and night" }
+      },
+      {
+        "_key": "stat3",
+        "value": { "_type": "localeString", "nl": "Bedrijfsvervoer specialist", "en": "Corporate transportation specialist" },
+        "label": { "_type": "localeString", "nl": "Actief", "en": "Active" }
+      }
+    ],
+    "cta": {
+      "label": { "_type": "localeString", "nl": "Maak een afspraak", "en": "Schedule a meeting" },
+      "link": "/contact"
+    }
+  },
+  "introSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Onze bedrijfsvervoer diensten",
+      "en": "Our corporate transportation services"
+    },
+    "content": {
+      "_type": "localeText",
+      "nl": "Onze bedrijfsvervoer diensten",
+      "en": "Our corporate transportation services"
+    }
+  },
+  "gridSection": {
+    "gridType": "subservices",
+    "title": { "_type": "localeString", "nl": "", "en": "" },
+    "subtitle": { "_type": "localeText", "nl": "", "en": "" },
+    "subcategories": []
+  },
+  "uspSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "De voordelen van onze bedrijfsvervoer dienstverlening",
+      "en": "The benefits of our corporate transportation services"
+    },
+    "usps": {
+      "nl": [
+        "Kostenbesparend en efficiënt",
+        "Minder stress voor medewerkers",
+        "Duurzaam en maatschappelijk verantwoord"
+      ],
+      "en": [
+        "Cost-saving and efficient",
+        "Less stress for employees",
+        "Sustainable and socially responsible"
+      ]
+    }
+  },
+  "gallerySection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Bedrijfsvervoer in beeld",
+      "en": "Corporate transportation in pictures"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Impressie van ons bedrijfsvervoer",
+      "en": "Impression of our corporate transport"
+    },
+    "images": []
+  },
+  "faqSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Veelgestelde vragen over bedrijfsvervoer",
+      "en": "Frequently asked questions about corporate transportation"
+    },
+    "items": []
+  },
+  "ctaSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Betrouwbaar bedrijfsvervoer voor uw organisatie?",
+      "en": "Reliable corporate transportation for your organization?"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Neem contact met ons op voor een bedrijfsvervoeroplossing op maat en ontdek hoe wij uw medewerkers veilig en efficiënt vervoeren.",
+      "en": "Contact us for a tailored corporate transportation solution and discover how we transport your employees safely and efficiently."
+    },
+    "buttonLabel": {
+      "_type": "localeString",
+      "nl": "Neem contact op",
+      "en": "Contact us"
+    },
+    "buttonLink": "/contact",
+    "trustIndicators": {
+      "nl": [
+        "Sinds 2010",
+        "Ervaring met medewerkersvervoer",
+        "Flexibele maatwerkoplossingen"
+      ],
+      "en": [
+        "Since 2010",
+        "Experience in employee transportation",
+        "Flexible custom solutions"
+      ]
+    }
+  },
+  "seo": {
+    "noIndex": false,
+    "metaTitle": {
+      "_type": "localeString",
+      "nl": "Bedrijfsvervoer in Amsterdam voor medewerkers en organisaties",
+      "en": "Corporate transportation in Amsterdam for employees and organizations"
+    },
+    "metaDescription": {
+      "_type": "localeText",
+      "nl": "Professioneel bedrijfsvervoer in Amsterdam voor medewerkers en organisaties. Efficiënt, veilig en flexibel vervoer op maat.",
+      "en": "Professional corporate transportation in Amsterdam for employees and organizations. Efficient, safe, and flexible transport tailored to your needs."
+    }
+  }
+}

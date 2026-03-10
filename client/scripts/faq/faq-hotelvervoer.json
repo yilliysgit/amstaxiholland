@@ -1,0 +1,46 @@
+[
+  {
+    "question": {
+      "nl": "Bieden jullie vervoer van en naar hotels aan?",
+      "en": "Do you offer transport to and from hotels?"
+    },
+    "answer": {
+      "nl": "Ja, wij bieden vervoer van en naar hotels. Onze chauffeur haalt u op bij uw hotel of brengt u comfortabel naar uw accommodatie.",
+      "en": "Yes, we offer transport to and from hotels. Our driver can pick you up from your hotel or take you comfortably to your accommodation."
+    },
+    "category": "hotelvervoer"
+  },
+  {
+    "question": {
+      "nl": "Kunnen jullie hotelgasten ophalen vanaf de luchthaven?",
+      "en": "Can you pick up hotel guests from the airport?"
+    },
+    "answer": {
+      "nl": "Ja, wij verzorgen luchthavenvervoer voor hotelgasten. De chauffeur kan u ophalen bij de aankomsthal en direct naar uw hotel brengen.",
+      "en": "Yes, we provide airport transfers for hotel guests. The driver can meet you in the arrivals hall and take you directly to your hotel."
+    },
+    "category": "hotelvervoer"
+  },
+  {
+    "question": {
+      "nl": "Is hotelvervoer ook mogelijk voor groepen?",
+      "en": "Is hotel transport also available for groups?"
+    },
+    "answer": {
+      "nl": "Ja, wij kunnen hotelvervoer regelen voor zowel individuele reizigers als groepen, afhankelijk van de grootte van de groep.",
+      "en": "Yes, we can arrange hotel transport for individual travelers as well as groups, depending on the group size."
+    },
+    "category": "hotelvervoer"
+  },
+  {
+    "question": {
+      "nl": "Kan hotelvervoer vooraf gereserveerd worden?",
+      "en": "Can hotel transport be booked in advance?"
+    },
+    "answer": {
+      "nl": "Ja, u kunt hotelvervoer eenvoudig vooraf reserveren zodat uw chauffeur op het afgesproken tijdstip klaarstaat.",
+      "en": "Yes, you can easily book hotel transport in advance so your driver will be ready at the agreed time."
+    },
+    "category": "hotelvervoer"
+  }
+]

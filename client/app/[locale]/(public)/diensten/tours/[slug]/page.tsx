@@ -7,6 +7,10 @@ import TourInfoGrid from '@/app/components/tours/TourInfoGrid'
 import TourComparison from '@/app/components/tours/TourComparison'
 import TourBookingSteps from '@/app/components/tours/TourBookingSteps'
 import TourFaq from '@/app/components/tours/TourFaq'
+import TourPracticalInfo from '@/app/components/tours/TourPracticalInfo'
+import TourCtaSection from '@/app/components/tours/TourCtaSection'
+import TourSeoContentSection from '@/app/components/tours/TourSeoContentSection'
+
 
 type Props = {
   params: Promise<{ 
@@ -125,10 +129,27 @@ routeInfo={
 {tour.comparison && (
   <TourComparison comparison={tour.comparison} locale={locale} />
 )}
+{tour.seoContent && (
+  <TourSeoContentSection
+    title={tour.seoContent.title}
+    content={tour.seoContent.content}
+    locale={locale}
+  />
+)}
+
+
 
 
 {/* Booking Steps */}
 <TourBookingSteps locale={locale} />
+{tour.practicalInfo && (
+  <TourPracticalInfo
+    title={tour.practicalInfo.title}
+    content={tour.practicalInfo.content}
+    tip={tour.practicalInfo.tip}
+    locale={locale}
+  />
+)}
 
 
 <TourFaq
@@ -136,6 +157,20 @@ routeInfo={
   items={tour.faqSection?.items}
   locale={locale}
 />
+
+<TourCtaSection
+  title={tour.ctaSection.title}
+  subtitle={tour.ctaSection.subtitle}
+  buttonLabel={tour.ctaSection.buttonLabel}
+  buttonHref={tour.ctaSection.buttonHref}
+  locale={locale}
+/>
+
+
+
+<pre>
+{JSON.stringify(tour.ctaSection, null, 2)}
+</pre>
 
 
       {/* Debug */}

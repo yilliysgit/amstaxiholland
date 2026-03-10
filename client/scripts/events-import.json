@@ -1,0 +1,165 @@
+{
+  "_type": "mainServicePage",
+  "_id": "3438a50e-3bd9-4848-ae76-8db01348d422",
+  "theme": "blue",
+  "sortOrder": 0,
+  "basicInfo": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Evenementenvervoer met professionele taxiservice in Amsterdam",
+      "en": "Event transportation with professional taxi service in Amsterdam"
+    },
+    "slug": {
+      "_type": "localeSlug",
+      "nl": { "_type": "slug", "current": "evenementen-vervoer" },
+      "en": { "_type": "slug", "current": "event-transportation" }
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Evenementenvervoer met professionele taxiservice in Amsterdam",
+      "en": "Event transportation with professional taxi service in Amsterdam"
+    }
+  },
+  "cardImage": {
+    "_type": "image",
+    "alt": {
+      "_type": "localeString",
+      "nl": "Evenementenvervoer met professionele taxiservice in Amsterdam",
+      "en": "Event transportation with professional taxi service in Amsterdam"
+    }
+  },
+  "hero": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Evenementenvervoer, zorgeloos van begin tot eind",
+      "en": "Event transportation, worry-free from start to finish"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Geniet onbezorgd van uw feest of evenement terwijl wij zorgen voor veilig, comfortabel en betrouwbaar vervoer, dag en nacht, in Amsterdam en ver daarbuiten.",
+      "en": "Enjoy your party or event without worries while we provide safe, comfortable, and reliable transportation, day and night, in Amsterdam and far beyond."
+    },
+    "stats": [
+      {
+        "_key": "stat1",
+        "value": { "_type": "localeString", "nl": "Sinds 2010", "en": "Since 2010" },
+        "label": { "_type": "localeString", "nl": "Ervaring", "en": "Experience" }
+      },
+      {
+        "_key": "stat2",
+        "value": { "_type": "localeString", "nl": "24/7", "en": "24/7" },
+        "label": { "_type": "localeString", "nl": "Dag en nacht", "en": "Day and night" }
+      },
+      {
+        "_key": "stat3",
+        "value": { "_type": "localeString", "nl": "Evenementenvervoer specialist", "en": "Event transportation specialist" },
+        "label": { "_type": "localeString", "nl": "Actief", "en": "Active" }
+      }
+    ],
+    "cta": {
+      "label": { "_type": "localeString", "nl": "Boek direct", "en": "Book now" },
+      "link": "/reserveringsformulier"
+    }
+  },
+  "introSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Onze evenementenvervoer diensten",
+      "en": "Our event transportation services"
+    },
+    "content": {
+      "_type": "localeText",
+      "nl": "Onze evenementenvervoer diensten",
+      "en": "Our event transportation services"
+    }
+  },
+  "gridSection": {
+    "gridType": "subservices",
+    "title": { "_type": "localeString", "nl": "", "en": "" },
+    "subtitle": { "_type": "localeText", "nl": "", "en": "" },
+    "subcategories": []
+  },
+  "uspSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Welke voordelen biedt ons evenementenvervoer?",
+      "en": "What benefits does our event transportation offer?"
+    },
+    "usps": {
+      "nl": [
+        "Veilig en comfortabel vervoer na elk evenement",
+        "Professionele chauffeurs met evenementervaring",
+        "Flexibele inzet voor kleine en grote groepen"
+      ],
+      "en": [
+        "Safe and comfortable transport after every event",
+        "Professional drivers with event experience",
+        "Flexible service for small and large groups"
+      ]
+    }
+  },
+  "gallerySection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Evenementenvervoer in beeld",
+      "en": "Event transportation in pictures"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Impressie van onze evenementen",
+      "en": "Impression of our events"
+    },
+    "images": []
+  },
+  "faqSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Veelgestelde vragen over evenementenvervoer",
+      "en": "Frequently asked questions about event transportation"
+    },
+    "items": []
+  },
+  "ctaSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Klaar om zorgeloos van uw evenement te genieten?",
+      "en": "Ready to enjoy your event without worries?"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Reserveer uw evenementenvervoer en laat ons zorgen voor veilig en comfortabel transport, volledig afgestemd op uw plannen.",
+      "en": "Book your event transportation and let us handle safe and comfortable transport, fully tailored to your plans."
+    },
+    "buttonLabel": {
+      "_type": "localeString",
+      "nl": "Vraag evenementenvervoer aan",
+      "en": "Request event transportation"
+    },
+    "buttonLink": "/reserveringsformulier",
+    "trustIndicators": {
+      "nl": [
+        "Sinds 2010",
+        "Professionele chauffeurs",
+        "24/7 beschikbaar"
+      ],
+      "en": [
+        "Since 2010",
+        "Professional drivers",
+        "Available 24/7"
+      ]
+    }
+  },
+  "seo": {
+    "noIndex": false,
+    "metaTitle": {
+      "_type": "localeString",
+      "nl": "Evenementenvervoer met professionele taxiservice in Amsterdam",
+      "en": "Event transportation with professional taxi service in Amsterdam"
+    },
+    "metaDescription": {
+      "_type": "localeText",
+      "nl": "Professioneel evenementenvervoer in Amsterdam met comfortabele voertuigen en ervaren chauffeurs. Veilig, betrouwbaar en 24/7 beschikbaar.",
+      "en": "Professional event transportation in Amsterdam with comfortable vehicles and experienced drivers. Safe, reliable and available 24/7."
+    }
+  }
+}

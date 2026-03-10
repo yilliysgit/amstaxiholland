@@ -517,6 +517,32 @@ export default defineType({
       ],
     }),
 
+
+    // ─────────────────────────────────────────────────────
+// SEO CONTENT SECTIE
+// ─────────────────────────────────────────────────────
+defineField({
+  name: "seoContent",
+  title: "SEO content sectie",
+  type: "object",
+  options: { collapsible: true, collapsed: true },
+  group: "content",
+  fields: [
+    {
+      name: "title",
+      title: "Titel",
+      type: "localeString",
+      description: "Bijv. 'Taxi naar Aviodrome Lelystad'",
+    },
+    {
+      name: "content",
+      title: "Tekst (250-400 woorden)",
+      type: "localeText",
+      description: "Gebruik variaties van de zoekterm voor betere SEO",
+    },
+  ],
+}),
+
     // ─────────────────────────────────────────────────────
     // PRACTICAL INFO
     // ─────────────────────────────────────────────────────

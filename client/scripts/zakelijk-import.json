@@ -1,0 +1,177 @@
+{
+  "_type": "mainServicePage",
+  "_id": "50ab9f56-288e-4b39-8a8e-fc316980f0a5",
+  "theme": "blue",
+  "sortOrder": 0,
+  "basicInfo": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Zakelijk taxivervoer in Amsterdam met professionele service",
+      "en": "Business taxi transportation in Amsterdam with professional service"
+    },
+    "slug": {
+      "_type": "localeSlug",
+      "nl": { "_type": "slug", "current": "zakelijk-taxivervoer-in-amsterdam-met-professionele-service" },
+      "en": { "_type": "slug", "current": "business-taxi-transportation-in-amsterdam-with-professional-service" }
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Zakelijk taxivervoer in Amsterdam met professionele service",
+      "en": "Business taxi transportation in Amsterdam with professional service"
+    }
+  },
+  "cardImage": {
+    "_type": "image",
+    "alt": {
+      "_type": "localeString",
+      "nl": "Zakelijk taxivervoer in Amsterdam met professionele service",
+      "en": "Business taxi transportation in Amsterdam with professional service"
+    }
+  },
+  "hero": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Zakelijk taxivervoer, professioneel en representatief",
+      "en": "Business taxi transport, professional and representative"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Comfortabel, discreet en altijd op tijd. Wij verzorgen betrouwbaar zakelijk vervoer voor bedrijven, directieleden en internationale gasten in Amsterdam en daarbuiten.",
+      "en": "Comfortable, discreet, and always on time. We provide reliable business transportation for companies, executives, and international guests in Amsterdam and beyond."
+    },
+    "stats": [
+      {
+        "_key": "stat1",
+        "value": { "_type": "localeString", "nl": "Sinds 2010", "en": "Since 2010" },
+        "label": { "_type": "localeString", "nl": "Ervaring", "en": "Experience" }
+      },
+      {
+        "_key": "stat2",
+        "value": { "_type": "localeString", "nl": "24/7", "en": "24/7" },
+        "label": { "_type": "localeString", "nl": "Dag en nacht", "en": "Day and night" }
+      },
+      {
+        "_key": "stat3",
+        "value": { "_type": "localeString", "nl": "Zakelijk vervoer specialist", "en": "Business transport specialist" },
+        "label": { "_type": "localeString", "nl": "Actief", "en": "Active" }
+      }
+    ],
+    "cta": {
+      "label": {
+        "_type": "localeString",
+        "nl": "Boek direct",
+        "en": "Book now"
+      },
+      "link": "/reserveringsformulier"
+    }
+  },
+  "introSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Onze zakelijke vervoersdiensten",
+      "en": "Our business transportation services"
+    },
+    "content": {
+      "_type": "localeText",
+      "nl": "Onze zakelijke vervoersdiensten",
+      "en": "Our business transportation services"
+    }
+  },
+  "gridSection": {
+    "gridType": "subservices",
+    "title": {
+      "_type": "localeString",
+      "nl": "",
+      "en": ""
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "",
+      "en": ""
+    },
+    "subcategories": []
+  },
+  "uspSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Welke voordelen biedt ons zakelijk taxivervoer?",
+      "en": "What benefits does our business taxi service offer?"
+    },
+    "usps": {
+      "nl": [
+        "Altijd op tijd voor afspraken en meetings",
+        "Representatieve chauffeurs in nette kleding",
+        "Mogelijkheid tot vervoer op rekening"
+      ],
+      "en": [
+        "Always on time for appointments and meetings",
+        "Professional drivers in formal attire",
+        "Invoice-based transportation available"
+      ]
+    }
+  },
+  "gallerySection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Zakelijk vervoer in beeld",
+      "en": "Business transportation in pictures"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Impressie van onze zakelijke dienstverlening",
+      "en": "Impression of our business services"
+    },
+    "images": []
+  },
+  "faqSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Veelgestelde vragen over zakelijk taxivervoer",
+      "en": "Frequently asked questions about business taxi services"
+    },
+    "items": []
+  },
+  "ctaSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Betrouwbaar zakelijk vervoer nodig?",
+      "en": "Need reliable business transportation?"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Reserveer uw zakelijke taxi en ervaar professionele service, comfort en discretie, volledig afgestemd op uw planning.",
+      "en": "Book your business taxi and experience professional service, comfort, and discretion, fully tailored to your schedule."
+    },
+    "buttonLabel": {
+      "_type": "localeString",
+      "nl": "Vraag zakelijk vervoer aan",
+      "en": "Request business transportation"
+    },
+    "buttonLink": "/reserveringsformulier",
+    "trustIndicators": {
+      "nl": [
+        "Sinds 2010",
+        "Representatieve chauffeurs",
+        "24/7 beschikbaar"
+      ],
+      "en": [
+        "Since 2010",
+        "Professional drivers",
+        "Available 24/7"
+      ]
+    }
+  },
+  "seo": {
+    "noIndex": false,
+    "metaTitle": {
+      "_type": "localeString",
+      "nl": "Zakelijk taxivervoer in Amsterdam met professionele service",
+      "en": "Business taxi transportation in Amsterdam with professional service"
+    },
+    "metaDescription": {
+      "_type": "localeText",
+      "nl": "Professioneel zakelijk taxivervoer in Amsterdam voor bedrijven, directieleden en internationale gasten. Representatief, betrouwbaar en 24/7 beschikbaar.",
+      "en": "Professional business taxi transportation in Amsterdam for companies, executives, and international guests. Representative, reliable and available 24/7."
+    }
+  }
+}

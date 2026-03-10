@@ -81,13 +81,15 @@ export async function getMainServicePage(slug: string) {
         }
       },
 
-      faqSection {
-        "title": { "nl": title.nl, "en": title.en },
-        items[]-> {
-          "question": { "nl": question.nl, "en": question.en },
-          "answer": { "nl": answer.nl, "en": answer.en }
-        }
-      },
+
+faqCategory,
+"faqSection": {
+  "title": faqSection.title,
+  "items": *[_type == "faqItem" && category == ^.faqCategory] | order(sortOrder asc) {
+    "question": { "nl": question.nl, "en": question.en },
+    "answer": { "nl": answer.nl, "en": answer.en }
+  }
+},
       
       ctaSection {
         "title": { "nl": title.nl, "en": title.en },

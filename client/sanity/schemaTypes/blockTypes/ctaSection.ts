@@ -6,33 +6,31 @@ export default defineType({
   title: "CTA sectie",
   type: "object",
   fields: [
-    defineField({
-      name: "title",
-      title: "Titel",
-      type: "string",
-    }),
-    defineField({
-      name: "text",
-      title: "Tekst",
-      type: "text",
-    }),
-    defineField({
-      name: "buttonLabel",
-      title: "Button tekst",
-      type: "string",
-    }),
-    defineField({
-      name: "buttonHref",
-      title: "Button link",
-      type: "string", // vaak handiger dan url, omdat je intern routeert
-    }),
+defineField({
+  name: "title",
+  title: "Titel",
+  type: "localeString",
+}),
+defineField({
+  name: "subtitle",
+  title: "Subtitel",
+  type: "localeText",
+}),
+defineField({
+  name: "buttonLabel",
+  title: "Button tekst",
+  type: "localeString",
+}),
+defineField({
+  name: "buttonHref",
+  title: "Button link",
+  type: "string",
+}),
   ],
   preview: {
-    select: { title: "title" },
+    select: { title: "title.nl" },
     prepare({ title }) {
-      return {
-        title: title || "CTA sectie",
-      };
+      return { title: title || "CTA sectie" };
     },
   },
 });

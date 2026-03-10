@@ -1,0 +1,105 @@
+{
+  "_type": "mainServicePage",
+  "_id": "01059ac8-31da-4d2e-a348-ff9efb214dec",
+  "theme": "blue",
+  "sortOrder": 0,
+  "basicInfo": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Particulier vervoer met premium service in Amsterdam",
+      "en": "Private transportation with premium service in Amsterdam"
+    },
+    "slug": {
+      "_type": "localeSlug",
+      "nl": { "_type": "slug", "current": "particulier-vervoer" },
+      "en": { "_type": "slug", "current": "private-transportation" }
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Particulier vervoer met premium service in Amsterdam",
+      "en": "Private transportation with premium service in Amsterdam"
+    }
+  },
+  "cardImage": {
+    "_type": "image",
+    "alt": {
+      "_type": "localeString",
+      "nl": "Particulier vervoer met premium service in Amsterdam",
+      "en": "Comfortable private transport with a professional driver"
+    }
+  },
+  "hero": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Exclusief particulier vervoer, tot in detail verzorgd",
+      "en": "Exclusive private transport, taken care of down to the last detail"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Geniet van zorgeloos reizen met professionele chauffeurs, comfortabele voertuigen en persoonlijke service, dag en nacht, in Amsterdam en ver daarbuiten.",
+      "en": "Enjoy worry-free travel with professional drivers, comfortable vehicles, and personalized service, day and night, in Amsterdam and far beyond."
+    },
+    "stats": [
+      {
+        "_key": "stat1",
+        "value": { "_type": "localeString", "nl": "Sinds 2010", "en": "Since 2010" },
+        "label": { "_type": "localeString", "nl": "Ervaring", "en": "Experience" }
+      },
+      {
+        "_key": "stat2",
+        "value": { "_type": "localeString", "nl": "24/7", "en": "24/7" },
+        "label": { "_type": "localeString", "nl": "Dag en nacht", "en": "Day and night" }
+      },
+      {
+        "_key": "stat3",
+        "value": { "_type": "localeString", "nl": "Luchthaven transfer specialist", "en": "Airport transport specialist" },
+        "label": { "_type": "localeString", "nl": "Actief", "en": "Active" }
+      }
+    ],
+    "cta": {
+      "label": { "_type": "localeString", "nl": "Boek direct", "en": "Book now" },
+      "link": "/reserveringsformulier"
+    }
+  },
+  "introSection": {
+    "title": { "_type": "localeString", "nl": "Onze particuliere vervoersdiensten", "en": "Our private transportation services" },
+    "content": { "_type": "localeText", "nl": "Onze particuliere vervoersdiensten", "en": "Our private transportation services" }
+  },
+  "gridSection": {
+    "gridType": "subservices",
+    "title": { "_type": "localeString", "nl": "", "en": "" },
+    "subtitle": { "_type": "localeText", "nl": "", "en": "" },
+    "subcategories": []
+  },
+  "uspSection": {
+    "title": { "_type": "localeString", "nl": "Welke voordelen bieden onze particuliere diensten?", "en": "What benefits do our private services offer?" },
+    "usps": {
+      "nl": ["Altijd op tijd, zonder verrassingen", "Professionele chauffeurs in nette kleding", "Luxe voertuigen met extra bagageruimte"],
+      "en": ["Always on time, no surprises", "Professional drivers in neat attire", "Luxury vehicles with ample luggage space"]
+    }
+  },
+  "gallerySection": {
+    "title": { "_type": "localeString", "nl": "Particulier vervoer in beeld", "en": "Private transport in pictures" },
+    "subtitle": { "_type": "localeText", "nl": "Impressie van onze diensten", "en": "Impression of our services" },
+    "images": []
+  },
+  "faqSection": {
+    "title": { "_type": "localeString", "nl": "Veelgestelde vragen over particuliere taxi", "en": "Frequently asked questions about private taxis" },
+    "items": []
+  },
+  "ctaSection": {
+    "title": { "_type": "localeString", "nl": "Klaar voor zorgeloos particulier vervoer?", "en": "Ready for carefree private transportation?" },
+    "subtitle": { "_type": "localeText", "nl": "Neem contact met ons op en ervaar premium vervoer met persoonlijke service, precies afgestemd op uw wensen.", "en": "Contact us and experience premium transportation with personalized service, tailored exactly to your needs." },
+    "buttonLabel": { "_type": "localeString", "nl": "Vraag een rit aan", "en": "Request a ride" },
+    "buttonLink": "/reserveringsformulier",
+    "trustIndicators": {
+      "nl": ["Sinds 2010", "Professionele chauffeurs", "24/7 beschikbaar"],
+      "en": ["Since 2010", "Professional drivers", "Available 24/7"]
+    }
+  },
+  "seo": {
+    "noIndex": false,
+    "metaTitle": { "_type": "localeString", "nl": "Particulier vervoer met premium service in Amsterdam", "en": "Private transportation with premium service in Amsterdam" },
+    "metaDescription": { "_type": "localeText", "nl": "Professioneel particulier vervoer in Amsterdam met luxe voertuigen en ervaren chauffeurs. Comfortabel, betrouwbaar en 24/7 beschikbaar.", "en": "Professional private transportation in Amsterdam with luxury vehicles and experienced drivers. Comfortable, reliable and available 24/7." }
+  }
+}

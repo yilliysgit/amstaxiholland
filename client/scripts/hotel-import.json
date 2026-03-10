@@ -1,0 +1,169 @@
+{
+  "_type": "mainServicePage",
+  "_id": "febc1952-9d88-42f1-9755-2c55bca7cc16",
+  "theme": "blue",
+  "sortOrder": 0,
+  "basicInfo": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Hotelvervoer in Amsterdam met professionele taxiservice",
+      "en": "Hotel transportation in Amsterdam with professional taxi service"
+    },
+    "slug": {
+      "_type": "localeSlug",
+      "nl": { "_type": "slug", "current": "hotelvervoer-in-amsterdam-met-professionele-taxiservice" },
+      "en": { "_type": "slug", "current": "hotel-transportation-in-amsterdam-with-professional-taxi-service" }
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Hotelvervoer in Amsterdam met professionele taxiservice",
+      "en": "Hotel transportation in Amsterdam with professional taxi service"
+    }
+  },
+  "cardImage": {
+    "_type": "image",
+    "alt": {
+      "_type": "localeString",
+      "nl": "Hotelvervoer in Amsterdam met professionele taxiservice",
+      "en": "Hotel transportation in Amsterdam with professional taxi service"
+    }
+  },
+  "hero": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Hotelvervoer voor een optimale gastbeleving",
+      "en": "Hotel transportation for an optimal guest experience"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Professioneel en comfortabel vervoer voor hotelgasten. Wij zorgen voor een veilige, representatieve en stipte taxiservice, van en naar hotels in Amsterdam en omgeving.",
+      "en": "Professional and comfortable transportation for hotel guests. We provide safe, representative, and punctual taxi service to and from hotels in Amsterdam and surrounding areas."
+    },
+    "stats": [
+      {
+        "_key": "stat1",
+        "value": { "_type": "localeString", "nl": "Sinds 2010", "en": "Since 2010" },
+        "label": { "_type": "localeString", "nl": "Ervaring", "en": "Experience" }
+      },
+      {
+        "_key": "stat2",
+        "value": { "_type": "localeString", "nl": "24/7", "en": "24/7" },
+        "label": { "_type": "localeString", "nl": "Dag en nacht", "en": "Day and night" }
+      },
+      {
+        "_key": "stat3",
+        "value": { "_type": "localeString", "nl": "Hotelvervoer specialist", "en": "Hotel transportation specialist" },
+        "label": { "_type": "localeString", "nl": "Actief", "en": "Active" }
+      }
+    ],
+    "cta": {
+      "label": {
+        "_type": "localeString",
+        "nl": "Boek direct",
+        "en": "Book now"
+      },
+      "link": "/reserveringsformulier"
+    }
+  },
+  "introSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Onze hotelvervoer diensten",
+      "en": "Our hotel transportation services"
+    },
+    "content": {
+      "_type": "localeText",
+      "nl": "Onze hotelvervoer diensten",
+      "en": "Our hotel transportation services"
+    }
+  },
+  "gridSection": {
+    "gridType": "subservices",
+    "title": { "_type": "localeString", "nl": "", "en": "" },
+    "subtitle": { "_type": "localeText", "nl": "", "en": "" },
+    "subcategories": []
+  },
+  "uspSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Welke voordelen biedt ons hotelvervoer?",
+      "en": "What benefits does our hotel transportation offer?"
+    },
+    "usps": {
+      "nl": [
+        "Veilig en comfortabel vervoer voor uw gasten",
+        "Representatieve chauffeurs en nette voertuigen",
+        "24/7 beschikbaar voor aankomsten en vertrekken"
+      ],
+      "en": [
+        "Safe and comfortable transport for your guests",
+        "Professional drivers and well-maintained vehicles",
+        "Available 24/7 for arrivals and departures"
+      ]
+    }
+  },
+  "gallerySection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Hotelvervoer in beeld",
+      "en": "Hotel transportation in pictures"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Impressie van onze dienstverlening voor hotels",
+      "en": "Impression of our hotel services"
+    },
+    "images": []
+  },
+  "faqSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Veelgestelde vragen over hotelvervoer",
+      "en": "Frequently asked questions about hotel transportation"
+    },
+    "items": []
+  },
+  "ctaSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Professioneel vervoer voor uw hotelgasten regelen?",
+      "en": "Arrange professional transport for your hotel guests?"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Neem contact met ons op en ontdek hoe wij kunnen bijdragen aan een optimale gastbeleving met betrouwbare en representatieve taxiservice.",
+      "en": "Contact us and discover how we can enhance your guest experience with reliable and professional taxi services."
+    },
+    "buttonLabel": {
+      "_type": "localeString",
+      "nl": "Vraag hotelvervoer aan",
+      "en": "Request hotel transportation"
+    },
+    "buttonLink": "/reserveringsformulier",
+    "trustIndicators": {
+      "nl": [
+        "Sinds 2010",
+        "Professionele chauffeurs",
+        "24/7 beschikbaar"
+      ],
+      "en": [
+        "Since 2010",
+        "Professional drivers",
+        "Available 24/7"
+      ]
+    }
+  },
+  "seo": {
+    "noIndex": false,
+    "metaTitle": {
+      "_type": "localeString",
+      "nl": "Hotelvervoer in Amsterdam met professionele taxiservice",
+      "en": "Hotel transportation in Amsterdam with professional taxi service"
+    },
+    "metaDescription": {
+      "_type": "localeText",
+      "nl": "Professioneel hotelvervoer in Amsterdam voor hotelgasten. Veilig, representatief en 24/7 beschikbaar voor aankomsten en vertrekken.",
+      "en": "Professional hotel transportation in Amsterdam for hotel guests. Safe, representative, and available 24/7 for arrivals and departures."
+    }
+  }
+}

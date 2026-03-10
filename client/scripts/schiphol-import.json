@@ -1,0 +1,133 @@
+{
+  "_type": "mainServicePage",
+  "_id": "28785668-2c97-4c1e-bff8-8c69fe3f7755",
+  "theme": "blue",
+  "sortOrder": 0,
+  "basicInfo": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Exclusieve taxi naar Schiphol vanuit Amsterdam",
+      "en": "Exclusive taxi to Schiphol from Amsterdam"
+    },
+    "slug": {
+      "_type": "localeSlug",
+      "nl": { "_type": "slug", "current": "schipholvervoer" },
+      "en": { "_type": "slug", "current": "schiphol-transport" }
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Exclusieve taxi naar Schiphol vanuit Amsterdam",
+      "en": "Exclusive taxi to Schiphol from Amsterdam"
+    }
+  },
+  "cardImage": {
+    "_type": "image",
+    "alt": {
+      "_type": "localeString",
+      "nl": "Exclusieve taxi naar Schiphol vanuit Amsterdam",
+      "en": "Exclusive taxi to Schiphol from Amsterdam"
+    }
+  },
+  "hero": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Exclusieve Schiphol taxi, tot in detail verzorgd",
+      "en": "Exclusive Schiphol taxi, taken care of down to the last detail"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Reis ontspannen van en naar Schiphol met professionele chauffeurs, luxe voertuigen en persoonlijke service, dag en nacht, vanuit Amsterdam en ver daarbuiten.",
+      "en": "Travel comfortably to and from Schiphol with professional drivers, luxury vehicles, and personalized service, day and night, from Amsterdam and far beyond."
+    },
+    "stats": [
+      {
+        "_key": "stat1",
+        "value": { "_type": "localeString", "nl": "Sinds 2010", "en": "Since 2010" },
+        "label": { "_type": "localeString", "nl": "Ervaring", "en": "Experience" }
+      },
+      {
+        "_key": "stat2",
+        "value": { "_type": "localeString", "nl": "24/7", "en": "24/7" },
+        "label": { "_type": "localeString", "nl": "Dag en nacht", "en": "Day and night" }
+      },
+      {
+        "_key": "stat3",
+        "value": { "_type": "localeString", "nl": "Schiphol taxi specialist", "en": "Schiphol taxi specialist" },
+        "label": { "_type": "localeString", "nl": "Actief", "en": "Active" }
+      }
+    ],
+    "cta": {
+      "label": { "_type": "localeString", "nl": "Boek direct", "en": "Book now" },
+      "link": "/reserveringsformulier"
+    }
+  },
+  "introSection": {
+    "title": { "_type": "localeString", "nl": "Onze exclusieve Schiphol taxidiensten", "en": "Our exclusive Schiphol taxi services" },
+    "content": { "_type": "localeText", "nl": "Onze exclusieve Schiphol taxidiensten", "en": "Our exclusive Schiphol taxi services" }
+  },
+  "gridSection": {
+    "gridType": "subservices",
+    "title": { "_type": "localeString", "nl": "", "en": "" },
+    "subtitle": { "_type": "localeText", "nl": "", "en": "" },
+    "subcategories": []
+  },
+  "uspSection": {
+    "title": { "_type": "localeString", "nl": "Welke voordelen bieden onze Schiphol taxidiensten?", "en": "What benefits do our Schiphol taxi services offer?" },
+    "usps": {
+      "nl": [
+        "Altijd op tijd voor uw vlucht",
+        "Professionele chauffeurs met Schiphol-ervaring",
+        "Luxe voertuigen met ruime bagagecapaciteit"
+      ],
+      "en": [
+        "Always on time for your flight",
+        "Professional drivers with Schiphol experience",
+        "Luxury vehicles with generous luggage capacity"
+      ]
+    }
+  },
+  "gallerySection": {
+    "title": { "_type": "localeString", "nl": "Exclusieve Schiphol taxi in beeld", "en": "Exclusive Schiphol taxi in pictures" },
+    "subtitle": { "_type": "localeText", "nl": "Impressie van onze Schiphol diensten", "en": "Impression of our Schiphol services" },
+    "images": []
+  },
+  "faqSection": {
+    "title": { "_type": "localeString", "nl": "Veelgestelde vragen over Schiphol taxi", "en": "Frequently asked questions about Schiphol taxis" },
+    "items": []
+  },
+  "ctaSection": {
+    "title": { "_type": "localeString", "nl": "Klaar voor exclusief vervoer van en naar Schiphol?", "en": "Ready for exclusive transportation to and from Schiphol?" },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Boek uw Schiphol taxi en ervaar comfortabel, betrouwbaar en zorgeloos vervoer, volledig afgestemd op uw reis.",
+      "en": "Book your Schiphol taxi and experience comfortable, reliable, and worry-free transportation, fully tailored to your journey."
+    },
+    "buttonLabel": { "_type": "localeString", "nl": "Vraag een Schiphol rit aan", "en": "Request a Schiphol ride" },
+    "buttonLink": "/reserveringsformulier",
+    "trustIndicators": {
+      "nl": [
+        "Sinds 2010",
+        "Professionele Schiphol chauffeurs",
+        "24/7 beschikbaar"
+      ],
+      "en": [
+        "Since 2010",
+        "Professional Schiphol drivers",
+        "Available 24/7"
+      ]
+    }
+  },
+  "seo": {
+    "noIndex": false,
+    "metaTitle": {
+      "_type": "localeString",
+      "nl": "Exclusieve taxi naar Schiphol vanuit Amsterdam",
+      "en": "Exclusive taxi to Schiphol from Amsterdam"
+    },
+    "metaDescription": {
+      "_type": "localeText",
+      "nl": "Boek een exclusieve taxi naar Schiphol vanuit Amsterdam. Luxe voertuigen, professionele chauffeurs en 24/7 betrouwbare service.",
+      "en": "Book an exclusive taxi to Schiphol from Amsterdam. Luxury vehicles, professional drivers and reliable 24/7 service."
+    }
+  }
+}

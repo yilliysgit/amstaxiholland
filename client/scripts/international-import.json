@@ -1,0 +1,169 @@
+{
+  "_type": "mainServicePage",
+  "_id": "c5c9694e-f2ed-4624-ba29-b43b2832ffdf",
+  "theme": "blue",
+  "sortOrder": 0,
+  "basicInfo": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Internationaal vervoer vanuit Amsterdam naar het buitenland",
+      "en": "International transportation from Amsterdam to abroad"
+    },
+    "slug": {
+      "_type": "localeSlug",
+      "nl": { "_type": "slug", "current": "internationaal-vervoer-vanuit-amsterdam-naar-het-buitenland" },
+      "en": { "_type": "slug", "current": "international-transportation-from-amsterdam-to-abroad" }
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Internationaal vervoer vanuit Amsterdam naar het buitenland",
+      "en": "International transportation from Amsterdam to abroad"
+    }
+  },
+  "cardImage": {
+    "_type": "image",
+    "alt": {
+      "_type": "localeString",
+      "nl": "Internationaal vervoer vanuit Amsterdam",
+      "en": "International transportation from Amsterdam"
+    }
+  },
+  "hero": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Internationaal vervoer zonder grenzen",
+      "en": "International transportation without borders"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Comfortabel en betrouwbaar vervoer naar het buitenland. Van dagtrips over de grens tot luchthavenvervoer naar internationale airports in Europa.",
+      "en": "Comfortable and reliable transportation abroad. From cross-border day trips to airport transfers to international airports across Europe."
+    },
+    "stats": [
+      {
+        "_key": "stat1",
+        "value": { "_type": "localeString", "nl": "Sinds 2010", "en": "Since 2010" },
+        "label": { "_type": "localeString", "nl": "Ervaring", "en": "Experience" }
+      },
+      {
+        "_key": "stat2",
+        "value": { "_type": "localeString", "nl": "24/7", "en": "24/7" },
+        "label": { "_type": "localeString", "nl": "Dag en nacht", "en": "Day and night" }
+      },
+      {
+        "_key": "stat3",
+        "value": { "_type": "localeString", "nl": "Internationaal vervoer specialist", "en": "International transport specialist" },
+        "label": { "_type": "localeString", "nl": "Actief", "en": "Active" }
+      }
+    ],
+    "cta": {
+      "label": {
+        "_type": "localeString",
+        "nl": "Offerte aanvragen",
+        "en": "Request a quote"
+      },
+      "link": "/offerte-aanvragen"
+    }
+  },
+  "introSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Onze internationale vervoersdiensten",
+      "en": "Our international transportation services"
+    },
+    "content": {
+      "_type": "localeText",
+      "nl": "Onze internationale vervoersdiensten",
+      "en": "Our international transportation services"
+    }
+  },
+  "gridSection": {
+    "gridType": "subservices",
+    "title": { "_type": "localeString", "nl": "", "en": "" },
+    "subtitle": { "_type": "localeText", "nl": "", "en": "" },
+    "subcategories": []
+  },
+  "uspSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Welke voordelen biedt ons internationaal vervoer?",
+      "en": "What benefits does our international transportation offer?"
+    },
+    "usps": {
+      "nl": [
+        "Comfortabel reizen zonder overstappen",
+        "Ervaren chauffeurs met internationale routes",
+        "Direct vervoer naar buitenlandse luchthavens"
+      ],
+      "en": [
+        "Comfortable travel without transfers",
+        "Experienced drivers familiar with international routes",
+        "Direct transportation to international airports"
+      ]
+    }
+  },
+  "gallerySection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Internationaal vervoer in beeld",
+      "en": "International transportation in pictures"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Impressie van onze internationale ritten",
+      "en": "Impression of our international journeys"
+    },
+    "images": []
+  },
+  "faqSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Veelgestelde vragen over internationaal vervoer",
+      "en": "Frequently asked questions about international transportation"
+    },
+    "items": []
+  },
+  "ctaSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Zorgeloos internationaal vervoer nodig?",
+      "en": "Need worry-free international transportation?"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Vraag een offerte aan voor comfortabel vervoer naar het buitenland, dagtrips of internationale luchthavens, volledig afgestemd op uw reis.",
+      "en": "Request a quote for comfortable transportation abroad, day trips, or international airports, fully tailored to your journey."
+    },
+    "buttonLabel": {
+      "_type": "localeString",
+      "nl": "Vraag internationaal vervoer aan",
+      "en": "Request international transportation"
+    },
+    "buttonLink": "/offerte-aanvragen",
+    "trustIndicators": {
+      "nl": [
+        "Sinds 2010",
+        "Internationale route-ervaring",
+        "24/7 beschikbaar"
+      ],
+      "en": [
+        "Since 2010",
+        "International route experience",
+        "Available 24/7"
+      ]
+    }
+  },
+  "seo": {
+    "noIndex": false,
+    "metaTitle": {
+      "_type": "localeString",
+      "nl": "Internationaal vervoer vanuit Amsterdam naar het buitenland",
+      "en": "International transportation from Amsterdam to abroad"
+    },
+    "metaDescription": {
+      "_type": "localeText",
+      "nl": "Professioneel internationaal vervoer vanuit Amsterdam naar het buitenland. Comfortabele ritten, ervaren chauffeurs en 24/7 beschikbaar.",
+      "en": "Professional international transportation from Amsterdam to abroad. Comfortable rides, experienced drivers and available 24/7."
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "_type": "tourServicePage",
+  "_id": "import-tour-walibi",
+  "sortOrder": 10,
+  "mainCategory": {
+    "_type": "reference",
+    "_ref": "796ad19f-7634-4dab-9adf-70c09b5ec47f"
+  },
+  "title": {
+    "_type": "localeString",
+    "nl": "Walibi pretpark tour",
+    "en": "Walibi theme park tour"
+  },
+  "subtitle": {
+    "_type": "localeText",
+    "nl": "Bezoek Walibi Holland tijdens een comfortabele taxi tour vanuit Amsterdam.",
+    "en": "Visit Walibi Holland during a comfortable taxi tour from Amsterdam."
+  },
+  "slug": {
+    "_type": "localeSlug",
+    "nl": {
+      "_type": "slug",
+      "current": "walibi-tour"
+    },
+    "en": {
+      "_type": "slug",
+      "current": "walibi-tour"
+    }
+  },
+  "badges": [
+    {
+      "_key": "badge1",
+      "_type": "object",
+      "label": {
+        "_type": "localeString",
+        "nl": "Pretpark",
+        "en": "Theme park"
+      },
+      "tone": "neutral"
+    },
+    {
+      "_key": "badge2",
+      "_type": "object",
+      "label": {
+        "_type": "localeString",
+        "nl": "Dagtrip",
+        "en": "Day trip"
+      },
+      "tone": "neutral"
+    }
+  ],
+  "cardImage": {
+    "_type": "image",
+
+    "alt": {
+      "_type": "localeString",
+      "nl": "Walibi Holland achtbaan",
+      "en": "Walibi Holland roller coaster"
+    }
+  },
+  "hero": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Walibi pretpark tour",
+      "en": "Walibi theme park tour"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Geniet van een dag vol spectaculaire achtbanen en attracties in Walibi Holland met een comfortabele taxi vanuit Amsterdam.",
+      "en": "Enjoy a day full of thrilling roller coasters and attractions at Walibi Holland with a comfortable taxi from Amsterdam."
+    },
+    "image": {
+      "_type": "image"
+    },
+    "usps": {
+      "nl": [
+        "Vaste prijs – geen taximeter",
+        "Comfortabele privé rit",
+        "Direct bij het park afgezet",
+        "Vergunde en ervaren chauffeurs"
+      ],
+      "en": [
+        "Fixed price – no taximeter",
+        "Comfortable private ride",
+        "Drop-off near the park entrance",
+        "Licensed and experienced drivers"
+      ]
+    },
+    "primaryCta": {
+      "label": {
+        "_type": "localeString",
+        "nl": "Boek taxi",
+        "en": "Book taxi"
+      },
+      "link": "/reserveren"
+    },
+    "secondaryCta": {
+      "label": {
+        "_type": "localeString",
+        "nl": "Bel ons",
+        "en": "Call us"
+      },
+      "link": "tel:+31645014704"
+    },
+    "trustIndicators": {
+      "nl": [
+        "Vaste prijs",
+        "24/7 bereikbaar",
+        "Vergunde chauffeurs"
+      ],
+      "en": [
+        "Fixed price",
+        "24/7 available",
+        "Licensed drivers"
+      ]
+    }
+  },
+  "routeInfo": {
+    "destination": {
+      "_type": "localeString",
+      "nl": "Walibi Holland",
+      "en": "Walibi Holland"
+    },
+    "distance": {
+      "_type": "localeString",
+      "nl": "80 km",
+      "en": "80 km"
+    },
+    "duration": {
+      "_type": "localeString",
+      "nl": "±1 uur rijden",
+      "en": "±1 hour drive"
+    },
+    "sedanPrice": 180,
+    "vanPrice": 230,
+    "sedanMaxPersons": 4,
+    "vanMaxPersons": 8,
+    "note": {
+      "_type": "localeString",
+      "nl": "Vanaf prijs",
+      "en": "Starting price"
+    }
+  },
+  "rideTypesSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Taxi ritten naar Walibi",
+      "en": "Taxi rides to Walibi"
+    },
+    "items": [
+      {
+        "_key": "ride1",
+        "title": {
+          "_type": "localeString",
+          "nl": "Privé taxi",
+          "en": "Private taxi"
+        },
+        "description": {
+          "_type": "localeText",
+          "nl": "Comfortabele taxi rit vanuit Amsterdam naar Walibi Holland.",
+          "en": "Comfortable taxi ride from Amsterdam to Walibi Holland."
+        }
+      },
+      {
+        "_key": "ride2",
+        "title": {
+          "_type": "localeString",
+          "nl": "Dagtrip",
+          "en": "Day trip"
+        },
+        "description": {
+          "_type": "localeText",
+          "nl": "Perfect voor een dag vol achtbanen en attracties.",
+          "en": "Perfect for a day full of roller coasters and attractions."
+        }
+      },
+      {
+        "_key": "ride3",
+        "title": {
+          "_type": "localeString",
+          "nl": "Groepen & families",
+          "en": "Groups & families"
+        },
+        "description": {
+          "_type": "localeText",
+          "nl": "Ruime taxi's en minivans voor families en groepen tot 7 personen.",
+          "en": "Spacious taxis and minivans for families and groups up to 7 passengers."
+        }
+      }
+    ]
+  },
+  "howItWorksSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Hoe verloopt de tour?",
+      "en": "How does the tour work?"
+    },
+    "items": [
+      {
+        "_key": "step1",
+        "icon": "pickup",
+        "title": {
+          "_type": "localeString",
+          "nl": "Ophalen",
+          "en": "Pickup"
+        },
+        "description": {
+          "_type": "localeText",
+          "nl": "Uw chauffeur haalt u op bij uw adres of hotel in Amsterdam.",
+          "en": "Your driver picks you up at your address or hotel in Amsterdam."
+        }
+      },
+      {
+        "_key": "step2",
+        "icon": "driving",
+        "title": {
+          "_type": "localeString",
+          "nl": "Rit naar Walibi",
+          "en": "Drive to Walibi"
+        },
+        "description": {
+          "_type": "localeText",
+          "nl": "U reist comfortabel naar Walibi Holland.",
+          "en": "Travel comfortably to Walibi Holland."
+        }
+      },
+      {
+        "_key": "step3",
+        "icon": "arrival",
+        "title": {
+          "_type": "localeString",
+          "nl": "Geniet van het pretpark",
+          "en": "Enjoy the theme park"
+        },
+        "description": {
+          "_type": "localeText",
+          "nl": "Na uw bezoek brengt uw chauffeur u weer terug naar Amsterdam.",
+          "en": "After your visit your driver takes you back to Amsterdam."
+        }
+      }
+    ]
+  },
+  "comparison": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Waarom een taxi naar Walibi?",
+      "en": "Why take a taxi to Walibi?"
+    },
+    "left": {
+      "title": {
+        "_type": "localeString",
+        "nl": "Met onze taxi",
+        "en": "With our taxi"
+      },
+      "points": {
+        "nl": [
+          "Direct bij het park afgezet",
+          "Comfortabele rit",
+          "Geen parkeerproblemen",
+          "Vaste prijs vooraf"
+        ],
+        "en": [
+          "Drop-off near the park",
+          "Comfortable ride",
+          "No parking hassle",
+          "Fixed price"
+        ]
+      }
+    },
+    "right": {
+      "title": {
+        "_type": "localeString",
+        "nl": "OV / eigen auto",
+        "en": "Public transport / own car"
+      },
+      "points": {
+        "nl": [
+          "Overstappen met OV",
+          "Meer reistijd",
+          "Parkeerdrukte",
+          "Minder comfortabel"
+        ],
+        "en": [
+          "Public transport transfers",
+          "Longer travel time",
+          "Parking hassle",
+          "Less comfortable"
+        ]
+      }
+    }
+  },
+  "seoContent": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Taxi naar Walibi Holland vanuit Amsterdam",
+      "en": "Taxi to Walibi Holland from Amsterdam"
+    },
+    "content": {
+      "_type": "localeText",
+      "nl": "Walibi Holland is een van de bekendste pretparken van Nederland met spectaculaire achtbanen en attracties. Met een taxi vanuit Amsterdam reist u comfortabel naar het park zonder gedoe met openbaar vervoer of parkeren.",
+      "en": "Walibi Holland is one of the most famous theme parks in the Netherlands with thrilling roller coasters and attractions. With a taxi from Amsterdam you travel comfortably to the park without worrying about public transport or parking."
+    }
+  },
+  "practicalInfo": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Praktische informatie over Walibi",
+      "en": "Practical information about Walibi"
+    },
+    "content": {
+      "_type": "localeText",
+      "nl": "Walibi Holland ligt in Biddinghuizen en staat bekend om spectaculaire achtbanen zoals Untamed en Goliath.",
+      "en": "Walibi Holland is located in Biddinghuizen and is famous for roller coasters like Untamed and Goliath."
+    },
+    "tip": {
+      "_type": "localeText",
+      "nl": "Tip: Bezoek populaire attracties vroeg op de dag om wachttijden te vermijden.",
+      "en": "Tip: Visit popular rides early in the day to avoid long queues."
+    }
+  },
+  "faqSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Veelgestelde vragen",
+      "en": "Frequently asked questions"
+    },
+    "items": []
+  },
+  "ctaSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Reserveer uw Walibi taxi",
+      "en": "Reserve your Walibi taxi"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Boek eenvoudig uw taxi naar Walibi Holland.",
+      "en": "Book your taxi to Walibi Holland easily."
+    },
+    "buttonLabel": {
+      "_type": "localeString",
+      "nl": "Boek taxi",
+      "en": "Book taxi"
+    },
+    "buttonLink": "/reserveren"
+  },
+  "seo": {
+    "noIndex": false,
+    "metaTitle": {
+      "_type": "localeString",
+      "nl": "Taxi naar Walibi Holland vanuit Amsterdam",
+      "en": "Taxi to Walibi Holland from Amsterdam"
+    },
+    "metaDescription": {
+      "_type": "localeText",
+      "nl": "Comfortabele taxi van Amsterdam naar Walibi Holland. Vaste prijs en directe drop-off bij het pretpark.",
+      "en": "Comfortable taxi from Amsterdam to Walibi Holland. Fixed price and direct drop-off near the theme park."
+    }
+  }
+}

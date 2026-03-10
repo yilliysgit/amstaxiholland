@@ -73,6 +73,11 @@ export async function getTourServicePage(slug: string) {
           "points": { "nl": points.nl, "en": points.en }
         }
       },
+
+      seoContent {
+  "title": { "nl": title.nl, "en": title.en },
+  "content": { "nl": content.nl, "en": content.en }
+},
       
       practicalInfo {
         "title": { "nl": title.nl, "en": title.en },
@@ -88,12 +93,12 @@ export async function getTourServicePage(slug: string) {
         }
       },
       
-      ctaSection {
-        "title": { "nl": title.nl, "en": title.en },
-        "subtitle": { "nl": subtitle.nl, "en": subtitle.en },
-        "buttonLabel": { "nl": buttonLabel.nl, "en": buttonLabel.en },
-        buttonLink
-      }
+ctaSection {
+  "title": { "nl": title.nl, "en": title.en },
+  "subtitle": { "nl": subtitle.nl, "en": subtitle.en },
+  "buttonLabel": { "nl": buttonLabel.nl, "en": buttonLabel.en },
+  "buttonHref": buttonLink
+}
     }
   `
   

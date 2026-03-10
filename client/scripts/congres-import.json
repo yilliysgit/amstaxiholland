@@ -1,0 +1,165 @@
+{
+  "_type": "mainServicePage",
+  "_id": "44e1306b-0f95-4abf-8274-f9a9e7d763d1",
+  "theme": "blue",
+  "sortOrder": 0,
+  "basicInfo": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Congres- en beursvervoer in Amsterdam voor professionele events",
+      "en": "Congress and trade fair transportation in Amsterdam for professional events"
+    },
+    "slug": {
+      "_type": "localeSlug",
+      "nl": { "_type": "slug", "current": "congres-en-beursvervoer-in-amsterdam-voor-professionele-events" },
+      "en": { "_type": "slug", "current": "congress-and-trade-fair-transportation-in-amsterdam-for-professional-events" }
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Congres- en beursvervoer in Amsterdam voor professionele events",
+      "en": "Congress and trade fair transportation in Amsterdam for professional events"
+    }
+  },
+  "cardImage": {
+    "_type": "image",
+    "alt": {
+      "_type": "localeString",
+      "nl": "Congres- en beursvervoer in Amsterdam",
+      "en": "Congress and trade fair transportation in Amsterdam"
+    }
+  },
+  "hero": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Congres- en beursvervoer voor grote zakelijke bijeenkomsten",
+      "en": "Congress and trade fair transportation for large business events"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Efficiënt en representatief vervoer voor congressen, beurzen en grootschalige zakelijke meetings. Perfect afgestemd op locaties zoals de RAI Amsterdam en daarbuiten.",
+      "en": "Efficient and representative transportation for congresses, trade fairs, and large-scale business meetings. Perfectly tailored to venues such as RAI Amsterdam and beyond."
+    },
+    "stats": [
+      {
+        "_key": "stat1",
+        "value": { "_type": "localeString", "nl": "Sinds 2010", "en": "Since 2010" },
+        "label": { "_type": "localeString", "nl": "Ervaring", "en": "Experience" }
+      },
+      {
+        "_key": "stat2",
+        "value": { "_type": "localeString", "nl": "24/7", "en": "24/7" },
+        "label": { "_type": "localeString", "nl": "Dag en nacht", "en": "Day and night" }
+      },
+      {
+        "_key": "stat3",
+        "value": { "_type": "localeString", "nl": "Congres- & beursvervoer specialist", "en": "Congress & trade fair transport specialist" },
+        "label": { "_type": "localeString", "nl": "Actief", "en": "Active" }
+      }
+    ],
+    "cta": {
+      "label": { "_type": "localeString", "nl": "Offerte aanvragen", "en": "Request a quote" },
+      "link": "/offerte-aanvragen"
+    }
+  },
+  "introSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Onze congres- en beursvervoer diensten",
+      "en": "Our congress and trade fair transportation services"
+    },
+    "content": {
+      "_type": "localeText",
+      "nl": "Onze congres- en beursvervoer diensten",
+      "en": "Our congress and trade fair transportation services"
+    }
+  },
+  "gridSection": {
+    "gridType": "subservices",
+    "title": { "_type": "localeString", "nl": "", "en": "" },
+    "subtitle": { "_type": "localeText", "nl": "", "en": "" },
+    "subcategories": []
+  },
+  "uspSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Welke voordelen biedt ons congres- en beursvervoer?",
+      "en": "What benefits does our congress and trade fair transportation offer?"
+    },
+    "usps": {
+      "nl": [
+        "Strakke planning en punctualiteit bij grote evenementen",
+        "Representatieve chauffeurs voor zakelijke gasten",
+        "Flexibele inzet voor sprekers, exposanten en bezoekers"
+      ],
+      "en": [
+        "Tight scheduling and punctuality for large events",
+        "Professional drivers for business guests",
+        "Flexible service for speakers, exhibitors, and visitors"
+      ]
+    }
+  },
+  "gallerySection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Congres- en beursvervoer in beeld",
+      "en": "Congress and trade fair transportation in pictures"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Impressie van onze zakelijke eventdiensten",
+      "en": "Impression of our business event services"
+    },
+    "images": []
+  },
+  "faqSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Veelgestelde vragen over congres- en beursvervoer",
+      "en": "Frequently asked questions about congress and trade fair transportation"
+    },
+    "items": []
+  },
+  "ctaSection": {
+    "title": {
+      "_type": "localeString",
+      "nl": "Vervoer nodig voor een congres of beurs?",
+      "en": "Need transportation for a congress or trade fair?"
+    },
+    "subtitle": {
+      "_type": "localeText",
+      "nl": "Neem contact met ons op voor een professionele vervoersoplossing op maat voor uw congres, beurs of zakelijke bijeenkomst.",
+      "en": "Contact us for a professional, tailor-made transportation solution for your congress, trade fair, or business meeting."
+    },
+    "buttonLabel": {
+      "_type": "localeString",
+      "nl": "Vraag congres- en beursvervoer aan",
+      "en": "Request congress and trade fair transportation"
+    },
+    "buttonLink": "/offerte-aanvragen",
+    "trustIndicators": {
+      "nl": [
+        "Sinds 2010",
+        "Ervaring met grote zakelijke events",
+        "24/7 inzetbaar"
+      ],
+      "en": [
+        "Since 2010",
+        "Experience with large business events",
+        "Available 24/7"
+      ]
+    }
+  },
+  "seo": {
+    "noIndex": false,
+    "metaTitle": {
+      "_type": "localeString",
+      "nl": "Congres- en beursvervoer in Amsterdam voor professionele events",
+      "en": "Congress and trade fair transportation in Amsterdam for professional events"
+    },
+    "metaDescription": {
+      "_type": "localeText",
+      "nl": "Professioneel congres- en beursvervoer in Amsterdam voor zakelijke events, beurzen en meetings. Representatief, betrouwbaar en 24/7 inzetbaar.",
+      "en": "Professional congress and trade fair transportation in Amsterdam for business events, trade fairs, and meetings. Representative, reliable, and available 24/7."
+    }
+  }
+}

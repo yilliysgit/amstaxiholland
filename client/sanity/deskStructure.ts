@@ -14,9 +14,6 @@ export const structure: StructureResolver = (S) =>
           S.list()
             .title("Diensten")
             .items([
-              // ─────────────────────────────────────────────────
-              // NIVEAU 1: Hoofdcategorieën
-              // ─────────────────────────────────────────────────
               S.listItem()
                 .title("📁 Hoofdcategorieën (Niveau 1)")
                 .child(
@@ -27,22 +24,12 @@ export const structure: StructureResolver = (S) =>
                       S.list()
                         .title("Hoofdcategorie opties")
                         .items([
-                          // Bewerk hoofdcategorie
                           S.listItem()
                             .title("✏️ Bewerk Hoofdcategorie")
-                            .icon(() => "✏️")
-                            .child(
-                              S.document()
-                                .schemaType("mainServicePage")
-                                .documentId(mainId)
-                            ),
-
+                            .child(S.document().schemaType("mainServicePage").documentId(mainId)),
                           S.divider(),
-
-                          // Toon subcategorieën onder deze hoofdcategorie
                           S.listItem()
                             .title("📄 Subcategorieën onder deze hoofdcategorie")
-                            .icon(() => "📄")
                             .child(
                               S.documentList()
                                 .title("Subcategorieën (Niveau 2)")
@@ -53,18 +40,10 @@ export const structure: StructureResolver = (S) =>
                                   S.list()
                                     .title("Subcategorie opties")
                                     .items([
-                                      // Bewerk subcategorie
                                       S.listItem()
                                         .title("✏️ Bewerk Subcategorie")
-                                        .child(
-                                          S.document()
-                                            .schemaType("subServicePage")
-                                            .documentId(subId)
-                                        ),
-
+                                        .child(S.document().schemaType("subServicePage").documentId(subId)),
                                       S.divider(),
-
-                                      // Toon services onder deze subcategorie
                                       S.listItem()
                                         .title("📝 Services onder deze subcategorie")
                                         .child(
@@ -83,9 +62,6 @@ export const structure: StructureResolver = (S) =>
 
               S.divider(),
 
-              // ─────────────────────────────────────────────────
-              // NIVEAU 2: Alle Subcategorieën (overzicht)
-              // ─────────────────────────────────────────────────
               S.listItem()
                 .title("📄 Alle Subcategorieën (Niveau 2)")
                 .child(
@@ -96,36 +72,20 @@ export const structure: StructureResolver = (S) =>
                       S.list()
                         .title("Subcategorie opties")
                         .items([
-                          // Bewerk subcategorie
                           S.listItem()
                             .title("✏️ Bewerk Subcategorie")
-                            .icon(() => "✏️")
-                            .child(
-                              S.document()
-                                .schemaType("subServicePage")
-                                .documentId(subId)
-                            ),
-
+                            .child(S.document().schemaType("subServicePage").documentId(subId)),
                           S.divider(),
-
-                          // Bekijk hoofdcategorie
                           S.listItem()
                             .title("📁 Bekijk hoofdcategorie")
-                            .icon(() => "📁")
                             .child(
                               S.documentList()
                                 .title("Hoofdcategorie")
-                                .filter(`
-                                  _type == "mainServicePage" && 
-                                  _id == *[_type == "subServicePage" && _id == $subId][0].mainCategory._ref
-                                `)
+                                .filter(`_type == "mainServicePage" && _id == *[_type == "subServicePage" && _id == $subId][0].mainCategory._ref`)
                                 .params({ subId })
                             ),
-
-                          // Toon services onder deze subcategorie
                           S.listItem()
                             .title("📝 Services onder deze subcategorie")
-                            .icon(() => "📝")
                             .child(
                               S.documentList()
                                 .title("Services (Niveau 3)")
@@ -139,9 +99,6 @@ export const structure: StructureResolver = (S) =>
 
               S.divider(),
 
-              // ─────────────────────────────────────────────────
-              // NIVEAU 3: Alle Services (overzicht)
-              // ─────────────────────────────────────────────────
               S.listItem()
                 .title("📝 Alle Services (Niveau 3)")
                 .child(
@@ -152,43 +109,24 @@ export const structure: StructureResolver = (S) =>
                       S.list()
                         .title("Service opties")
                         .items([
-                          // Bewerk service
                           S.listItem()
                             .title("✏️ Bewerk Service")
-                            .icon(() => "✏️")
-                            .child(
-                              S.document()
-                                .schemaType("servicePage")
-                                .documentId(serviceId)
-                            ),
-
+                            .child(S.document().schemaType("servicePage").documentId(serviceId)),
                           S.divider(),
-
-                          // Bekijk subcategorie
                           S.listItem()
                             .title("📄 Bekijk subcategorie")
-                            .icon(() => "📄")
                             .child(
                               S.documentList()
                                 .title("Subcategorie")
-                                .filter(`
-                                  _type == "subServicePage" && 
-                                  _id == *[_type == "servicePage" && _id == $serviceId][0].subCategory._ref
-                                `)
+                                .filter(`_type == "subServicePage" && _id == *[_type == "servicePage" && _id == $serviceId][0].subCategory._ref`)
                                 .params({ serviceId })
                             ),
-
-                          // Bekijk hoofdcategorie
                           S.listItem()
                             .title("📁 Bekijk hoofdcategorie")
-                            .icon(() => "📁")
                             .child(
                               S.documentList()
                                 .title("Hoofdcategorie")
-                                .filter(`
-                                  _type == "mainServicePage" && 
-                                  _id == *[_type == "subServicePage" && _id == *[_type == "servicePage" && _id == $serviceId][0].subCategory._ref][0].mainCategory._ref
-                                `)
+                                .filter(`_type == "mainServicePage" && _id == *[_type == "subServicePage" && _id == *[_type == "servicePage" && _id == $serviceId][0].subCategory._ref][0].mainCategory._ref`)
                                 .params({ serviceId })
                             ),
                         ])
@@ -197,9 +135,6 @@ export const structure: StructureResolver = (S) =>
 
               S.divider(),
 
-              // ─────────────────────────────────────────────────
-              // HIERARCHISCHE NAVIGATIE
-              // ─────────────────────────────────────────────────
               S.listItem()
                 .title("🔗 Blader door hiërarchie")
                 .child(
@@ -256,10 +191,51 @@ export const structure: StructureResolver = (S) =>
               S.listItem()
                 .title("❓ FAQ Items")
                 .child(
-                  S.documentTypeList("faqItem")
-                    .title("Alle FAQ Items")
-                    .defaultOrdering([{ field: "_createdAt", direction: "desc" }])
+                  S.list()
+                    .title("FAQ Items")
+                    .items([
+                      S.listItem()
+                        .title("🚗 Particulier FAQ")
+                        .child(S.documentList().title("Particulier FAQ").filter('_type == "faqItem" && category == "particulier"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("✈️ Schiphol FAQ")
+                        .child(S.documentList().title("Schiphol FAQ").filter('_type == "faqItem" && category == "airport"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("🎉 Evenementen FAQ")
+                        .child(S.documentList().title("Evenementen FAQ").filter('_type == "faqItem" && category == "evenementen"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("🏛️ Congres & Beurs FAQ")
+                        .child(S.documentList().title("Congres & Beurs FAQ").filter('_type == "faqItem" && category == "congres"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("💼 Zakelijk FAQ")
+                        .child(S.documentList().title("Zakelijk FAQ").filter('_type == "faqItem" && category == "zakelijk"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("🏢 Bedrijfsvervoer FAQ")
+                        .child(S.documentList().title("Bedrijfsvervoer FAQ").filter('_type == "faqItem" && category == "bedrijfsvervoer"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("🎫 Tours FAQ")
+                        .child(S.documentList().title("Tours FAQ").filter('_type == "faqItem" && category == "tours"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("🌍 Internationaal FAQ")
+                        .child(S.documentList().title("Internationaal FAQ").filter('_type == "faqItem" && category == "internationaal"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("👑 VIP FAQ")
+                        .child(S.documentList().title("VIP FAQ").filter('_type == "faqItem" && category == "vip"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("🏨 Hotelvervoer FAQ")
+                        .child(S.documentList().title("Hotelvervoer FAQ").filter('_type == "faqItem" && category == "hotelvervoer"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("💰 Prijzen FAQ")
+                        .child(S.documentList().title("Prijzen FAQ").filter('_type == "faqItem" && category == "pricing"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("📅 Boeken FAQ")
+                        .child(S.documentList().title("Boeken FAQ").filter('_type == "faqItem" && category == "booking"').defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                      S.listItem()
+                        .title("📋 Alle FAQ Items")
+                        .child(S.documentTypeList("faqItem").title("Alle FAQ Items").defaultOrdering([{ field: "sortOrder", direction: "asc" }])),
+                    ])
                 ),
+
               S.listItem()
                 .title("⭐ Reviews")
                 .child(

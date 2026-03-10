@@ -330,22 +330,40 @@ export default defineType({
     // ─────────────────────────────────────────────────────
     // FAQ SECTION
     // ─────────────────────────────────────────────────────
-    defineField({
-      name: "faqSection",
-      title: "FAQ",
-      type: "object",
-      options: { collapsible: true },
-      group: "content",
-      fields: [
-        { name: "title", title: "Titel", type: "localeString" },
-        {
-          name: "items",
-          title: "FAQ items",
-          type: "array",
-          of: [{ type: "reference", to: [{ type: "faqItem" }] }],
-        },
-      ],
-    }),
+
+defineField({
+  name: "faqCategory",
+  title: "FAQ Categorie",
+  type: "string",
+  group: "content",
+  description: "Welke FAQ categorie hoort bij deze pagina?",
+  options: {
+    list: [
+      { title: "Particulier", value: "particulier" },
+      { title: "Schiphol", value: "airport" },
+      { title: "Evenementen", value: "evenementen" },
+      { title: "Congres & Beurs", value: "congres" },
+      { title: "Zakelijk", value: "zakelijk" },
+      { title: "Bedrijfsvervoer", value: "bedrijfsvervoer" },
+      { title: "Tours", value: "tours" },
+      { title: "Internationaal", value: "internationaal" },
+      { title: "VIP", value: "vip" },
+      { title: "Hotelvervoer", value: "hotelvervoer" },
+    ],
+  },
+}),
+
+defineField({
+  name: "faqSection",
+  title: "FAQ",
+  type: "object",
+  options: { collapsible: true },
+  group: "content",
+  fields: [
+    { name: "title", title: "Titel", type: "localeString" },
+  ],
+}),
+
 
     // ─────────────────────────────────────────────────────
     // CTA SECTION

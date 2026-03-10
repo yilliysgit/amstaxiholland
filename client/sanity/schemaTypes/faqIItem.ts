@@ -2,7 +2,7 @@
 import { defineType, defineField } from "sanity";
 
 export default defineType({
-  name: "faqItem",  // ← CHANGED van faqQA naar faqItem
+  name: "faqItem",
   title: "FAQ Item",
   type: "document",
   
@@ -92,9 +92,16 @@ export default defineType({
       options: {
         list: [
           { title: "Algemeen", value: "general" },
-          { title: "Zakelijk Vervoer", value: "business" },
-          { title: "Tours", value: "tours" },
+          { title: "Particulier Vervoer", value: "particulier" },
           { title: "Schiphol", value: "airport" },
+          { title: "Evenementenvervoer", value: "evenementen" },
+          { title: "Congres & Beurs", value: "congres" },
+          { title: "Zakelijk Vervoer", value: "zakelijk" },
+          { title: "Bedrijfsvervoer", value: "bedrijfsvervoer" },
+          { title: "Tours", value: "tours" },
+          { title: "Internationaal", value: "internationaal" },
+          { title: "VIP Vervoer", value: "vip" },
+          { title: "Hotelvervoer", value: "hotelvervoer" },
           { title: "Prijzen", value: "pricing" },
           { title: "Boeken", value: "booking" },
         ],
