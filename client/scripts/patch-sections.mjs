@@ -20,15 +20,11 @@ if (!file) {
 
 const doc = JSON.parse(readFileSync(file, 'utf8'))
 
-await client
-  .patch(doc._id)
-  .set({ sections: doc.sections })
-  .commit()
+await client.patch(doc._id).set({ sections: doc.sections }).commit({ visibility: 'sync' })
+console.log('✅ Published gepatcht!')
 
-await client
-  .patch(`drafts.${doc._id}`)
-  .set({ sections: doc.sections })
-  .commit()
-  .catch(() => {}) // draft bestaat misschien niet
+// Patch draft (optioneel)
+await client.patch(`drafts.${doc._id}`).set({ sections: doc.sections }).commit().catch(() => {})
+console.log('✅ Draft gepatcht!')
 
 console.log('✅ Sections gepatcht!')
