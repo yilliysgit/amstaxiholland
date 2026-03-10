@@ -1,0 +1,19 @@
+{
+  "_type": "subServicePage",
+  "_id": "bef232f0-d23c-43c4-90a4-18102f38c370",
+  "mainCategory": {
+    "_type": "reference",
+    "_ref": "01059ac8-31da-4d2e-a348-ff9efb214dec"
+  },
+  "title": {
+    "_type": "localeString",
+    "nl": "Taxi voor familiebezoek in Amsterdam & omstreken",
+    "en": "Taxi for family visits in Amsterdam & surroundings"
+  },
+  "slug": {
+    "_type": "localeSlug",
+    "nl": { "_type": "slug", "current": "taxi-voor-familiebezoek-in-amsterdam" },
+    "en": { "_type": "slug", "current": "taxi-for-family-visits-in-amsterdam" }
+  },
+  "sections": []
+}

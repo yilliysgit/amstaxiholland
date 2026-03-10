@@ -1,4 +1,3 @@
-// /client/sanity/schemaTypes/blockTypes/stepsSection.ts
 import { defineType, defineField } from "sanity";
 
 export default defineType({
@@ -9,39 +8,44 @@ export default defineType({
     defineField({
       name: "title",
       title: "Titel",
-      type: "string",
+      type: "localeString",
     }),
     defineField({
       name: "steps",
       title: "Stappen",
-      type: "array",
-      of: [
-        defineField({
-          name: "stepItem",
-          type: "object",
-          fields: [
-            defineField({
-              name: "label",
-              title: "Stap titel",
-              type: "string",
-              validation: (Rule) => Rule.required(),
-            }),
-            defineField({
-              name: "description",
-              title: "Beschrijving",
-              type: "text",
-            }),
-          ],
-        }),
+      type: "object",
+      fields: [
+        {
+          name: "nl",
+          title: "Nederlands",
+          type: "array",
+          of: [{
+            type: "object",
+            fields: [
+              { name: "label", title: "Stap titel", type: "string" },
+              { name: "description", title: "Beschrijving", type: "text" },
+            ],
+          }],
+        },
+        {
+          name: "en",
+          title: "Engels",
+          type: "array",
+          of: [{
+            type: "object",
+            fields: [
+              { name: "label", title: "Step title", type: "string" },
+              { name: "description", title: "Description", type: "text" },
+            ],
+          }],
+        },
       ],
     }),
   ],
   preview: {
-    select: { title: "title" },
+    select: { title: "title.nl" },
     prepare({ title }) {
-      return {
-        title: title || "Stappen sectie",
-      };
+      return { title: title || "Stappen sectie" };
     },
   },
 });

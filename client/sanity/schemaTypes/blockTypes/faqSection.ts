@@ -1,4 +1,3 @@
-// /client/sanity/schemaTypes/blockTypes/faqSection.ts
 import { defineType, defineField } from "sanity";
 
 export default defineType({
@@ -9,21 +8,31 @@ export default defineType({
     defineField({
       name: "title",
       title: "Titel",
-      type: "string",
+      type: "localeString",
     }),
     defineField({
       name: "items",
       title: "FAQ items",
       type: "array",
-      of: [{ type: "faqItem" }],
+      of: [{
+        type: "object",
+        fields: [
+          { name: "question", title: "Vraag", type: "localeString" },
+          { name: "answer", title: "Antwoord", type: "localeText" },
+        ],
+        preview: {
+          select: { title: "question.nl" },
+          prepare({ title }) {
+            return { title: title || "FAQ item" };
+          },
+        },
+      }],
     }),
   ],
   preview: {
-    select: { title: "title" },
+    select: { title: "title.nl" },
     prepare({ title }) {
-      return {
-        title: title || "FAQ sectie",
-      };
+      return { title: title || "FAQ sectie" };
     },
   },
 });

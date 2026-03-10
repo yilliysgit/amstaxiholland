@@ -1,4 +1,3 @@
-// /client/sanity/schemaTypes/blockTypes/highlightsSection.ts
 import { defineType, defineField } from "sanity";
 
 export default defineType({
@@ -9,21 +8,22 @@ export default defineType({
     defineField({
       name: "title",
       title: "Titel",
-      type: "string",
+      type: "localeString",
     }),
     defineField({
       name: "items",
       title: "Highlights",
-      type: "array",
-      of: [{ type: "string" }],
+      type: "object",
+      fields: [
+        { name: "nl", title: "Nederlands", type: "array", of: [{ type: "string" }] },
+        { name: "en", title: "Engels", type: "array", of: [{ type: "string" }] },
+      ],
     }),
   ],
   preview: {
-    select: { title: "title" },
+    select: { title: "title.nl" },
     prepare({ title }) {
-      return {
-        title: title || "Highlights",
-      };
+      return { title: title || "Highlights sectie" };
     },
   },
 });

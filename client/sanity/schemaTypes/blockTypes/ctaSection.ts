@@ -22,7 +22,7 @@ defineField({
   type: "localeString",
 }),
 defineField({
-  name: "buttonHref",
+  name: "buttonLink",
   title: "Button link",
   type: "string",
 }),

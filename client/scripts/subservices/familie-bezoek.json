@@ -1,0 +1,153 @@
+{
+  "_type": "subServicePage",
+  "_id": "bef232f0-d23c-43c4-90a4-18102f38c370",
+  "sections": [
+    {
+      "_type": "highlightsSection",
+      "_key": "highlights1",
+      "title": {
+        "nl": "Wanneer kiezen mensen voor een taxi voor familiebezoek?",
+        "en": "When do people choose a taxi for a family visit?"
+      },
+      "highlights": {
+        "nl": [
+          "Bezoek aan familie of vrienden",
+          "Ouders of grootouders bezoeken",
+          "Weekendbezoek",
+          "Lange ritten buiten de stad",
+          "Geen parkeerplek of OV gedoe"
+        ],
+        "en": [
+          "Visiting family or friends",
+          "Visiting parents or grandparents",
+          "Weekend visit",
+          "Long trips outside the city",
+          "No parking or public transport hassle"
+        ]
+      }
+    },
+    {
+      "_type": "voordelenSection",
+      "_key": "voordelen1",
+      "title": {
+        "nl": "Waarom kiezen klanten voor ons?",
+        "en": "Why do customers choose us?"
+      },
+      "voordelen": {
+        "nl": [
+          "24/7 beschikbaar",
+          "Professionele chauffeurs",
+          "Comfortabele voertuigen",
+          "Vaste en transparante tarieven",
+          "Ophalen aan huis",
+          "Betrouwbare service"
+        ],
+        "en": [
+          "Available 24/7",
+          "Professional drivers",
+          "Comfortable vehicles",
+          "Fixed and transparent rates",
+          "Pick up at home",
+          "Reliable service"
+        ]
+      }
+    },
+    {
+      "_type": "stepsSection",
+      "_key": "steps1",
+      "title": {
+        "nl": "Zo werkt het",
+        "en": "How it works"
+      },
+      "steps": [
+        {
+          "_key": "step1",
+          "title": { "nl": "Boek online of neem contact op", "en": "Book online or contact us" },
+          "description": { "nl": "Vul het reserveringsformulier in of bel ons direct.", "en": "Fill in the reservation form or call us directly." }
+        },
+        {
+          "_key": "step2",
+          "title": { "nl": "Wij plannen uw rit", "en": "We plan your ride" },
+          "description": { "nl": "Wij bevestigen uw boeking en plannen de beste route.", "en": "We confirm your booking and plan the best route." }
+        },
+        {
+          "_key": "step3",
+          "title": { "nl": "Chauffeur haalt u op", "en": "Driver picks you up" },
+          "description": { "nl": "Uw chauffeur staat op tijd voor de deur.", "en": "Your driver is at the door on time." }
+        },
+        {
+          "_key": "step4",
+          "title": { "nl": "Comfortabel naar uw bestemming", "en": "Comfortably to your destination" },
+          "description": { "nl": "Ontspan en geniet van de rit naar uw familie.", "en": "Relax and enjoy the ride to your family." }
+        }
+      ]
+    },
+    {
+      "_type": "lokaalSection",
+      "_key": "lokaal1",
+      "title": {
+        "nl": "Taxi voor familiebezoek in Amsterdam en omgeving",
+        "en": "Taxi for family visits in Amsterdam and surroundings"
+      },
+      "intro": {
+        "nl": "Onze chauffeurs rijden dagelijks in:",
+        "en": "Our drivers operate daily in:"
+      },
+      "steden": {
+        "nl": ["Amsterdam", "Amstelveen", "Haarlem", "Zaandam", "Hoofddorp", "Diemen"],
+        "en": ["Amsterdam", "Amstelveen", "Haarlem", "Zaandam", "Hoofddorp", "Diemen"]
+      },
+      "outro": {
+        "nl": "Zo bent u altijd verzekerd van snel en betrouwbaar vervoer.",
+        "en": "So you are always guaranteed fast and reliable transportation."
+      }
+    },
+    {
+      "_type": "faqSection",
+      "_key": "faq1",
+      "title": {
+        "nl": "Veelgestelde vragen over taxi voor familiebezoek",
+        "en": "Frequently asked questions about taxi for family visits"
+      },
+      "items": [
+        {
+          "_key": "faq-item1",
+          "question": { "nl": "Wat kost een taxi voor familiebezoek in Amsterdam?", "en": "What does a taxi for a family visit in Amsterdam cost?" },
+          "answer": { "nl": "De kosten hangen af van de afstand en het tijdstip. Neem contact op voor een vaste prijs.", "en": "The costs depend on the distance and time. Contact us for a fixed price." }
+        },
+        {
+          "_key": "faq-item2",
+          "question": { "nl": "Kan ik een taxi vooraf reserveren?", "en": "Can I book a taxi in advance?" },
+          "answer": { "nl": "Ja, u kunt uw taxi eenvoudig vooraf reserveren via ons formulier of telefonisch.", "en": "Yes, you can easily book your taxi in advance via our form or by phone." }
+        },
+        {
+          "_key": "faq-item3",
+          "question": { "nl": "Rijden jullie ook buiten Amsterdam?", "en": "Do you also drive outside Amsterdam?" },
+          "answer": { "nl": "Ja, wij rijden ook naar Amstelveen, Haarlem, Zaandam, Hoofddorp en andere plaatsen in de regio.", "en": "Yes, we also drive to Amstelveen, Haarlem, Zaandam, Hoofddorp and other places in the region." }
+        },
+        {
+          "_key": "faq-item4",
+          "question": { "nl": "Kan ik een retourrit boeken?", "en": "Can I book a return trip?" },
+          "answer": { "nl": "Ja, u kunt eenvoudig een retourrit boeken. Geef dit aan bij uw reservering.", "en": "Yes, you can easily book a return trip. Indicate this when making your reservation." }
+        }
+      ]
+    },
+    {
+      "_type": "ctaSection",
+      "_key": "cta1",
+      "title": {
+        "nl": "Plan uw rit voor familiebezoek",
+        "en": "Plan your ride for a family visit"
+      },
+      "subtitle": {
+        "nl": "Neem contact met ons op voor comfortabel en betrouwbaar particulier vervoer.",
+        "en": "Contact us for comfortable and reliable private transport."
+      },
+      "buttonLabel": {
+        "nl": "Boek direct",
+        "en": "Book now"
+      },
+      "buttonLink": "/reserveringsformulier"
+    }
+  ]
+}

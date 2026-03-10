@@ -1,4 +1,3 @@
-// /client/sanity/schemaTypes/blockTypes/voordelenSection.ts
 import { defineType, defineField } from "sanity";
 
 export default defineType({
@@ -9,40 +8,46 @@ export default defineType({
     defineField({
       name: "title",
       title: "Titel",
-      type: "string",
+      type: "localeString",
     }),
     defineField({
       name: "items",
       title: "Voordelen",
-      type: "array",
-      of: [
-        defineField({
-          name: "voordeelItem",
-          type: "object",
-          fields: [
-            defineField({
-              name: "label",
-              title: "Titel",
-              type: "string",
-              validation: (Rule) => Rule.required(),
-            }),
-            defineField({
-              name: "description",
-              title: "Beschrijving",
-              type: "text",
-            }),
-            defineField({
-              name: "icon",
-              title: "Icoon (optioneel)",
-              type: "string",
-              description: "Bijv. 'shield', 'clock', 'star' – zelf mappen in frontend.",
-            }),
-          ],
-        }),
+      type: "object",
+      fields: [
+        {
+          name: "nl",
+          title: "Nederlands",
+          type: "array",
+          of: [{
+            type: "object",
+            fields: [
+              { name: "label", title: "Titel", type: "string" },
+              { name: "description", title: "Beschrijving", type: "text" },
+              { name: "icon", title: "Icoon", type: "string" },
+            ],
+          }],
+        },
+        {
+          name: "en",
+          title: "Engels",
+          type: "array",
+          of: [{
+            type: "object",
+            fields: [
+              { name: "label", title: "Title", type: "string" },
+              { name: "description", title: "Description", type: "text" },
+              { name: "icon", title: "Icon", type: "string" },
+            ],
+          }],
+        },
       ],
     }),
   ],
   preview: {
-    select: { title: "title" },
+    select: { title: "title.nl" },
+    prepare({ title }) {
+      return { title: title || "Voordelen sectie" };
+    },
   },
 });
