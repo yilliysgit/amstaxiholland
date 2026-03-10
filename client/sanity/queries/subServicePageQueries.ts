@@ -55,12 +55,10 @@ sections[] {
 
 _type == "voordelenSection" => {
   "title": { "nl": title.nl, "en": title.en },
-  "items": items[]{
-    "_key": _key,
-    "label": { "nl": label.nl, "en": label.en },
-    icon
-  }
+  "items": { "nl": voordelen.nl, "en": voordelen.en }
 },
+
+
 
 _type == "stepsSection" => {
   "title": { "nl": title.nl, "en": title.en },

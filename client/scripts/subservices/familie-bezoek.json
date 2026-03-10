@@ -27,31 +27,18 @@
       }
     },
     {
-      "_type": "voordelenSection",
-      "_key": "voordelen1",
-      "title": {
-        "nl": "Waarom kiezen klanten voor ons?",
-        "en": "Why do customers choose us?"
-      },
-      "voordelen": {
-        "nl": [
-          "24/7 beschikbaar",
-          "Professionele chauffeurs",
-          "Comfortabele voertuigen",
-          "Vaste en transparante tarieven",
-          "Ophalen aan huis",
-          "Betrouwbare service"
-        ],
-        "en": [
-          "Available 24/7",
-          "Professional drivers",
-          "Comfortable vehicles",
-          "Fixed and transparent rates",
-          "Pick up at home",
-          "Reliable service"
-        ]
-      }
-    },
+  "_type": "voordelenSection",
+  "_key": "voordelen1",
+  "title": { "nl": "Waarom kiezen klanten voor ons?", "en": "Why do customers choose us?" },
+  "items": [
+    { "_key": "v1", "label": { "nl": "24/7 beschikbaar", "en": "Available 24/7" }, "icon": "clock" },
+    { "_key": "v2", "label": { "nl": "Professionele chauffeurs", "en": "Professional drivers" }, "icon": "user" },
+    { "_key": "v3", "label": { "nl": "Comfortabele voertuigen", "en": "Comfortable vehicles" }, "icon": "car" },
+    { "_key": "v4", "label": { "nl": "Vaste en transparante tarieven", "en": "Fixed and transparent rates" }, "icon": "tag" },
+    { "_key": "v5", "label": { "nl": "Ophalen aan huis", "en": "Pick up at home" }, "icon": "home" },
+    { "_key": "v6", "label": { "nl": "Betrouwbare service", "en": "Reliable service" }, "icon": "shield" }
+  ]
+},
     {
   "_type": "stepsSection",
   "_key": "steps1",

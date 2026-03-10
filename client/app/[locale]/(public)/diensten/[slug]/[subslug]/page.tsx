@@ -154,10 +154,10 @@ if (section._type === 'voordelenSection') {
           </h2>
         )}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {section.items?.map((item: any, i: number) => (
-            <div key={item._key || i} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition flex items-center gap-3">
+          {section.items?.[locale]?.map((item: string, i: number) => (
+            <div key={i} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition flex items-center gap-3">
               <span className="text-blue-600 text-xl">✓</span>
-              <span className="text-gray-700 font-medium">{item.label?.[locale]}</span>
+              <span className="text-gray-700 font-medium">{item}</span>
             </div>
           ))}
         </div>
