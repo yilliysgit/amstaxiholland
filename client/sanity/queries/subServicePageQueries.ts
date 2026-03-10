@@ -44,34 +44,54 @@ export async function getSubServicePage(slug: string, subslug: string) {
       
       "intro": { "nl": intro.nl, "en": intro.en },
       
-      sections[] {
-        _type,
-        _key,
-        
-        _type == "voordelenSection" => {
-          "title": { "nl": title.nl, "en": title.en },
-          voordelen[] {
-            "title": { "nl": title.nl, "en": title.en },
-            "description": { "nl": description.nl, "en": description.en },
-            icon
-          }
-        },
-        
-        _type == "ctaSection" => {
-          "title": { "nl": title.nl, "en": title.en },
-          "subtitle": { "nl": subtitle.nl, "en": subtitle.en },
-          "buttonText": { "nl": buttonText.nl, "en": buttonText.en },
-          buttonLink
-        },
-        
-        _type == "faqSection" => {
-          "title": { "nl": title.nl, "en": title.en },
-          faqs[]-> {
-            "question": { "nl": question.nl, "en": question.en },
-            "answer": { "nl": answer.nl, "en": answer.en }
-          }
-        }
-      },
+     sections[] {
+  _type,
+  _key,
+
+  _type == "highlightsSection" => {
+    "title": { "nl": title.nl, "en": title.en },
+    "items": { "nl": items.nl, "en": items.en }
+  },
+
+  _type == "voordelenSection" => {
+    "title": { "nl": title.nl, "en": title.en },
+    "items": {
+      "nl": items.nl[] { "label": label, "description": description, "icon": icon },
+      "en": items.en[] { "label": label, "description": description, "icon": icon }
+    }
+  },
+
+  _type == "stepsSection" => {
+    "title": { "nl": title.nl, "en": title.en },
+    "steps": {
+      "nl": steps.nl[] { "_key": _key, "label": label, "description": description },
+      "en": steps.en[] { "_key": _key, "label": label, "description": description }
+    }
+  },
+
+  _type == "lokaalSection" => {
+    "title": { "nl": title.nl, "en": title.en },
+    "intro": { "nl": intro.nl, "en": intro.en },
+    "steden": { "nl": steden.nl, "en": steden.en },
+    "outro": { "nl": outro.nl, "en": outro.en }
+  },
+
+  _type == "faqSection" => {
+    "title": { "nl": title.nl, "en": title.en },
+    "items": items[] {
+      "_key": _key,
+      "question": { "nl": question.nl, "en": question.en },
+      "answer": { "nl": answer.nl, "en": answer.en }
+    }
+  },
+
+  _type == "ctaSection" => {
+    "title": { "nl": title.nl, "en": title.en },
+    "subtitle": { "nl": subtitle.nl, "en": subtitle.en },
+    "buttonLabel": { "nl": buttonLabel.nl, "en": buttonLabel.en },
+    buttonLink
+  }
+},
       
       theme
     }
