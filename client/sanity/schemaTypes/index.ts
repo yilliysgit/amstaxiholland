@@ -35,7 +35,7 @@ import highlightsSection from './blockTypes/highlightsSection'
 import reviewsSection from './blockTypes/reviewsSection'
 import pricingSection from './blockTypes/pricingSection'
 import featuresSection from './blockTypes/featuresSection'
-
+import lokaalSection from './blockTypes/lokaalSection'
 export const schema: { types: SchemaTypeDefinition[] } = {
   types: [
     // ───────────────────────────────────────────────────────────
@@ -72,5 +72,6 @@ export const schema: { types: SchemaTypeDefinition[] } = {
     reviewsSection,
     pricingSection,
     featuresSection,
+    lokaalSection,
   ],
 }
