@@ -134,23 +134,24 @@ export default defineType({
     // ─────────────────────────────────────────────
     // PAGE BUILDER SECTIES
     // ─────────────────────────────────────────────
-    defineField({
-      name: "sections",
-      title: "Pagina secties",
-      type: "array",
-      of: [
-        { type: "voordelenSection" },
-        { type: "highlightsSection" },
-        { type: "stepsSection" },
-        { type: "pricingSection" },
-        { type: "featuresSection" },
-        { type: "reviewsSection" },
-        { type: "faqSection" },
-        { type: "galerijSection" },
-        { type: "ctaSection" },
-      ],
-      group: "content",
-    }),
+ defineField({
+  name: "sections",
+  title: "Pagina secties",
+  type: "array",
+  of: [
+    { type: "voordelenSection" },
+    { type: "highlightsSection" },
+    { type: "stepsSection" },
+    { type: "pricingSection" },
+    { type: "featuresSection" },
+    { type: "reviewsSection" },
+    { type: "faqSection" },
+    { type: "galerijSection" },
+    { type: "ctaSection" },
+    { type: "lokaalSection" }, // ← nieuw
+  ],
+  group: "content",
+}),
 
     // ─────────────────────────────────────────────
     // INSTELLINGEN
