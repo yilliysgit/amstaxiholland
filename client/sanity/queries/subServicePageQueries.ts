@@ -48,26 +48,25 @@ export async function getSubServicePage(slug: string, subslug: string) {
   _type,
   _key,
 
-  _type == "highlightsSection" => {
-    "title": { "nl": title.nl, "en": title.en },
-    "items": { "nl": items.nl, "en": items.en }
-  },
+_type == "highlightsSection" => {
+  "title": { "nl": title.nl, "en": title.en },
+  "items": { "nl": highlights.nl, "en": highlights.en }
+},
 
-  _type == "voordelenSection" => {
-    "title": { "nl": title.nl, "en": title.en },
-    "items": {
-      "nl": items.nl[] { "label": label, "description": description, "icon": icon },
-      "en": items.en[] { "label": label, "description": description, "icon": icon }
+_type == "voordelenSection" => {
+  "title": { "nl": title.nl, "en": title.en },
+  "items": { "nl": voordelen.nl, "en": voordelen.en }
     }
   },
 
-  _type == "stepsSection" => {
-    "title": { "nl": title.nl, "en": title.en },
-    "steps": {
-      "nl": steps.nl[] { "_key": _key, "label": label, "description": description },
-      "en": steps.en[] { "_key": _key, "label": label, "description": description }
-    }
-  },
+_type == "stepsSection" => {
+  "title": { "nl": title.nl, "en": title.en },
+  "steps": steps[] {
+    "_key": _key,
+    "label": { "nl": title.nl, "en": title.en },
+    "description": { "nl": description.nl, "en": description.en }
+  }
+},
 
   _type == "lokaalSection" => {
     "title": { "nl": title.nl, "en": title.en },
