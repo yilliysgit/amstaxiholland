@@ -13,35 +13,21 @@ export default defineType({
     defineField({
       name: "items",
       title: "Voordelen",
-      type: "object",
-      fields: [
-        {
-          name: "nl",
-          title: "Nederlands",
-          type: "array",
-          of: [{
-            type: "object",
-            fields: [
-              { name: "label", title: "Titel", type: "string" },
-              { name: "description", title: "Beschrijving", type: "text" },
-              { name: "icon", title: "Icoon", type: "string" },
-            ],
-          }],
-        },
-        {
-          name: "en",
-          title: "Engels",
-          type: "array",
-          of: [{
-            type: "object",
-            fields: [
-              { name: "label", title: "Title", type: "string" },
-              { name: "description", title: "Description", type: "text" },
-              { name: "icon", title: "Icon", type: "string" },
-            ],
-          }],
-        },
-      ],
+      type: "array",
+      of: [{
+        type: "object",
+        fields: [
+          { name: "label", title: "Titel", type: "localeString" },
+          { name: "description", title: "Beschrijving", type: "localeText" },
+          { name: "icon", title: "Icoon", type: "string" },
+        ],
+        preview: {
+          select: { title: "label.nl" },
+          prepare({ title }) {
+            return { title: title || "Voordeel" }
+          }
+        }
+      }],
     }),
   ],
   preview: {
