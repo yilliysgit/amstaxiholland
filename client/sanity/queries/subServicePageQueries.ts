@@ -43,55 +43,7 @@ export async function getSubServicePage(slug: string, subslug: string) {
       },
       
       "intro": { "nl": intro.nl, "en": intro.en },
-      
-     sections[] {
-  _type,
-  _key,
-
-_type == "highlightsSection" => {
-  "title": { "nl": title.nl, "en": title.en },
-  "items": { "nl": highlights.nl, "en": highlights.en }
-},
-
-_type == "voordelenSection" => {
-  "title": { "nl": title.nl, "en": title.en },
-  "items": { "nl": voordelen.nl, "en": voordelen.en }
-    }
-  },
-
-_type == "stepsSection" => {
-  "title": { "nl": title.nl, "en": title.en },
-  "steps": steps[] {
-    "_key": _key,
-    "label": { "nl": title.nl, "en": title.en },
-    "description": { "nl": description.nl, "en": description.en }
-  }
-},
-
-  _type == "lokaalSection" => {
-    "title": { "nl": title.nl, "en": title.en },
-    "intro": { "nl": intro.nl, "en": intro.en },
-    "steden": { "nl": steden.nl, "en": steden.en },
-    "outro": { "nl": outro.nl, "en": outro.en }
-  },
-
-  _type == "faqSection" => {
-    "title": { "nl": title.nl, "en": title.en },
-    "items": items[] {
-      "_key": _key,
-      "question": { "nl": question.nl, "en": question.en },
-      "answer": { "nl": answer.nl, "en": answer.en }
-    }
-  },
-
-  _type == "ctaSection" => {
-    "title": { "nl": title.nl, "en": title.en },
-    "subtitle": { "nl": subtitle.nl, "en": subtitle.en },
-    "buttonLabel": { "nl": buttonLabel.nl, "en": buttonLabel.en },
-    buttonLink
-  }
-},
-      
+            
       theme
     }
   `
